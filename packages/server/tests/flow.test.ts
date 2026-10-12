@@ -2,13 +2,13 @@ import { describe,expect,it } from "vitest";
 import { auctionPool, FRANCHISES, initialAuction, orderPlayers } from "@crease/shared";
 import { createRoom,joinRoom,type Room } from "../src/rooms/store.js";
 import { applyHostSettings } from "../src/rooms/settings.js";
-describe("room seats",()=>{it("creates room codes and reattaches a seat by token",()=>{const {room,member}=createRoom("Host","socket-a"); const joined=joinRoom(room.code,"Host","socket-b",member.token); expect(joined.member.id).toBe(member.id); expect(joined.member.connected).toBe(true);});});
+describe("room seats",()=>{it("creates room codes and reattaches a seat by token",()=>{const {room,member}=createRoom("Host","socket-a"); const joined=joinRoom(room.code,"Host","socket-b",member.token); expect(joined.member.id).toBe(member.id); expect(joined.member.connected).toBe(true); expect(room.options.playerTimerSeconds).toBe(10);});});
 describe("multiplayer team setup",()=>{it("leaves unclaimed franchises bot-free",()=>{const state=initialAuction(auctionPool("season",2026),FRANCHISES.map(franchise=>franchise.id));expect(Object.values(state.teams).every(team=>!team.isBot)).toBe(true);});});
 describe("live host settings",()=>{
   function liveRoom():Room {
-    const options={rtmEnabled:false,playerTimerSeconds:18,showPlayerStats:true,poolMode:"season" as const,seasonYear:2026};
+    const options={rtmEnabled:false,playerTimerSeconds:10,showPlayerStats:true,poolMode:"season" as const,seasonYear:2026};
     const pool=orderPlayers(auctionPool("season",2026));
-    return {code:"TEST01",hostId:"host",members:[],state:initialAuction(pool,["mumbai"],18_000),createdAt:0,options,poolPlayers:pool,poolCursor:0,chat:[]};
+    return {code:"TEST01",hostId:"host",members:[],state:initialAuction(pool,["mumbai"],10_000),createdAt:0,options,poolPlayers:pool,poolCursor:0,chat:[]};
   }
   it("lets the host change the timer and stats visibility during a live lot",()=>{
     const room=liveRoom();const now=10_000;

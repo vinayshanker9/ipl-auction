@@ -36,7 +36,7 @@ export function placeBid(state: AuctionState, teamId: FranchiseId, source: "huma
   if (requestedAmount !== undefined && requestedAmount !== amount) throw new Error("That bid is out of date. The price has moved; check the latest bid.");
   const check = canBid(team, player, amount, state);
   if (!check.ok) throw new Error(check.reason);
-  return { ...state, currentPrice: amount, highestBidder: teamId, history: [...state.history, { teamId, amount, at, source }], deadline: Math.max(at, state.deadline ?? at) + AUCTION_CONFIG.bidExtensionMs, message: "Bidding open" };
+  return { ...state, currentPrice: amount, highestBidder: teamId, history: [...state.history, { teamId, amount, at, source }], deadline: state.deadline, message: "Bidding open" };
 }
 
 export function passPlayer(state: AuctionState, teamId: FranchiseId): AuctionState {

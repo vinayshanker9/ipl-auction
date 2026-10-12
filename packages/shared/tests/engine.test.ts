@@ -8,12 +8,12 @@ describe("shared auction rules", () => {
     expect(minimumSquadReserve({ franchiseId: "mumbai", purse: 1200, squad: [], isBot: false })).toBe(360);
   });
   it("accepts the next exact bid and rejects a duplicate amount", () => {
-    const state = initialAuction(players, ["mumbai"]);
+    const state = initialAuction(players, ["mumbai"], 10_000);
     const team = state.teams.mumbai;
     expect(canBid(team, state.currentPlayer!, state.currentPrice + nextIncrement(state.currentPrice), state).ok).toBe(true);
     const next = placeBid(state, "mumbai", "human", 1000);
     expect(next.currentPrice).toBe(state.currentPrice + nextIncrement(state.currentPrice));
-    expect(next.deadline).toBeGreaterThan(state.deadline!);
+    expect(next.deadline).toBe(state.deadline);
     expect(canBid(next.teams.mumbai, next.currentPlayer!, next.currentPrice, next)).toMatchObject({ ok: false });
   });
   it("never bids past the minimum completion reserve", () => {
