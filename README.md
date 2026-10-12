@@ -31,13 +31,13 @@ Bot valuation is in `packages/shared/src/bots/valuation.ts`. It factors player r
 
 ## Deployment
 
-This monorepo is prepared for a split deploy: Vercel serves the static client, and Railway runs the long lived Socket.IO server. `vercel.json` builds the shared package and client from the repository root. `railway.json` builds and starts the server and exposes its `/health` check.
+This monorepo is prepared for a split deploy: Vercel serves the static client, and Render or Railway runs the long lived Socket.IO server. `vercel.json` builds the shared package and client from the repository root; `render.yaml` defines the Render web service and its `/health` check; `railway.json` defines the Railway service.
 
 1. Push the repository to GitHub and import it into Vercel. Keep the Vercel project root at the repository root; `vercel.json` sets the build and output directories.
-2. Deploy the same GitHub repository as a Railway service. Add a Railway volume mounted at `/data`, then set `DATABASE_PATH=/data/crease.sqlite` so room persistence survives restarts.
-3. Generate a public HTTPS domain for the Railway service and set Vercel's `VITE_SERVER_URL` environment variable to that origin (for example `https://crease-api.example.up.railway.app`). Redeploy the Vercel client after setting it.
+2. In Render, choose **New → Blueprint**, select this repository and apply `render.yaml`. The free web service is suitable for trying the app, but it spins down after inactivity and its local SQLite database is erased by restarts and deploys. For persistent room data, upgrade to a paid web service and attach a disk mounted at `/var/data`, then set `DATABASE_PATH=/var/data/crease.sqlite`.
+3. Generate the Render service's public HTTPS URL and set Vercel's `VITE_SERVER_URL` environment variable to that origin (for example `https://crease-auction-api.onrender.com`). Redeploy the Vercel client after setting it.
 
-Vercel's static hosting does not run this app's persistent WebSocket server. Railway, Render, or Fly.io can host the server as a long lived Node process; the server needs a persistent disk for SQLite. `VITE_SERVER_URL` is compiled into the client at build time, so changing it requires a new client deployment.
+Vercel's static hosting does not run this app's persistent WebSocket server. Railway, Render, or Fly.io can host the server as a long lived Node process; use persistent storage for SQLite in a lasting production deployment. Render's free instance spins down after 15 minutes without traffic, and local file changes are lost on restart. `VITE_SERVER_URL` is compiled into the client at build time, so changing it requires a new client deployment.
 
 ## Workspace
 

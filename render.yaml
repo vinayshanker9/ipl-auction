@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: crease-auction-api
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build --workspace @crease/shared && npm run build --workspace @crease/server
+    startCommand: npm run start --workspace @crease/server
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
