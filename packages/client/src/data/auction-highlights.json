@@ -1,0 +1,21 @@
+[
+  {"year":2008,"player":"MS Dhoni","priceCr":9.5,"team":"CSK"},
+  {"year":2009,"player":"Kevin Pietersen","priceCr":9.8,"team":"RCB"},
+  {"year":2010,"player":"Shane Bond","priceCr":4.8,"team":"KKR"},
+  {"year":2011,"player":"Gautam Gambhir","priceCr":14.25,"team":"KKR"},
+  {"year":2012,"player":"Ravindra Jadeja","priceCr":12.8,"team":"CSK"},
+  {"year":2013,"player":"Glenn Maxwell","priceCr":6,"team":"MI"},
+  {"year":2014,"player":"Yuvraj Singh","priceCr":14,"team":"RCB"},
+  {"year":2015,"player":"Yuvraj Singh","priceCr":16,"team":"DD"},
+  {"year":2016,"player":"Shane Watson","priceCr":9.5,"team":"RCB"},
+  {"year":2017,"player":"Ben Stokes","priceCr":14.5,"team":"RPS"},
+  {"year":2018,"player":"Ben Stokes","priceCr":12.5,"team":"RR"},
+  {"year":2019,"player":"Jaydev Unadkat","priceCr":8.4,"team":"RR"},
+  {"year":2020,"player":"Pat Cummins","priceCr":15.5,"team":"KKR"},
+  {"year":2021,"player":"Chris Morris","priceCr":16.25,"team":"RR"},
+  {"year":2022,"player":"Ishan Kishan","priceCr":15.25,"team":"MI"},
+  {"year":2023,"player":"Sam Curran","priceCr":18.5,"team":"PBKS"},
+  {"year":2024,"player":"Mitchell Starc","priceCr":24.75,"team":"KKR"},
+  {"year":2025,"player":"Rishabh Pant","priceCr":27,"team":"LSG"},
+  {"year":2026,"player":"Cameron Green","priceCr":25.2,"team":"KKR"}
+]

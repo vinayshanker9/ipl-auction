@@ -1,0 +1,4402 @@
+[
+  {
+    "id": "p001",
+    "name": "Vaibhav Suryavanshi",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 29,
+    "style": "Right-hand bat",
+    "basePrice": 100,
+    "rating": 84,
+    "set": "Marquee",
+    "stats": {
+      "matches": 16,
+      "runs": 776,
+      "average": 48.5,
+      "strikeRate": 237.31,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p002",
+    "name": "Shubman Gill",
+    "role": "Batter",
+    "nationality": "New Zealand",
+    "age": 32,
+    "style": "Right-hand bat",
+    "basePrice": 100,
+    "rating": 83,
+    "set": "Marquee",
+    "stats": {
+      "matches": 16,
+      "runs": 732,
+      "average": 45.75,
+      "strikeRate": 163.03,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p003",
+    "name": "B Sai Sudharsan",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 30,
+    "style": "Right-hand bat · Right-arm medium",
+    "basePrice": 100,
+    "rating": 82,
+    "set": "Marquee",
+    "stats": {
+      "matches": 17,
+      "runs": 722,
+      "average": 45.12,
+      "strikeRate": 157.99,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p004",
+    "name": "Virat Kohli",
+    "role": "Bowler",
+    "nationality": "Australia",
+    "age": 28,
+    "style": "Left-arm fast",
+    "basePrice": 100,
+    "rating": 80,
+    "set": "Marquee",
+    "stats": {
+      "matches": 16,
+      "runs": 675,
+      "average": 56.25,
+      "strikeRate": 165.85,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p005",
+    "name": "Heinrich Klaasen",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 27,
+    "style": "Right-hand bat",
+    "basePrice": 50,
+    "rating": 78,
+    "set": "Marquee",
+    "stats": {
+      "matches": 15,
+      "runs": 624,
+      "average": 48.0,
+      "strikeRate": 160.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p006",
+    "name": "Ishan Kishan",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 26,
+    "style": "Right-arm leg spin",
+    "basePrice": 50,
+    "rating": 77,
+    "set": "Marquee",
+    "stats": {
+      "matches": 15,
+      "runs": 602,
+      "average": 40.13,
+      "strikeRate": 182.42,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p007",
+    "name": "KL Rahul",
+    "role": "All-rounder",
+    "nationality": "England",
+    "age": 31,
+    "style": "Left-hand bat · Right-arm medium",
+    "basePrice": 50,
+    "rating": 76,
+    "set": "Marquee",
+    "stats": {
+      "matches": 14,
+      "runs": 593,
+      "average": 45.62,
+      "strikeRate": 174.41,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p008",
+    "name": "Abhishek Sharma",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-hand bat",
+    "basePrice": 50,
+    "rating": 75,
+    "set": "Marquee",
+    "stats": {
+      "matches": 15,
+      "runs": 563,
+      "average": 40.21,
+      "strikeRate": 204.73,
+      "wickets": 0,
+      "economy": 10.14,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p009",
+    "name": "Mitchell Marsh",
+    "role": "Bowler",
+    "nationality": "South Africa",
+    "age": 29,
+    "style": "Right-arm fast",
+    "basePrice": 50,
+    "rating": 75,
+    "set": "Marquee",
+    "stats": {
+      "matches": 13,
+      "runs": 563,
+      "average": 43.31,
+      "strikeRate": 163.19,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p010",
+    "name": "Jos Buttler",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 25,
+    "style": "Right-hand bat · Off spin",
+    "basePrice": 50,
+    "rating": 73,
+    "set": "Marquee",
+    "stats": {
+      "matches": 17,
+      "runs": 526,
+      "average": 37.57,
+      "strikeRate": 152.46,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p011",
+    "name": "Dhruv Jurel",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 23,
+    "style": "Right-hand bat",
+    "basePrice": 50,
+    "rating": 73,
+    "set": "Marquee",
+    "stats": {
+      "matches": 16,
+      "runs": 515,
+      "average": 36.79,
+      "strikeRate": 154.65,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p012",
+    "name": "P Simran Singh",
+    "role": "Bowler",
+    "nationality": "Australia",
+    "age": 27,
+    "style": "Right-arm fast",
+    "basePrice": 50,
+    "rating": 73,
+    "set": "Marquee",
+    "stats": {
+      "matches": 14,
+      "runs": 510,
+      "average": 42.5,
+      "strikeRate": 168.87,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p013",
+    "name": "RM Patidar",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-hand bat",
+    "basePrice": 50,
+    "rating": 72,
+    "set": "Marquee",
+    "stats": {
+      "matches": 15,
+      "runs": 501,
+      "average": 41.75,
+      "strikeRate": 192.69,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p014",
+    "name": "Shreyas Iyer",
+    "role": "Batter",
+    "nationality": "West Indies",
+    "age": 28,
+    "style": "Right-hand bat",
+    "basePrice": 50,
+    "rating": 72,
+    "set": "Marquee",
+    "stats": {
+      "matches": 14,
+      "runs": 498,
+      "average": 55.33,
+      "strikeRate": 168.81,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p015",
+    "name": "C Connolly",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 30,
+    "style": "Left-arm orthodox",
+    "basePrice": 50,
+    "rating": 72,
+    "set": "Marquee",
+    "stats": {
+      "matches": 14,
+      "runs": 491,
+      "average": 44.64,
+      "strikeRate": 163.12,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p016",
+    "name": "Sanju Samson",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 21,
+    "style": "Right-hand bat · Right-arm medium",
+    "basePrice": 50,
+    "rating": 71,
+    "set": "Marquee",
+    "stats": {
+      "matches": 14,
+      "runs": 477,
+      "average": 43.36,
+      "strikeRate": 165.62,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p017",
+    "name": "Devdutt Padikkal",
+    "role": "Batter",
+    "nationality": "England",
+    "age": 26,
+    "style": "Left-hand bat",
+    "basePrice": 50,
+    "rating": 71,
+    "set": "Marquee",
+    "stats": {
+      "matches": 16,
+      "runs": 464,
+      "average": 33.14,
+      "strikeRate": 168.73,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p018",
+    "name": "RD Rickelton",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 24,
+    "style": "Right-arm fast",
+    "basePrice": 50,
+    "rating": 70,
+    "set": "Marquee",
+    "stats": {
+      "matches": 12,
+      "runs": 448,
+      "average": 40.73,
+      "strikeRate": 186.67,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p019",
+    "name": "YBK Jaiswal",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 25,
+    "style": "Right-hand bat",
+    "basePrice": 50,
+    "rating": 69,
+    "set": "Marquee",
+    "stats": {
+      "matches": 16,
+      "runs": 427,
+      "average": 30.5,
+      "strikeRate": 152.5,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p020",
+    "name": "A Raghuvanshi",
+    "role": "All-rounder",
+    "nationality": "Ireland",
+    "age": 27,
+    "style": "Left-hand bat · Left-arm medium",
+    "basePrice": 50,
+    "rating": 69,
+    "set": "Marquee",
+    "stats": {
+      "matches": 13,
+      "runs": 422,
+      "average": 42.2,
+      "strikeRate": 146.53,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p021",
+    "name": "TM Head",
+    "role": "Batter",
+    "nationality": "West Indies",
+    "age": 36,
+    "style": "Left-hand bat",
+    "basePrice": 50,
+    "rating": 69,
+    "set": "Batters",
+    "stats": {
+      "matches": 15,
+      "runs": 410,
+      "average": 27.33,
+      "strikeRate": 170.12,
+      "wickets": 1,
+      "economy": 7.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p022",
+    "name": "Washington Sundar",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 30,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 67,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 17,
+      "runs": 377,
+      "average": 37.7,
+      "strikeRate": 150.2,
+      "wickets": 1,
+      "economy": 9.16,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p023",
+    "name": "Priyansh Arya",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 66,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 13,
+      "runs": 364,
+      "average": 28.0,
+      "strikeRate": 211.63,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p024",
+    "name": "Tilak Varma",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 35,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 66,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 14,
+      "runs": 359,
+      "average": 29.92,
+      "strikeRate": 145.93,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p025",
+    "name": "FH Allen",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 29,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 66,
+    "set": "Batters",
+    "stats": {
+      "matches": 11,
+      "runs": 349,
+      "average": 34.9,
+      "strikeRate": 214.11,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p026",
+    "name": "RD Gaikwad",
+    "role": "Wicketkeeper",
+    "nationality": "Sri Lanka",
+    "age": 23,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 65,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 14,
+      "runs": 337,
+      "average": 28.08,
+      "strikeRate": 123.44,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p027",
+    "name": "Ajinkya Rahane",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 34,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 65,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 14,
+      "runs": 335,
+      "average": 25.77,
+      "strikeRate": 135.08,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p028",
+    "name": "C Green",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 28,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 66,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 14,
+      "runs": 322,
+      "average": 32.2,
+      "strikeRate": 145.7,
+      "wickets": 7,
+      "economy": 10.64,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p029",
+    "name": "Naman Dhir",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 64,
+    "set": "Batters",
+    "stats": {
+      "matches": 14,
+      "runs": 318,
+      "average": 26.5,
+      "strikeRate": 147.22,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p030",
+    "name": "D Ferreira",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 33,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 64,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 15,
+      "runs": 317,
+      "average": 35.22,
+      "strikeRate": 179.1,
+      "wickets": 1,
+      "economy": 13.67,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p031",
+    "name": "RR Pant",
+    "role": "All-rounder",
+    "nationality": "Afghanistan",
+    "age": 27,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 64,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 14,
+      "runs": 313,
+      "average": 28.45,
+      "strikeRate": 137.89,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p032",
+    "name": "Riyan Parag",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 21,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 64,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 14,
+      "runs": 309,
+      "average": 23.77,
+      "strikeRate": 157.65,
+      "wickets": 2,
+      "economy": 9.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p033",
+    "name": "TH David",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 32,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 64,
+    "set": "Batters",
+    "stats": {
+      "matches": 16,
+      "runs": 305,
+      "average": 33.89,
+      "strikeRate": 188.27,
+      "wickets": 0,
+      "economy": 18.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p034",
+    "name": "Nithish Kumar Reddy",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 26,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 66,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 14,
+      "runs": 302,
+      "average": 30.2,
+      "strikeRate": 171.59,
+      "wickets": 8,
+      "economy": 10.42,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p035",
+    "name": "RK Singh",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 20,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 63,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 14,
+      "runs": 299,
+      "average": 59.8,
+      "strikeRate": 150.25,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p036",
+    "name": "Kartik Sharma",
+    "role": "Bowler",
+    "nationality": "Bangladesh",
+    "age": 31,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 63,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 295,
+      "average": 32.78,
+      "strikeRate": 136.57,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p037",
+    "name": "Rohit Sharma",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 25,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 63,
+    "set": "Batters",
+    "stats": {
+      "matches": 9,
+      "runs": 283,
+      "average": 31.44,
+      "strikeRate": 157.22,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p038",
+    "name": "P Nissanka",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 36,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 62,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 10,
+      "runs": 278,
+      "average": 27.8,
+      "strikeRate": 158.86,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p039",
+    "name": "T Stubbs",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 30,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 62,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 14,
+      "runs": 275,
+      "average": 34.38,
+      "strikeRate": 127.31,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p040",
+    "name": "S Dube",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 62,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 13,
+      "runs": 270,
+      "average": 38.57,
+      "strikeRate": 158.82,
+      "wickets": 1,
+      "economy": 12.8,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p041",
+    "name": "Suryakumar Yadav",
+    "role": "Batter",
+    "nationality": "Australia",
+    "age": 35,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 62,
+    "set": "Batters",
+    "stats": {
+      "matches": 13,
+      "runs": 270,
+      "average": 20.77,
+      "strikeRate": 147.54,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p042",
+    "name": "JP Inglis",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 29,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 62,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 5,
+      "runs": 266,
+      "average": 53.2,
+      "strikeRate": 186.01,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p043",
+    "name": "Ravindra Jadeja",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 23,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 65,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 14,
+      "runs": 266,
+      "average": 66.5,
+      "strikeRate": 135.03,
+      "wickets": 10,
+      "economy": 8.39,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p044",
+    "name": "Sameer Rizvi",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 34,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 61,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 252,
+      "average": 36.0,
+      "strikeRate": 147.37,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p045",
+    "name": "Nicholas Pooran",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 28,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Batters",
+    "stats": {
+      "matches": 14,
+      "runs": 234,
+      "average": 16.71,
+      "strikeRate": 127.17,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p046",
+    "name": "AK Markram",
+    "role": "Wicketkeeper",
+    "nationality": "England",
+    "age": 22,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 12,
+      "runs": 231,
+      "average": 23.1,
+      "strikeRate": 137.5,
+      "wickets": 0,
+      "economy": 13.83,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p047",
+    "name": "KH Pandya",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 33,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 64,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 16,
+      "runs": 226,
+      "average": 37.67,
+      "strikeRate": 145.81,
+      "wickets": 14,
+      "economy": 8.42,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p048",
+    "name": "Nitish Rana",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 27,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 9,
+      "runs": 225,
+      "average": 25.0,
+      "strikeRate": 151.01,
+      "wickets": 0,
+      "economy": 13.75,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p049",
+    "name": "Marcus Stoinis",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 21,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Batters",
+    "stats": {
+      "matches": 13,
+      "runs": 216,
+      "average": 36.0,
+      "strikeRate": 180.0,
+      "wickets": 2,
+      "economy": 12.51,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p050",
+    "name": "A Badoni",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 32,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 10,
+      "runs": 215,
+      "average": 21.5,
+      "strikeRate": 152.48,
+      "wickets": 0,
+      "economy": 14.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p051",
+    "name": "DA Miller",
+    "role": "All-rounder",
+    "nationality": "South Africa",
+    "age": 26,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 59,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 11,
+      "runs": 211,
+      "average": 35.17,
+      "strikeRate": 154.01,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p052",
+    "name": "VR Iyer",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 20,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 59,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 7,
+      "runs": 209,
+      "average": 52.25,
+      "strikeRate": 186.61,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p053",
+    "name": "Hardik Pandya",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 31,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Batters",
+    "stats": {
+      "matches": 10,
+      "runs": 206,
+      "average": 22.89,
+      "strikeRate": 138.26,
+      "wickets": 4,
+      "economy": 11.43,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p054",
+    "name": "PD Salt",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 25,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 59,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 6,
+      "runs": 202,
+      "average": 33.67,
+      "strikeRate": 168.33,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p055",
+    "name": "A Mhatre",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 36,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 59,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 6,
+      "runs": 201,
+      "average": 33.5,
+      "strikeRate": 177.88,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p056",
+    "name": "R Powell",
+    "role": "Bowler",
+    "nationality": "New Zealand",
+    "age": 30,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 58,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 190,
+      "average": 38.0,
+      "strikeRate": 134.75,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p057",
+    "name": "Rahul Tewatia",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 58,
+    "set": "Batters",
+    "stats": {
+      "matches": 16,
+      "runs": 190,
+      "average": 27.14,
+      "strikeRate": 143.94,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p058",
+    "name": "AR Patel",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 35,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 61,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 14,
+      "runs": 173,
+      "average": 17.3,
+      "strikeRate": 131.06,
+      "wickets": 11,
+      "economy": 8.18,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p059",
+    "name": "Ashutosh Sharma",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 29,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 58,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 8,
+      "runs": 171,
+      "average": 34.2,
+      "strikeRate": 181.91,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p060",
+    "name": "MD Choudhary",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 23,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 58,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 10,
+      "runs": 170,
+      "average": 28.33,
+      "strikeRate": 141.67,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p061",
+    "name": "SN Khan",
+    "role": "Batter",
+    "nationality": "West Indies",
+    "age": 34,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 57,
+    "set": "Batters",
+    "stats": {
+      "matches": 8,
+      "runs": 161,
+      "average": 23.0,
+      "strikeRate": 169.47,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p062",
+    "name": "Suryansh Shedge",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 28,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 57,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 7,
+      "runs": 158,
+      "average": 39.5,
+      "strikeRate": 175.56,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p063",
+    "name": "Salil Arora",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 57,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 14,
+      "runs": 156,
+      "average": 22.29,
+      "strikeRate": 159.18,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p064",
+    "name": "D Brevis",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 33,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 57,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 151,
+      "average": 18.88,
+      "strikeRate": 127.97,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p065",
+    "name": "WG Jacks",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 27,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 57,
+    "set": "Batters",
+    "stats": {
+      "matches": 7,
+      "runs": 139,
+      "average": 27.8,
+      "strikeRate": 182.89,
+      "wickets": 2,
+      "economy": 10.64,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p066",
+    "name": "J Overton",
+    "role": "Wicketkeeper",
+    "nationality": "Sri Lanka",
+    "age": 21,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 10,
+      "runs": 136,
+      "average": 27.2,
+      "strikeRate": 158.14,
+      "wickets": 14,
+      "economy": 8.89,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p067",
+    "name": "Quinton de Kock",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 32,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 3,
+      "runs": 132,
+      "average": 66.0,
+      "strikeRate": 162.96,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p068",
+    "name": "Shashank Singh",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 26,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 57,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 12,
+      "runs": 132,
+      "average": 22.0,
+      "strikeRate": 188.57,
+      "wickets": 4,
+      "economy": 8.8,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p069",
+    "name": "Urvil Patel",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 20,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "Batters",
+    "stats": {
+      "matches": 7,
+      "runs": 129,
+      "average": 18.43,
+      "strikeRate": 201.56,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p070",
+    "name": "SE Rutherford",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 31,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 8,
+      "runs": 123,
+      "average": 24.6,
+      "strikeRate": 164.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p071",
+    "name": "Abdul Samad",
+    "role": "All-rounder",
+    "nationality": "Afghanistan",
+    "age": 25,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 8,
+      "runs": 116,
+      "average": 19.33,
+      "strikeRate": 131.82,
+      "wickets": 0,
+      "economy": 36.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p072",
+    "name": "JM Sharma",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 36,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 16,
+      "runs": 116,
+      "average": 12.89,
+      "strikeRate": 122.11,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p073",
+    "name": "Abishek Porel",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 30,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Batters",
+    "stats": {
+      "matches": 4,
+      "runs": 108,
+      "average": 27.0,
+      "strikeRate": 122.73,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p074",
+    "name": "JG Bethell",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 24,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 7,
+      "runs": 96,
+      "average": 13.71,
+      "strikeRate": 124.68,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p075",
+    "name": "Himmat Singh",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 35,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 6,
+      "runs": 92,
+      "average": 30.67,
+      "strikeRate": 133.33,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p076",
+    "name": "PR Veer",
+    "role": "Bowler",
+    "nationality": "Bangladesh",
+    "age": 29,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 6,
+      "runs": 90,
+      "average": 45.0,
+      "strikeRate": 134.33,
+      "wickets": 0,
+      "economy": 12.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p077",
+    "name": "R Shepherd",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 23,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "Batters",
+    "stats": {
+      "matches": 15,
+      "runs": 83,
+      "average": 20.75,
+      "strikeRate": 125.76,
+      "wickets": 7,
+      "economy": 11.92,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p078",
+    "name": "Ramandeep Singh",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 34,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 8,
+      "runs": 82,
+      "average": 16.4,
+      "strikeRate": 120.59,
+      "wickets": 1,
+      "economy": 11.62,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p079",
+    "name": "SB Dubey",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 28,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 7,
+      "runs": 81,
+      "average": 20.25,
+      "strikeRate": 139.66,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p080",
+    "name": "Aniket Verma",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 10,
+      "runs": 79,
+      "average": 13.17,
+      "strikeRate": 146.3,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p081",
+    "name": "SO Hetmyer",
+    "role": "Batter",
+    "nationality": "Australia",
+    "age": 33,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Batters",
+    "stats": {
+      "matches": 8,
+      "runs": 78,
+      "average": 13.0,
+      "strikeRate": 113.04,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p082",
+    "name": "MK Pandey",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 27,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 6,
+      "runs": 70,
+      "average": 35.0,
+      "strikeRate": 142.86,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p083",
+    "name": "GD Phillips",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 21,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 6,
+      "runs": 67,
+      "average": 16.75,
+      "strikeRate": 124.07,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p084",
+    "name": "JO Holder",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 32,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 58,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 65,
+      "average": 13.0,
+      "strikeRate": 125.0,
+      "wickets": 17,
+      "economy": 7.57,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p085",
+    "name": "N Wadhera",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 26,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Batters",
+    "stats": {
+      "matches": 8,
+      "runs": 65,
+      "average": 10.83,
+      "strikeRate": 114.04,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p086",
+    "name": "Jofra Archer",
+    "role": "Wicketkeeper",
+    "nationality": "England",
+    "age": 20,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 16,
+      "runs": 64,
+      "average": 10.67,
+      "strikeRate": 136.17,
+      "wickets": 25,
+      "economy": 9.32,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p087",
+    "name": "MD Shanaka",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 31,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 7,
+      "runs": 63,
+      "average": 12.6,
+      "strikeRate": 136.96,
+      "wickets": 1,
+      "economy": 10.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p088",
+    "name": "N Sindhu",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 25,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 8,
+      "runs": 63,
+      "average": 12.6,
+      "strikeRate": 126.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p089",
+    "name": "MW Short",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 36,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Batters",
+    "stats": {
+      "matches": 3,
+      "runs": 60,
+      "average": 20.0,
+      "strikeRate": 117.65,
+      "wickets": 0,
+      "economy": 12.32,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p090",
+    "name": "A Kamboj",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 30,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 59,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 14,
+      "runs": 58,
+      "average": 58.0,
+      "strikeRate": 152.63,
+      "wickets": 21,
+      "economy": 10.53,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p091",
+    "name": "Shahbaz Ahmed",
+    "role": "All-rounder",
+    "nationality": "South Africa",
+    "age": 24,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 5,
+      "runs": 58,
+      "average": null,
+      "strikeRate": 141.46,
+      "wickets": 5,
+      "economy": 11.64,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p092",
+    "name": "Shivang Kumar",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 35,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 13,
+      "runs": 53,
+      "average": 8.83,
+      "strikeRate": 115.22,
+      "wickets": 9,
+      "economy": 9.62,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p093",
+    "name": "AS Roy",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 29,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Batters",
+    "stats": {
+      "matches": 14,
+      "runs": 52,
+      "average": 13.0,
+      "strikeRate": 133.33,
+      "wickets": 9,
+      "economy": 9.61,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p094",
+    "name": "Azmatullah Omarzai",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 23,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 3,
+      "runs": 52,
+      "average": 26.0,
+      "strikeRate": 192.59,
+      "wickets": 3,
+      "economy": 9.36,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p095",
+    "name": "M Jansen",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 34,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 13,
+      "runs": 51,
+      "average": 12.75,
+      "strikeRate": 113.33,
+      "wickets": 9,
+      "economy": 10.2,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p096",
+    "name": "C Bosch",
+    "role": "Bowler",
+    "nationality": "New Zealand",
+    "age": 28,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 6,
+      "runs": 50,
+      "average": 50.0,
+      "strikeRate": 161.29,
+      "wickets": 12,
+      "economy": 9.67,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p097",
+    "name": "Rashid Khan",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 58,
+    "set": "Batters",
+    "stats": {
+      "matches": 17,
+      "runs": 50,
+      "average": 12.5,
+      "strikeRate": 121.95,
+      "wickets": 21,
+      "economy": 9.08,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p098",
+    "name": "Kagiso Rabada",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 33,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 17,
+      "runs": 47,
+      "average": 23.5,
+      "strikeRate": 123.68,
+      "wickets": 29,
+      "economy": 9.68,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p099",
+    "name": "SU Parakh",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 27,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 4,
+      "runs": 46,
+      "average": 11.5,
+      "strikeRate": 139.39,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p100",
+    "name": "M Shahrukh Khan",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 21,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 9,
+      "runs": 43,
+      "average": 10.75,
+      "strikeRate": 130.3,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p101",
+    "name": "Sunil Narine",
+    "role": "Batter",
+    "nationality": "West Indies",
+    "age": 32,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 57,
+    "set": "Batters",
+    "stats": {
+      "matches": 13,
+      "runs": 40,
+      "average": 13.33,
+      "strikeRate": 125.0,
+      "wickets": 17,
+      "economy": 6.6,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p102",
+    "name": "Bhuvneshwar Kumar",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 26,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 60,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 16,
+      "runs": 34,
+      "average": null,
+      "strikeRate": 130.77,
+      "wickets": 28,
+      "economy": 7.95,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p103",
+    "name": "GF Linde",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 20,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 3,
+      "runs": 31,
+      "average": 10.33,
+      "strikeRate": 147.62,
+      "wickets": 1,
+      "economy": 8.92,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p104",
+    "name": "Mohammed Shami",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 31,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 13,
+      "runs": 31,
+      "average": 6.2,
+      "strikeRate": 140.91,
+      "wickets": 12,
+      "economy": 9.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p105",
+    "name": "Pat Cummins",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 25,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Batters",
+    "stats": {
+      "matches": 8,
+      "runs": 30,
+      "average": 10.0,
+      "strikeRate": 157.89,
+      "wickets": 8,
+      "economy": 9.59,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p106",
+    "name": "Akshat Raghuwanshi",
+    "role": "Wicketkeeper",
+    "nationality": "Sri Lanka",
+    "age": 36,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 3,
+      "runs": 29,
+      "average": 14.5,
+      "strikeRate": 116.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p107",
+    "name": "XC Bartlett",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 30,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 9,
+      "runs": 29,
+      "average": 29.0,
+      "strikeRate": 223.08,
+      "wickets": 5,
+      "economy": 11.58,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p108",
+    "name": "MJ Santner",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 4,
+      "runs": 26,
+      "average": null,
+      "strikeRate": 136.84,
+      "wickets": 5,
+      "economy": 8.93,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p109",
+    "name": "TU Deshpande",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 35,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Batters",
+    "stats": {
+      "matches": 7,
+      "runs": 26,
+      "average": 13.0,
+      "strikeRate": 185.71,
+      "wickets": 4,
+      "economy": 11.96,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p110",
+    "name": "DL Chahar",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 29,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 8,
+      "runs": 25,
+      "average": 12.5,
+      "strikeRate": 131.58,
+      "wickets": 8,
+      "economy": 10.39,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p111",
+    "name": "SN Thakur",
+    "role": "All-rounder",
+    "nationality": "Afghanistan",
+    "age": 23,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 9,
+      "runs": 24,
+      "average": 12.0,
+      "strikeRate": 80.0,
+      "wickets": 12,
+      "economy": 12.27,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p112",
+    "name": "Arshad Khan (2)",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 34,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 8,
+      "runs": 23,
+      "average": 23.0,
+      "strikeRate": 209.09,
+      "wickets": 6,
+      "economy": 9.92,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p113",
+    "name": "R Smaran",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 28,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 6,
+      "runs": 19,
+      "average": 6.33,
+      "strikeRate": 76.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p114",
+    "name": "TL Seifert",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 22,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 3,
+      "runs": 19,
+      "average": 6.33,
+      "strikeRate": 105.56,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p115",
+    "name": "KK Nair",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 33,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 2,
+      "runs": 18,
+      "average": 9.0,
+      "strikeRate": 100.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p116",
+    "name": "Kumar Kushagra",
+    "role": "Bowler",
+    "nationality": "Bangladesh",
+    "age": 27,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 1,
+      "runs": 18,
+      "average": 18.0,
+      "strikeRate": 128.57,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p117",
+    "name": "M Tiwari",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 21,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Batters",
+    "stats": {
+      "matches": 3,
+      "runs": 18,
+      "average": null,
+      "strikeRate": 225.0,
+      "wickets": 4,
+      "economy": 8.7,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p118",
+    "name": "AA Kulkarni",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 32,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 2,
+      "runs": 17,
+      "average": 8.5,
+      "strikeRate": 68.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p119",
+    "name": "RA Bawa",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 26,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 3,
+      "runs": 16,
+      "average": 16.0,
+      "strikeRate": 114.29,
+      "wickets": 2,
+      "economy": 12.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p120",
+    "name": "Liam Livingstone",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 20,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 2,
+      "runs": 15,
+      "average": 7.5,
+      "strikeRate": 60.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p121",
+    "name": "V Nigam",
+    "role": "Batter",
+    "nationality": "Australia",
+    "age": 31,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 5,
+      "runs": 15,
+      "average": 15.0,
+      "strikeRate": 150.0,
+      "wickets": 2,
+      "economy": 12.56,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p122",
+    "name": "Vishnu Vinod",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 25,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 1,
+      "runs": 15,
+      "average": null,
+      "strikeRate": 187.5,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p123",
+    "name": "Auqib Nabi",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 36,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 5,
+      "runs": 14,
+      "average": 14.0,
+      "strikeRate": 350.0,
+      "wickets": 0,
+      "economy": 11.46,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p124",
+    "name": "N Burger",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 30,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 13,
+      "runs": 14,
+      "average": 14.0,
+      "strikeRate": 155.56,
+      "wickets": 14,
+      "economy": 10.11,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p125",
+    "name": "Harsh Dubey",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Batters",
+    "stats": {
+      "matches": 8,
+      "runs": 13,
+      "average": 6.5,
+      "strikeRate": 144.44,
+      "wickets": 8,
+      "economy": 10.36,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p126",
+    "name": "KA Jamieson",
+    "role": "Wicketkeeper",
+    "nationality": "England",
+    "age": 35,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 2,
+      "runs": 12,
+      "average": 12.0,
+      "strikeRate": 92.31,
+      "wickets": 2,
+      "economy": 12.86,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p127",
+    "name": "T Dahiya",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 29,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 2,
+      "runs": 12,
+      "average": 6.0,
+      "strikeRate": 80.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p128",
+    "name": "Kartik Tyagi",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 23,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 14,
+      "runs": 11,
+      "average": 3.67,
+      "strikeRate": 110.0,
+      "wickets": 18,
+      "economy": 9.76,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p129",
+    "name": "Noor Ahmad",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 34,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Batters",
+    "stats": {
+      "matches": 14,
+      "runs": 11,
+      "average": 3.67,
+      "strikeRate": 47.83,
+      "wickets": 13,
+      "economy": 8.39,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p130",
+    "name": "HV Patel",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 28,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 5,
+      "runs": 10,
+      "average": 3.33,
+      "strikeRate": 111.11,
+      "wickets": 0,
+      "economy": 10.83,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p131",
+    "name": "Krish Bhagat",
+    "role": "All-rounder",
+    "nationality": "South Africa",
+    "age": 22,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 3,
+      "runs": 10,
+      "average": 10.0,
+      "strikeRate": 47.62,
+      "wickets": 0,
+      "economy": 10.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p132",
+    "name": "Kuldeep Yadav",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 33,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 12,
+      "runs": 9,
+      "average": 3.0,
+      "strikeRate": 42.86,
+      "wickets": 10,
+      "economy": 10.3,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p133",
+    "name": "Trent Boult",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 27,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 5,
+      "runs": 8,
+      "average": 8.0,
+      "strikeRate": 200.0,
+      "wickets": 2,
+      "economy": 11.63,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p134",
+    "name": "E Malinga",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 21,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 15,
+      "runs": 7,
+      "average": 7.0,
+      "strikeRate": 41.18,
+      "wickets": 20,
+      "economy": 9.33,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p135",
+    "name": "Jasprit Bumrah",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 32,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 13,
+      "runs": 7,
+      "average": 7.0,
+      "strikeRate": 100.0,
+      "wickets": 4,
+      "economy": 8.37,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p136",
+    "name": "LG Pretorius",
+    "role": "Bowler",
+    "nationality": "New Zealand",
+    "age": 26,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 2,
+      "runs": 7,
+      "average": 3.5,
+      "strikeRate": 87.5,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p137",
+    "name": "MJ Henry",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 20,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 3,
+      "runs": 7,
+      "average": 3.5,
+      "strikeRate": 70.0,
+      "wickets": 2,
+      "economy": 13.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p138",
+    "name": "Avesh Khan",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 31,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 7,
+      "runs": 6,
+      "average": 6.0,
+      "strikeRate": 100.0,
+      "wickets": 6,
+      "economy": 11.07,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p139",
+    "name": "DA Payne",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 25,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 2,
+      "runs": 6,
+      "average": null,
+      "strikeRate": 120.0,
+      "wickets": 2,
+      "economy": 14.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p140",
+    "name": "M Prasidh Krishna",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 36,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 12,
+      "runs": 6,
+      "average": null,
+      "strikeRate": 85.71,
+      "wickets": 16,
+      "economy": 10.44,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p141",
+    "name": "R Minz",
+    "role": "Batter",
+    "nationality": "West Indies",
+    "age": 30,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Batters",
+    "stats": {
+      "matches": 2,
+      "runs": 6,
+      "average": 6.0,
+      "strikeRate": 150.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p142",
+    "name": "AJ Hosein",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 24,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 7,
+      "runs": 5,
+      "average": null,
+      "strikeRate": 166.67,
+      "wickets": 8,
+      "economy": 8.03,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p143",
+    "name": "Arjun Tendulkar",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 35,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 1,
+      "runs": 5,
+      "average": null,
+      "strikeRate": 100.0,
+      "wickets": 1,
+      "economy": 9.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p144",
+    "name": "CV Varun",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 29,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 5,
+      "average": 2.5,
+      "strikeRate": 83.33,
+      "wickets": 11,
+      "economy": 8.78,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p145",
+    "name": "Harpreet Brar",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 23,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 2,
+      "runs": 5,
+      "average": null,
+      "strikeRate": 166.67,
+      "wickets": 2,
+      "economy": 7.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p146",
+    "name": "MP Yadav",
+    "role": "Wicketkeeper",
+    "nationality": "Sri Lanka",
+    "age": 34,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 4,
+      "runs": 5,
+      "average": 5.0,
+      "strikeRate": 100.0,
+      "wickets": 0,
+      "economy": 11.38,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p147",
+    "name": "Mohammed Siraj",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 28,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 17,
+      "runs": 5,
+      "average": 2.5,
+      "strikeRate": 31.25,
+      "wickets": 19,
+      "economy": 9.06,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p148",
+    "name": "Sakib Hussain",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 5,
+      "average": null,
+      "strikeRate": 71.43,
+      "wickets": 15,
+      "economy": 9.45,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p149",
+    "name": "JD Unadkat",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 33,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 4,
+      "runs": 4,
+      "average": null,
+      "strikeRate": 133.33,
+      "wickets": 4,
+      "economy": 10.91,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p150",
+    "name": "L Ngidi",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 27,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 12,
+      "runs": 4,
+      "average": 2.0,
+      "strikeRate": 57.14,
+      "wickets": 13,
+      "economy": 8.23,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p151",
+    "name": "Ravi Singh",
+    "role": "All-rounder",
+    "nationality": "Afghanistan",
+    "age": 21,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 1,
+      "runs": 4,
+      "average": 4.0,
+      "strikeRate": 200.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p152",
+    "name": "SR Dubey",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 32,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 4,
+      "runs": 4,
+      "average": null,
+      "strikeRate": 200.0,
+      "wickets": 5,
+      "economy": 8.26,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p153",
+    "name": "PP Hinge",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 26,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Batters",
+    "stats": {
+      "matches": 7,
+      "runs": 3,
+      "average": 3.0,
+      "strikeRate": 33.33,
+      "wickets": 14,
+      "economy": 11.73,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p154",
+    "name": "Rasikh Salam",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 20,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 56,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 12,
+      "runs": 3,
+      "average": null,
+      "strikeRate": 150.0,
+      "wickets": 19,
+      "economy": 9.46,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p155",
+    "name": "AF Milne",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 31,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 1,
+      "runs": 2,
+      "average": null,
+      "strikeRate": 100.0,
+      "wickets": 0,
+      "economy": 12.3,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p156",
+    "name": "AM Ghazanfar",
+    "role": "Bowler",
+    "nationality": "Bangladesh",
+    "age": 25,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 11,
+      "runs": 2,
+      "average": null,
+      "strikeRate": 66.67,
+      "wickets": 15,
+      "economy": 10.02,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p157",
+    "name": "Brijesh Sharma",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 36,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Batters",
+    "stats": {
+      "matches": 13,
+      "runs": 2,
+      "average": null,
+      "strikeRate": 50.0,
+      "wickets": 14,
+      "economy": 9.89,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p158",
+    "name": "DS Rathi",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 30,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 10,
+      "runs": 2,
+      "average": null,
+      "strikeRate": 40.0,
+      "wickets": 5,
+      "economy": 10.18,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p159",
+    "name": "DV Malewar",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 2,
+      "runs": 2,
+      "average": 1.0,
+      "strikeRate": 40.0,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p160",
+    "name": "Mukesh Choudhary",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 35,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 8,
+      "runs": 2,
+      "average": null,
+      "strikeRate": 100.0,
+      "wickets": 8,
+      "economy": 8.89,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p161",
+    "name": "Vijaykumar Vyshak",
+    "role": "Batter",
+    "nationality": "Australia",
+    "age": 29,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Batters",
+    "stats": {
+      "matches": 10,
+      "runs": 2,
+      "average": null,
+      "strikeRate": 50.0,
+      "wickets": 9,
+      "economy": 10.65,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p162",
+    "name": "Arshdeep Singh",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 23,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 14,
+      "runs": 1,
+      "average": null,
+      "strikeRate": 100.0,
+      "wickets": 14,
+      "economy": 10.21,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p163",
+    "name": "Ashok Sharma",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 34,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 6,
+      "runs": 1,
+      "average": null,
+      "strikeRate": 25.0,
+      "wickets": 6,
+      "economy": 10.86,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p164",
+    "name": "Ashwani Kumar",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 28,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 3,
+      "runs": 1,
+      "average": null,
+      "strikeRate": 16.67,
+      "wickets": 6,
+      "economy": 10.2,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p165",
+    "name": "SS Mishra",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 2,
+      "runs": 1,
+      "average": null,
+      "strikeRate": 33.33,
+      "wickets": 2,
+      "economy": 10.58,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p166",
+    "name": "T Natarajan",
+    "role": "Wicketkeeper",
+    "nationality": "England",
+    "age": 33,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 10,
+      "runs": 1,
+      "average": null,
+      "strikeRate": 50.0,
+      "wickets": 5,
+      "economy": 11.18,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p167",
+    "name": "VG Arora",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 27,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 11,
+      "runs": 1,
+      "average": null,
+      "strikeRate": 33.33,
+      "wickets": 11,
+      "economy": 10.26,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p168",
+    "name": "A Nortje",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 21,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 0,
+      "economy": 9.75,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p169",
+    "name": "Abhinandan Singh",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 32,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Batters",
+    "stats": {
+      "matches": 3,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 3,
+      "economy": 12.62,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p170",
+    "name": "Akash Singh",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 26,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 2,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 4,
+      "economy": 11.43,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p171",
+    "name": "B Muzarabani",
+    "role": "All-rounder",
+    "nationality": "South Africa",
+    "age": 20,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 2,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 4,
+      "economy": 10.71,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p172",
+    "name": "BJ Dwarshuis",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 31,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 1,
+      "economy": 12.75,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p173",
+    "name": "D Madushanka",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 25,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Batters",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 1,
+      "economy": 9.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p174",
+    "name": "Gurjapneet Singh",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 36,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 8,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 4,
+      "economy": 9.26,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p175",
+    "name": "JA Duffy",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 30,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 6,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 9,
+      "economy": 10.96,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p176",
+    "name": "Josh Hazlewood",
+    "role": "Bowler",
+    "nationality": "New Zealand",
+    "age": 24,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 54,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 13,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 15,
+      "economy": 9.59,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p177",
+    "name": "K Khejroliya",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 35,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Batters",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 0,
+      "economy": 15.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p178",
+    "name": "KK Ahmed",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 29,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Wicketkeepers",
+    "stats": {
+      "matches": 5,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 2,
+      "economy": 8.67,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p179",
+    "name": "LH Ferguson",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 23,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "All-rounders",
+    "stats": {
+      "matches": 3,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 1,
+      "economy": 12.82,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p180",
+    "name": "M Markande",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 34,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Bowlers",
+    "stats": {
+      "matches": 3,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 0,
+      "economy": 15.2,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p181",
+    "name": "M Pathirana",
+    "role": "Batter",
+    "nationality": "West Indies",
+    "age": 28,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 0,
+      "economy": 6.75,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p182",
+    "name": "M Siddharth",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 22,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 4,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 6,
+      "economy": 9.67,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p183",
+    "name": "MJ Suthar",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 33,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 4,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 2,
+      "economy": 11.33,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p184",
+    "name": "Mayank Rawat",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 27,
+    "style": "Right-arm leg spin",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p185",
+    "name": "Mitchell Starc",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 21,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 6,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 11,
+      "economy": 10.18,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p186",
+    "name": "Mohsin Khan",
+    "role": "Wicketkeeper",
+    "nationality": "Sri Lanka",
+    "age": 32,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 7,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 11,
+      "economy": 8.14,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p187",
+    "name": "Mukesh Kumar",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 26,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 52,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 10,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 6,
+      "economy": 11.27,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p188",
+    "name": "Navdeep Saini",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 20,
+    "style": "Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 2,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 0,
+      "economy": 12.33,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p189",
+    "name": "PVD Chameera",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 31,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": 0.0,
+      "wickets": 0,
+      "economy": 9.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p190",
+    "name": "Prince Yadav",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 25,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 55,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 14,
+      "runs": 0,
+      "average": null,
+      "strikeRate": 0.0,
+      "wickets": 16,
+      "economy": 8.88,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p191",
+    "name": "R Sai Kishore",
+    "role": "All-rounder",
+    "nationality": "Afghanistan",
+    "age": 36,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 3,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 1,
+      "economy": 11.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p192",
+    "name": "RD Chahar",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 30,
+    "style": "Off spin",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 0,
+      "economy": 11.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p193",
+    "name": "RS Ghosh",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 24,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 1,
+      "economy": 8.0,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p194",
+    "name": "Raghu Sharma",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 35,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 6,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 1,
+      "economy": 8.67,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p195",
+    "name": "Ravi Bishnoi",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 29,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 9,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 11,
+      "economy": 9.88,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p196",
+    "name": "SH Johnson",
+    "role": "Bowler",
+    "nationality": "Bangladesh",
+    "age": 23,
+    "style": "Right-arm fast",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 3,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 2,
+      "economy": 10.18,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p197",
+    "name": "Sandeep Sharma",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 34,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 6,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 5,
+      "economy": 11.39,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p198",
+    "name": "Suyash Sharma",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 28,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 12,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 9,
+      "economy": 9.21,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p199",
+    "name": "T Vijay",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 22,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 20,
+    "rating": 50,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 0,
+      "economy": 14.5,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p200",
+    "name": "Yash Raj Punja",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 33,
+    "style": "Left-arm fast",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 8,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 9,
+      "economy": 9.3,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p201",
+    "name": "Yash Thakur",
+    "role": "Batter",
+    "nationality": "Australia",
+    "age": 27,
+    "style": "Left-hand bat",
+    "basePrice": 20,
+    "rating": 51,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 2,
+      "economy": 13.75,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p202",
+    "name": "Yuzvendra Chahal",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 21,
+    "style": "Right-hand bat",
+    "basePrice": 20,
+    "rating": 53,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 14,
+      "runs": 0,
+      "average": null,
+      "strikeRate": null,
+      "wickets": 12,
+      "economy": 9.39,
+      "scope": "IPL 2026"
+    }
+  },
+  {
+    "id": "p203",
+    "name": "Shikhar Dhawan",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 32,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 200,
+    "rating": 91,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 222,
+      "runs": 6769,
+      "average": 35.07,
+      "strikeRate": 127.09,
+      "wickets": 4,
+      "economy": 8.25,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p204",
+    "name": "David Warner",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 26,
+    "style": "Right-arm leg spin",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 184,
+      "runs": 6567,
+      "average": 40.04,
+      "strikeRate": 139.66,
+      "wickets": 0,
+      "economy": 12.0,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p205",
+    "name": "Suresh Raina",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 20,
+    "style": "Left-hand bat",
+    "basePrice": 200,
+    "rating": 97,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 204,
+      "runs": 5536,
+      "average": 32.37,
+      "strikeRate": 136.83,
+      "wickets": 25,
+      "economy": 7.39,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p206",
+    "name": "MS Dhoni",
+    "role": "Wicketkeeper",
+    "nationality": "England",
+    "age": 31,
+    "style": "Right-hand bat",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 277,
+      "runs": 5439,
+      "average": 38.3,
+      "strikeRate": 137.45,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p207",
+    "name": "AB de Villiers",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 25,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 183,
+      "runs": 5181,
+      "average": 39.85,
+      "strikeRate": 151.89,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p208",
+    "name": "Chris Gayle",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 36,
+    "style": "Left-arm orthodox",
+    "basePrice": 200,
+    "rating": 95,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 141,
+      "runs": 4997,
+      "average": 39.66,
+      "strikeRate": 149.34,
+      "wickets": 18,
+      "economy": 7.9,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p209",
+    "name": "Robin Uthappa",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 30,
+    "style": "Left-hand bat",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 205,
+      "runs": 4954,
+      "average": 27.52,
+      "strikeRate": 130.33,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p210",
+    "name": "Dinesh Karthik",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 24,
+    "style": "Right-hand bat",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 257,
+      "runs": 4843,
+      "average": 26.32,
+      "strikeRate": 135.28,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p211",
+    "name": "Faf du Plessis",
+    "role": "All-rounder",
+    "nationality": "South Africa",
+    "age": 35,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 154,
+      "runs": 4773,
+      "average": 35.1,
+      "strikeRate": 135.79,
+      "wickets": 0,
+      "economy": 16.0,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p212",
+    "name": "Ambati Rayudu",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 29,
+    "style": "Off spin",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 204,
+      "runs": 4348,
+      "average": 28.05,
+      "strikeRate": 127.54,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p213",
+    "name": "G Gambhir",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 23,
+    "style": "Left-hand bat",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 154,
+      "runs": 4217,
+      "average": 31.01,
+      "strikeRate": 123.88,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p214",
+    "name": "SR Watson",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 34,
+    "style": "Right-hand bat",
+    "basePrice": 200,
+    "rating": 100,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 145,
+      "runs": 3880,
+      "average": 30.79,
+      "strikeRate": 137.93,
+      "wickets": 92,
+      "economy": 7.93,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p215",
+    "name": "Kieron Pollard",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 28,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 200,
+    "rating": 100,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 189,
+      "runs": 3437,
+      "average": 28.4,
+      "strikeRate": 147.57,
+      "wickets": 69,
+      "economy": 8.79,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p216",
+    "name": "YK Pathan",
+    "role": "Bowler",
+    "nationality": "New Zealand",
+    "age": 22,
+    "style": "Right-arm fast",
+    "basePrice": 200,
+    "rating": 100,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 174,
+      "runs": 3222,
+      "average": 29.29,
+      "strikeRate": 143.52,
+      "wickets": 42,
+      "economy": 7.4,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p217",
+    "name": "WP Saha",
+    "role": "Batter",
+    "nationality": "India",
+    "age": 33,
+    "style": "Left-hand bat",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 169,
+      "runs": 2934,
+      "average": 24.25,
+      "strikeRate": 127.57,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p218",
+    "name": "BB McCullum",
+    "role": "Wicketkeeper",
+    "nationality": "India",
+    "age": 27,
+    "style": "Right-hand bat",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 109,
+      "runs": 2882,
+      "average": 27.71,
+      "strikeRate": 131.6,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p219",
+    "name": "PA Patel",
+    "role": "All-rounder",
+    "nationality": "India",
+    "age": 21,
+    "style": "Left-hand bat · Left-arm orthodox",
+    "basePrice": 200,
+    "rating": 90,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 139,
+      "runs": 2848,
+      "average": 22.6,
+      "strikeRate": 120.78,
+      "wickets": 0,
+      "economy": null,
+      "scope": "IPL CAREER"
+    }
+  },
+  {
+    "id": "p220",
+    "name": "GJ Maxwell",
+    "role": "Bowler",
+    "nationality": "India",
+    "age": 32,
+    "style": "Left-arm fast",
+    "basePrice": 200,
+    "rating": 100,
+    "set": "Uncapped",
+    "stats": {
+      "matches": 141,
+      "runs": 2820,
+      "average": 23.9,
+      "strikeRate": 155.12,
+      "wickets": 41,
+      "economy": 8.3,
+      "scope": "IPL CAREER"
+    }
+  }
+]
