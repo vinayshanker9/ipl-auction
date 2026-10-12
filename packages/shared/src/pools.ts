@@ -1,5 +1,5 @@
-import records from "./ipl-stats.json";
-import templates from "./players.json";
+import records from "./ipl-stats.json" with { type: "json" };
+import templates from "./players.json" with { type: "json" };
 import type { Player, PlayerRole, PlayerSet } from "./types.js";
 
 type Row = { name: string; matches: number; runs: number; average: number | null; strikeRate: number | null; wickets: number; economy: number | null };
