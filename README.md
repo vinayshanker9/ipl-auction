@@ -27,7 +27,7 @@ To regenerate the stats, download the IPL JSON archive from [Cricsheet](https://
 
 ## Bots
 
-Bot valuation is in `packages/shared/src/bots/valuation.ts`. It factors player rating, role gaps, age, purse, personality and a small random range. Bots place bids through the same `placeBid` validator as humans.
+Bot valuation is in `packages/shared/src/bots/valuation.ts`. It factors player rating, role gaps, age, purse, personality and a small random range. Bots place bids through the same `placeBid` validator as humans. Solo mode uses bots to fill the other franchises; multiplayer rooms leave unpicked franchises unclaimed and do not auto-fill them with bots.
 
 ## Deployment
 

@@ -24,7 +24,7 @@ function watchLobby(client: Socket) {
 host.on("connect", () => host.emit("room:create", { name: "Load host" }));
 host.on("room:created", ({ code: roomCode }: any) => {
   code = roomCode;
-  console.log(`Load room ${code} created. Five fake clients; five remaining teams are bots.`);
+  console.log(`Load room ${code} created. Five fake clients; five franchises are unclaimed.`);
   watchLobby(host);
   host.emit("lobby:select-franchise", { franchiseId: teams[0] });
   for (let index = 1; index < teams.length; index++) {
