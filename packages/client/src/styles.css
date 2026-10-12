@@ -10,3 +10,42 @@
 .host-settings{display:flex;align-items:end;gap:12px;flex-wrap:wrap;border:1px solid #d7d8d1;padding:14px;margin:22px 0;background:#eeefe8}.host-settings label,.host-controls label{display:flex;align-items:center;gap:7px;font-size:9px;letter-spacing:.08em;color:#666d68}.host-settings select,.host-controls select{height:32px;border:1px solid #cdd0ca;background:#f8f7f2;padding:0 8px;font:600 11px 'DM Sans',sans-serif;color:#252a27}.host-settings .toggle-setting{align-self:center}.host-settings input,.host-controls input{accent-color:#d35b35}
 .host-toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:9px 5vw;background:#eeefe8;border-bottom:1px solid #d7d8d1}.host-toolbar>strong{font-size:9px;letter-spacing:.1em;color:#d35b35;margin-right:4px}.host-toolbar label{display:flex;align-items:center;gap:6px;font-size:9px;letter-spacing:.08em;color:#666d68}.host-toolbar select{height:30px;border:1px solid #cdd0ca;background:#f8f7f2;padding:0 7px;font:600 11px 'DM Sans',sans-serif;color:#252a27}.host-toolbar button{height:30px;padding:0 9px;border:1px solid #cdd0ca;background:transparent;display:flex;align-items:center;gap:5px;font-size:9px;font-weight:700;letter-spacing:.06em}.host-toolbar .host-check input{accent-color:#d35b35}
 @media(max-width:760px){.host-toolbar{padding:9px 14px;gap:7px}.host-toolbar>strong{width:100%}.host-toolbar label{font-size:8px}.host-toolbar select{max-width:130px}}
+@media(max-width:980px){
+  .landing-index{display:none}
+  .entry{width:min(560px,74vw);margin-left:8vw}
+  .auction-layout{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:18px;padding:24px 20px}
+}
+@media(max-width:480px){
+  .landing,.shell{padding-left:14px;padding-right:14px}
+  .entry{width:100%;margin:6vh 0 0}
+  .entry-actions{flex-direction:column;gap:8px}
+  .entry-actions button{width:100%;justify-content:center}
+  .join-row button{padding:0 9px;white-space:nowrap}
+  .entry-foot{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  .page-foot{position:static;margin-top:38px;gap:12px;line-height:1.5}
+  .page-foot span:last-child{text-align:right}
+  .tabs{gap:11px;overflow-x:auto;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tabs>button{min-height:44px;flex:0 0 auto;font-size:8px}
+  .auction-layout{padding:16px 14px;gap:16px}
+  .player-plate{padding-top:12px}
+  .player-plate h1{font-size:42px}
+  .price{font-size:60px}
+  .auction-controls{gap:6px}
+  .bid-button,.pass-button{min-height:52px}
+  .bid-button{min-width:0;padding:0 10px}
+  .pass-button{width:82px;flex:0 0 82px}
+  .presence-list{grid-template-columns:1fr}
+  .host-settings{padding:10px;gap:9px}
+  .host-settings label{width:100%;justify-content:space-between;min-height:42px}
+  .host-settings select{min-height:40px;flex:1;max-width:190px}
+  .lobby{margin:32px auto}
+  .lobby h1{font-size:54px}
+  .franchise-option{min-height:74px;padding:8px}
+  .lobby-bottom .primary{width:100%;margin-left:0}
+  .squads-page .team-table,.results-page .team-table{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .squads-page .team-head,.squads-page .team-row,.results-page .team-head,.results-page .team-row{min-width:540px}
+  .chat-input input,.chat-input button{min-height:44px}
+  .reaction-row{overflow-x:auto;scrollbar-width:none}
+  .reaction-row::-webkit-scrollbar{display:none}
+}

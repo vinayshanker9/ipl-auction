@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { auctionPool, canBid, closePlayer, initialAuction, minimumSquadReserve, nextIncrement, performanceIndex, placeBid, startNextPlayer, teamPerformanceStrength } from "../src/index.js";
+import { auctionPool, canBid, closePlayer, initialAuction, minimumSquadReserve, nextIncrement, performanceIndex, placeBid, randomizePlayersBySet, startNextPlayer, teamPerformanceStrength } from "../src/index.js";
 import players from "../src/players.json";
 
 describe("shared auction rules", () => {
@@ -11,9 +11,10 @@ describe("shared auction rules", () => {
     const state = initialAuction(players, ["mumbai"], 10_000);
     const team = state.teams.mumbai;
     expect(canBid(team, state.currentPlayer!, state.currentPrice + nextIncrement(state.currentPrice), state).ok).toBe(true);
-    const next = placeBid(state, "mumbai", "human", 1000);
+    const bidAt = state.deadline! - 5_000;
+    const next = placeBid(state, "mumbai", "human", bidAt);
     expect(next.currentPrice).toBe(state.currentPrice + nextIncrement(state.currentPrice));
-    expect(next.deadline).toBe(state.deadline);
+    expect(next.deadline).toBe(bidAt + 10_000);
     expect(canBid(next.teams.mumbai, next.currentPlayer!, next.currentPrice, next)).toMatchObject({ ok: false });
   });
   it("never bids past the minimum completion reserve", () => {
@@ -26,6 +27,13 @@ describe("shared auction rules", () => {
     const overseas = players.find(p => p.nationality !== "India")!;
     const fullOverseas = { ...state.teams.mumbai, squad: Array.from({ length: 8 }, (_, i) => ({ player: { ...overseas, id: `overseas-${i}` }, price: 20 })) };
     expect(canBid(fullOverseas, overseas, state.currentPrice + nextIncrement(state.currentPrice), state)).toMatchObject({ ok: false, reason: "Overseas limit reached" });
+  });
+  it("shuffles players within each auction set and avoids repeating the opening player", () => {
+    const firstOrder = randomizePlayersBySet(players, undefined, () => 0);
+    const nextOrder = randomizePlayersBySet(players, firstOrder[0].id, () => 0);
+    expect(nextOrder[0].id).not.toBe(firstOrder[0].id);
+    expect(nextOrder.map(player => player.id).sort()).toEqual(players.map(player => player.id).sort());
+    expect(nextOrder.findIndex(player => player.set === "Batters")).toBeGreaterThan(nextOrder.findIndex(player => player.set === "Marquee"));
   });
   it("serializes near-simultaneous bids so only the first can take a given price", () => {
     const state = initialAuction(players, ["mumbai", "chennai"]);

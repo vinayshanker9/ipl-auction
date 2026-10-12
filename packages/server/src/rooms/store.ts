@@ -1,6 +1,6 @@
 import Database from "better-sqlite3";
 import { randomBytes, randomUUID } from "node:crypto";
-import { FRANCHISES, auctionPool, initialAuction, orderPlayers, players, type AuctionState, type FranchiseId, type Player } from "@crease/shared";
+import { FRANCHISES, auctionPool, initialAuction, orderPlayers, randomizePlayersBySet, players, type AuctionState, type FranchiseId, type Player } from "@crease/shared";
 
 const db = new Database(process.env.DATABASE_PATH ?? "auction.db");
 db.exec("CREATE TABLE IF NOT EXISTS rooms (code TEXT PRIMARY KEY, state TEXT NOT NULL, updated_at INTEGER NOT NULL)");
@@ -13,7 +13,7 @@ for (const row of db.prepare("SELECT state FROM rooms").all() as { state: string
     const room = JSON.parse(row.state) as Room;
     room.options = Object.assign({ rtmEnabled: false, playerTimerSeconds: 10, showPlayerStats: true, poolMode: "season", seasonYear: 2026 }, room.options);
     if (room.options.playerTimerSeconds === 18) room.options.playerTimerSeconds = 10;
-    room.poolPlayers ??= orderPlayers(auctionPool(room.options.poolMode, room.options.seasonYear));
+    room.poolPlayers ??= randomizePlayersBySet(auctionPool(room.options.poolMode, room.options.seasonYear));
     room.poolCursor ??= room.state.phase === "lobby" ? -1 : room.state.playerIndex;
     rooms.set(room.code, room);
   } catch { /* ignore invalid persisted snapshots */ }

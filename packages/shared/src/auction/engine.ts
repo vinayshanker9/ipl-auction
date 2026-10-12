@@ -27,16 +27,17 @@ export function initialAuction(players: Player[], controlled: FranchiseId[] = []
 const sets = ["Marquee", "Batters", "Bowlers", "All-rounders", "Wicketkeepers", "Uncapped"];
 function setOrder(set: string) { return sets.indexOf(set); }
 
-export function placeBid(state: AuctionState, teamId: FranchiseId, source: "human" | "bot", at = Date.now(), requestedAmount?: number): AuctionState {
+export function placeBid(state: AuctionState, teamId: FranchiseId, source: "human" | "bot", at = Date.now(), requestedAmount?: number, timerMs: number = AUCTION_CONFIG.playerTimerMs): AuctionState {
   const player = state.currentPlayer;
   if (state.phase !== "live" || !player) throw new Error("Auction is not accepting bids");
+  if (state.deadline !== null && at >= state.deadline) throw new Error("Bidding time is over");
   if (state.passed.includes(teamId)) throw new Error("You passed on this player");
   const team = state.teams[teamId];
   const amount = state.currentPrice + nextIncrement(state.currentPrice);
   if (requestedAmount !== undefined && requestedAmount !== amount) throw new Error("That bid is out of date. The price has moved; check the latest bid.");
   const check = canBid(team, player, amount, state);
   if (!check.ok) throw new Error(check.reason);
-  return { ...state, currentPrice: amount, highestBidder: teamId, history: [...state.history, { teamId, amount, at, source }], deadline: state.deadline, message: "Bidding open" };
+  return { ...state, currentPrice: amount, highestBidder: teamId, history: [...state.history, { teamId, amount, at, source }], deadline: at + timerMs, message: "Bidding open" };
 }
 
 export function passPlayer(state: AuctionState, teamId: FranchiseId): AuctionState {
@@ -65,6 +66,25 @@ export function startNextPlayer(state: AuctionState, players: Player[], now = Da
 
 export function orderPlayers(players: Player[]): Player[] {
   return [...players].sort((a,b) => setOrder(a.set) - setOrder(b.set));
+}
+
+export function randomizePlayersBySet(players: Player[], previousFirstPlayerId?: string, random: () => number = Math.random): Player[] {
+  const bySet = new Map<string, Player[]>();
+  for (const player of players) bySet.set(player.set, [...(bySet.get(player.set) ?? []), player]);
+  const shuffled: Player[] = [];
+  for (const set of sets) {
+    const group = bySet.get(set) ?? [];
+    for (let i = group.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [group[i], group[j]] = [group[j], group[i]];
+    }
+    shuffled.push(...group);
+  }
+  if (shuffled[0]?.id === previousFirstPlayerId) {
+    const alternate = shuffled.findIndex((player, index) => index > 0 && player.set === shuffled[0].set);
+    if (alternate > 0) [shuffled[0], shuffled[alternate]] = [shuffled[alternate], shuffled[0]];
+  }
+  return shuffled;
 }
 
 export function startPlayerAtIndex(state: AuctionState, players: Player[], poolIndex: number, now = Date.now(), timerMs: number = AUCTION_CONFIG.playerTimerMs): AuctionState {

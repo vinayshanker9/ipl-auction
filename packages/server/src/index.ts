@@ -1,7 +1,7 @@
 import Fastify from "fastify";
 import { Server } from "socket.io";
 import { z } from "zod";
-import { FRANCHISES, auctionPool, initialAuction, orderPlayers, players, placeBid, passPlayer, closePlayer, startPlayerAtIndex, valuePlayer, botShouldBid, teamPerformanceStrength, type FranchiseId } from "@crease/shared";
+import { FRANCHISES, auctionPool, initialAuction, orderPlayers, randomizePlayersBySet, players, placeBid, passPlayer, closePlayer, startPlayerAtIndex, valuePlayer, botShouldBid, teamPerformanceStrength, type FranchiseId } from "@crease/shared";
 import { allRooms, createRoom, deleteRoom, joinRoom, save, type Member } from "./rooms/store.js";
 import { applyHostSettings } from "./rooms/settings.js";
 
@@ -26,6 +26,7 @@ function roomPlayers(room:any) { return room.poolPlayers ?? orderPlayers(auction
 function roomTimer(room:any) { return room.options.playerTimerSeconds*1000; }
 const auctionTimers=new Map<string,ReturnType<typeof setTimeout>>();
 const botTimers=new Map<string,ReturnType<typeof setTimeout>>();
+const previousFirstPlayers=new Map<string,string>();
 function scheduleClock(room:any) {
   const old=auctionTimers.get(room.code); if(old) clearTimeout(old);
   if(room.state.phase!=="live"||!room.state.currentPlayer||!room.state.deadline) return;
@@ -69,7 +70,7 @@ io.on("connection",socket=>{
       if(event==="lobby:select-franchise") { if(room.state.phase!=="lobby") throw Error("Lobby is closed"); if(!FRANCHISES.some(f=>f.id===data.franchiseId)) throw Error("Unknown franchise"); if(room.members.some(m=>m.id!==member.id&&m.franchiseId===data.franchiseId)) throw Error("That franchise is taken"); member.franchiseId=data.franchiseId as FranchiseId; member.ready=false; }
       else if(event==="lobby:ready") member.ready=data.ready;
       else if(event==="lobby:kick") { if(member.id!==room.hostId)throw Error("Only the host can remove players");if(room.state.phase!=="lobby")throw Error("Players can only be removed in the lobby");const target=room.members.find(m=>m.id===data.playerId);if(!target||target.id===room.hostId)throw Error("Player not found");if(target.socketId)io.sockets.sockets.get(target.socketId)?.disconnect(true);room.members=room.members.filter(m=>m.id!==target.id); }
-      else if(event==="lobby:start") { if(member.id!==room.hostId) throw Error("Only the host can start"); const humansMembers=room.members.filter(m=>!m.spectator); if(humansMembers.length<2) throw Error("At least two players are needed to start"); if(humansMembers.some(m=>!m.ready||!m.franchiseId)) throw Error("Everyone must choose a team and ready up"); const humanFranchises=FRANCHISES.map(franchise=>franchise.id); room.poolPlayers=orderPlayers(auctionPool(room.options.poolMode,room.options.seasonYear)); room.poolCursor=0; room.state=initialAuction(room.poolPlayers,humanFranchises,roomTimer(room)); room.state.phase="live"; sendState(room,"lobby:started"); scheduleClock(room); return; }
+      else if(event==="lobby:start") { if(member.id!==room.hostId) throw Error("Only the host can start"); const humansMembers=room.members.filter(m=>!m.spectator); if(humansMembers.length<2) throw Error("At least two players are needed to start"); if(humansMembers.some(m=>!m.ready||!m.franchiseId)) throw Error("Everyone must choose a team and ready up"); const humanFranchises=FRANCHISES.map(franchise=>franchise.id); const poolKey=`${room.options.poolMode}:${room.options.seasonYear}`; room.poolPlayers=randomizePlayersBySet(auctionPool(room.options.poolMode,room.options.seasonYear),previousFirstPlayers.get(poolKey)); if(room.poolPlayers[0])previousFirstPlayers.set(poolKey,room.poolPlayers[0].id); room.poolCursor=0; room.state=initialAuction(room.poolPlayers,humanFranchises,roomTimer(room)); room.state.phase="live"; sendState(room,"lobby:started"); scheduleClock(room); return; }
       else if(event==="auction:bid") { if(!member.franchiseId) throw Error("Choose a franchise first"); room.state=placeBid(room.state,member.franchiseId,"human",Date.now(),data.amount); sendState(room,"auction:bid-accepted"); scheduleClock(room); scheduleBots(room); return; }
       else if(event==="auction:pass") { if(!member.franchiseId) throw Error("Choose a franchise first"); room.state=passPlayer(room.state,member.franchiseId); sendState(room,"auction:state"); return; }
       else if(event.startsWith("host:")) { if(member.id!==room.hostId) throw Error("Only the host can do that");

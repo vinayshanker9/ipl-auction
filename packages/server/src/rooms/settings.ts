@@ -1,4 +1,4 @@
-import { auctionPool, orderPlayers } from "@crease/shared";
+import { auctionPool, randomizePlayersBySet } from "@crease/shared";
 import type { Room, RoomOptions } from "./store.js";
 
 export function applyHostSettings(room: Room, next: RoomOptions, now = Date.now()) {
@@ -12,8 +12,8 @@ export function applyHostSettings(room: Room, next: RoomOptions, now = Date.now(
       ...room.state.unsold.map(player => player.name.toLowerCase()),
       ...(room.state.currentPlayer ? [room.state.currentPlayer.name.toLowerCase()] : []),
     ]);
-    room.poolPlayers = orderPlayers(auctionPool(room.options.poolMode, room.options.seasonYear)
-      .filter(player => !alreadyAuctioned.has(player.name.toLowerCase())));
+    room.poolPlayers = randomizePlayersBySet(auctionPool(room.options.poolMode, room.options.seasonYear)
+      .filter(player => !alreadyAuctioned.has(player.name.toLowerCase())), room.poolPlayers[0]?.id);
     room.poolCursor = -1;
     room.state = { ...room.state, message: "Pool updated. This lot will finish normally; new lots use the selected pool." };
   }
