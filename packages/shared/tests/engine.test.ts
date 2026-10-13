@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { auctionPool, canBid, closePlayer, initialAuction, minimumSquadReserve, nextIncrement, performanceIndex, placeBid, randomizePlayersBySet, startNextPlayer, teamPerformanceStrength } from "../src/index.js";
+import { auctionPool, availableAuctionSeasons, canBid, closePlayer, initialAuction, minimumSquadReserve, nextIncrement, performanceIndex, placeBid, randomizePlayersBySet, startNextPlayer, teamPerformanceStrength } from "../src/index.js";
 import players from "../src/players.json";
 
 describe("shared auction rules", () => {
@@ -48,13 +48,18 @@ describe("shared auction rules", () => {
     expect(closed.unsold).toContain(state.currentPlayer);
     expect(startNextPlayer(closed, players, 1000, 7_000).deadline).toBe(8_000);
   });
-  it("builds career and season pools from recorded IPL performance", () => {
+  it("builds career and shortlisted-season pools only from recorded IPL performance", () => {
     const legends = auctionPool("legends", 2026);
-    const season = auctionPool("season", 2018);
+    const season = auctionPool("season", 2025);
     expect(legends.length).toBeGreaterThan(100);
     expect(legends[0].stats?.scope).toBe("IPL CAREER");
-    expect(season[0].stats?.scope).toBe("IPL 2018");
+    expect(season.length).toBeGreaterThan(100);
+    expect(season[0].stats?.scope).toBe("IPL 2025");
     expect(legends.some(player => player.name === "Virat Kohli")).toBe(true);
+    expect(season.some(player => player.name === "Mustafizur Rahman")).toBe(true);
+    expect(season.some(player => player.name === "Virat Kohli")).toBe(false);
+    expect(auctionPool("season", 2018)).toEqual([]);
+    expect(availableAuctionSeasons()).toEqual([2025, 2026]);
   });
   it("calculates squad strength from IPL runs and wickets alone", () => {
     const player = { ...players[0], stats: { scope: "IPL CAREER", matches: 10, runs: 900, average: 45, strikeRate: 130, wickets: 35, economy: 8 } };

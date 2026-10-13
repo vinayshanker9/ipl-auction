@@ -1,7 +1,7 @@
 import Fastify from "fastify";
 import { Server } from "socket.io";
 import { z } from "zod";
-import { FRANCHISES, auctionPool, initialAuction, orderPlayers, randomizePlayersBySet, players, placeBid, passPlayer, closePlayer, startPlayerAtIndex, valuePlayer, botShouldBid, teamPerformanceStrength, type FranchiseId } from "@crease/shared";
+import { FRANCHISES, auctionPool, initialAuction, orderPlayers, randomizePlayersBySet, players, placeBid, passPlayer, closePlayer, startPlayerAtIndex, valuePlayer, botShouldBid, teamPerformanceStrength, availableAuctionSeasons, type FranchiseId } from "@crease/shared";
 import { allRooms, createRoom, deleteRoom, joinRoom, save, type Member } from "./rooms/store.js";
 import { applyHostSettings } from "./rooms/settings.js";
 
@@ -40,7 +40,7 @@ function scheduleClock(room:any) {
 const schemas={
  "room:create":z.object({name:z.string().trim().min(1).max(24)}), "room:join":z.object({code:z.string().length(6),name:z.string().trim().min(1).max(24),token:z.string().optional()}), "room:spectate":z.object({code:z.string().length(6)}),
  "lobby:select-franchise":z.object({franchiseId:z.string()}),"lobby:ready":z.object({ready:z.boolean()}),
- "lobby:start":z.object({}),"lobby:kick":z.object({playerId:z.string().min(1)}),"auction:bid":z.object({amount:z.number().int().positive()}),"auction:pass":z.object({}),"host:settings":z.object({playerTimerSeconds:z.number().int().min(5).max(60),showPlayerStats:z.boolean(),poolMode:z.enum(["legends","season"]),seasonYear:z.number().int().min(2008).max(2026)}),"host:pause":z.object({}),"host:resume":z.object({}),"host:skip-player":z.object({}),"host:end":z.object({}),"host:team-to-bot":z.object({franchiseId:z.string()}),"chat:send":z.object({text:z.string().trim().min(1).max(240)}),"reaction:send":z.object({text:z.string().max(32)})
+ "lobby:start":z.object({}),"lobby:kick":z.object({playerId:z.string().min(1)}),"auction:bid":z.object({amount:z.number().int().positive()}),"auction:pass":z.object({}),"host:settings":z.object({playerTimerSeconds:z.number().int().min(5).max(60),showPlayerStats:z.boolean(),poolMode:z.enum(["legends","season"]),seasonYear:z.number().int().refine(year=>availableAuctionSeasons().includes(year),"No verified auction shortlist is available for that season")}),"host:pause":z.object({}),"host:resume":z.object({}),"host:skip-player":z.object({}),"host:end":z.object({}),"host:team-to-bot":z.object({franchiseId:z.string()}),"chat:send":z.object({text:z.string().trim().min(1).max(240)}),"reaction:send":z.object({text:z.string().max(32)})
 };
 function memberFor(socket:any,room:any) { return room.members.find((m:Member)=>m.socketId===socket.id); }
 function reject(socket:any,message:string) { socket.emit("room:error",{message}); }

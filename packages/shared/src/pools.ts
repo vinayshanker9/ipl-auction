@@ -1,36 +1,92 @@
 import records from "./ipl-stats.json" with { type: "json" };
+import shortlistData from "./auction-shortlists.json" with { type: "json" };
 import templates from "./players.json" with { type: "json" };
-import type { Player, PlayerRole, PlayerSet } from "./types.js";
+import type { Player, PlayerSet } from "./types.js";
 
 type Row = { name: string; matches: number; runs: number; average: number | null; strikeRate: number | null; wickets: number; economy: number | null };
+type ShortlistEntry = { name: string; nationality: string; age: number | null; role: Player["role"]; basePrice: number; set: PlayerSet; auctionSet: string };
 type PoolMode = "legends" | "season";
 
-function index(row: Row) {
+const auctionSeasons = shortlistData.seasons as Record<string, { players: ShortlistEntry[] }>;
+
+function performanceIndex(row: Row) {
   return Math.round(Math.min(100, 50 + 40 * Math.min(row.runs / 900, 1) + 10 * Math.min(row.wickets / 35, 1)));
 }
 
-function build(mode: PoolMode, year: number): Player[] {
+function normalize(name: string) {
+  return name.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
+function shortlistedPlayer(row: Row, entries: ShortlistEntry[]) {
+  const exact = entries.filter(entry => normalize(entry.name) === normalize(row.name));
+  if (exact.length === 1) return exact[0];
+  if (exact.length > 1) return undefined;
+
+  const parts = row.name.trim().split(/\s+/);
+  const first = parts[0];
+  const abbreviated = /^[A-Z]{1,4}$/.test(first);
+  if (!abbreviated || parts.length < 2) return undefined;
+  const surname = normalize(parts.at(-1)!);
+  const possible = entries.filter(entry => {
+    const candidateParts = entry.name.trim().split(/\s+/);
+    return normalize(candidateParts.at(-1)!) === surname && candidateParts[0][0]?.toLowerCase() === first[0].toLowerCase();
+  });
+  return possible.length === 1 ? possible[0] : undefined;
+}
+
+function seasonPool(year: number): Player[] {
   const season = records.seasons.find(item => item.year === year);
-  const source = (mode === "legends" ? records.players : season?.players ?? []) as Row[];
-  const rows = [...source].filter(row => row.matches > 0).sort((a, b) => index(b) - index(a) || b.matches - a.matches).slice(0, 220);
-  const byName = new Map((templates as Player[]).map(player => [player.name.toLowerCase(), player]));
-  return rows.map((row, i) => {
-    const template = byName.get(row.name.toLowerCase()) ?? (templates as Player[])[i % templates.length];
-    const rating = index(row);
-    const set: PlayerSet = i < 20 ? "Marquee" : template.set;
+  const shortlist = auctionSeasons[String(year)]?.players;
+  if (!season || !shortlist) return [];
+  const used = new Set<string>();
+  return (season.players as Row[])
+    .filter(row => row.matches > 0)
+    .flatMap((row, index) => {
+      const candidate = shortlistedPlayer(row, shortlist);
+      if (!candidate) return [];
+      const key = normalize(candidate.name);
+      if (used.has(key)) return [];
+      used.add(key);
+      const rating = performanceIndex(row);
+      return [{
+        id: `ipl-season-${year}-${index}`,
+        name: candidate.name,
+        role: candidate.role,
+        nationality: candidate.nationality,
+        ...(candidate.age === null ? {} : { age: candidate.age }),
+        style: "Not listed",
+        basePrice: candidate.basePrice,
+        rating,
+        set: candidate.set,
+        stats: { scope: `IPL ${year}`, matches: row.matches, runs: row.runs, average: row.average, strikeRate: row.strikeRate, wickets: row.wickets, economy: row.economy },
+      } satisfies Player];
+    });
+}
+
+function build(mode: PoolMode, year: number): Player[] {
+  if (mode === "season") return seasonPool(year);
+  const source = records.players as Row[];
+  const roster = templates as Player[];
+  const byName = new Map(roster.map(player => [normalize(player.name), player]));
+  return [...source].filter(row => row.matches > 0).sort((a, b) => performanceIndex(b) - performanceIndex(a) || b.matches - a.matches).slice(0, 220).map((row, i) => {
+    const template = byName.get(normalize(row.name)) ?? roster[i % roster.length];
+    const rating = performanceIndex(row);
     return {
       ...template,
-      id: `ipl-${mode}-${mode === "season" ? year : "career"}-${i}`,
+      id: `ipl-legends-career-${i}`,
       name: row.name,
-      set,
-      rating,
       basePrice: Math.max(20, rating >= 90 ? 200 : rating >= 80 ? 100 : rating >= 70 ? 50 : 20),
-      stats: { scope: mode === "legends" ? "IPL CAREER" : `IPL ${year}`, matches: row.matches, runs: row.runs, average: row.average, strikeRate: row.strikeRate, wickets: row.wickets, economy: row.economy },
-      role: template.role as PlayerRole,
-    };
+      rating,
+      set: i < 20 ? "Marquee" : "Batters",
+      stats: { scope: "IPL CAREER", matches: row.matches, runs: row.runs, average: row.average, strikeRate: row.strikeRate, wickets: row.wickets, economy: row.economy },
+    } satisfies Player;
   });
 }
 
 export function auctionPool(mode: PoolMode, year: number): Player[] {
   return build(mode, year);
+}
+
+export function availableAuctionSeasons(): number[] {
+  return Object.keys(auctionSeasons).map(Number).sort((a, b) => a - b);
 }

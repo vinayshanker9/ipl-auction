@@ -5,7 +5,7 @@ export type BotPersonality = "early-spender" | "patient" | "star-chaser";
 export function valuePlayer(player: Player, team: TeamState, personality: BotPersonality, random = Math.random): number {
   const counts = team.squad.reduce<Record<string, number>>((acc, item) => { acc[item.player.role] = (acc[item.player.role] ?? 0) + 1; return acc; }, {});
   const gap = Math.max(0, 3 - (counts[player.role] ?? 0));
-  const ageFactor = player.age <= 25 ? 1.1 : player.age >= 34 ? 0.82 : 1;
+  const ageFactor = player.age === undefined ? 1 : player.age <= 25 ? 1.1 : player.age >= 34 ? 0.82 : 1;
   const purseFactor = team.purse > 700 ? 1.1 : team.purse < 300 ? 0.72 : 1;
   const persona = personality === "star-chaser" && player.rating >= 88 ? 1.35 : personality === "early-spender" ? 1.2 : personality === "patient" ? 0.86 : 1;
   const noise = 0.9 + random() * 0.2;

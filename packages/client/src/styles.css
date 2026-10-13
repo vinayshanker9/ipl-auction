@@ -49,3 +49,27 @@
   .reaction-row{overflow-x:auto;scrollbar-width:none}
   .reaction-row::-webkit-scrollbar{display:none}
 }
+.server-status{min-height:16px;margin:9px 0 0;color:#777d77;font-size:10px;line-height:1.5}
+.show-more,.retry-button{min-height:44px;margin:14px auto;padding:0 16px;border:1px solid #cdd0ca;background:#f8f7f2;color:#343a35;font-size:10px;font-weight:700;letter-spacing:.08em}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #d35b35;outline-offset:2px}
+@media(max-width:760px){
+  button{touch-action:manipulation}
+  .primary,.secondary,.join-row button,.lobby-bottom button,.host-toolbar button,.host-settings select,.host-toolbar select,.metric-switch button,.archive-switch button,.reaction-row button,.chat-input button{min-height:44px}
+  .topbar{gap:8px}
+  .auction-layout{grid-template-columns:minmax(0,1fr);padding:15px 14px;gap:18px}
+  .side-column{min-width:0}
+  .host-toolbar{position:sticky;top:0;z-index:5}
+  .season-chooser select{min-height:44px}
+  .show-more,.retry-button{display:block;width:100%}
+}
+@media(max-width:380px){
+  .topbar{font-size:9px}
+  .site-nav{gap:4px}
+  .site-nav button{font-size:6px}
+  .tabs{gap:7px;padding:0 10px}
+  .auction-controls{gap:5px}
+  .bid-button,.pass-button{font-size:9px}
+  .bid-button b,.pass-button b{display:none}
+}
+.setting-note{grid-column:1/-1;margin:0;color:#747b75;font-size:10px;line-height:1.5}
+@media(max-width:760px){.setting-note{font-size:11px}}

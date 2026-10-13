@@ -11,6 +11,8 @@ export const AUCTION_CONFIG = {
   rtmEnabled: false,
 } as const;
 
+export const VERIFIED_AUCTION_SEASONS = [2025, 2026] as const;
+
 export const FRANCHISES = [
   { id: "mumbai", name: "Mumbai Indians", monogram: "MI", color: "#004B8D" },
   { id: "chennai", name: "Chennai Super Kings", monogram: "CSK", color: "#F9CD05" },
