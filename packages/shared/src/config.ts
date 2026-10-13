@@ -11,7 +11,7 @@ export const AUCTION_CONFIG = {
   rtmEnabled: false,
 } as const;
 
-export const VERIFIED_AUCTION_SEASONS = [2025, 2026] as const;
+export const AVAILABLE_SEASON_YEARS = Array.from({ length: 19 }, (_, index) => 2008 + index);
 
 export const FRANCHISES = [
   { id: "mumbai", name: "Mumbai Indians", monogram: "MI", color: "#004B8D" },

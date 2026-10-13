@@ -58,8 +58,9 @@ describe("shared auction rules", () => {
     expect(legends.some(player => player.name === "Virat Kohli")).toBe(true);
     expect(season.some(player => player.name === "Mustafizur Rahman")).toBe(true);
     expect(season.some(player => player.name === "Virat Kohli")).toBe(false);
-    expect(auctionPool("season", 2018)).toEqual([]);
-    expect(availableAuctionSeasons()).toEqual([2025, 2026]);
+    expect(auctionPool("season", 2018).length).toBeGreaterThan(100);
+    expect(auctionPool("season", 2018).every(player => player.stats?.scope === "IPL 2018")).toBe(true);
+    expect(availableAuctionSeasons()).toEqual(Array.from({ length: 19 }, (_, index) => 2008 + index));
   });
   it("calculates squad strength from IPL runs and wickets alone", () => {
     const player = { ...players[0], stats: { scope: "IPL CAREER", matches: 10, runs: 900, average: 45, strikeRate: 130, wickets: 35, economy: 8 } };

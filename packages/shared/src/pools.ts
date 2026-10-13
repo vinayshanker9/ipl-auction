@@ -1,6 +1,7 @@
 import records from "./ipl-stats.json" with { type: "json" };
 import shortlistData from "./auction-shortlists.json" with { type: "json" };
 import templates from "./players.json" with { type: "json" };
+import { AVAILABLE_SEASON_YEARS } from "./config.js";
 import type { Player, PlayerSet } from "./types.js";
 
 type Row = { name: string; matches: number; runs: number; average: number | null; strikeRate: number | null; wickets: number; economy: number | null };
@@ -37,27 +38,28 @@ function shortlistedPlayer(row: Row, entries: ShortlistEntry[]) {
 function seasonPool(year: number): Player[] {
   const season = records.seasons.find(item => item.year === year);
   const shortlist = auctionSeasons[String(year)]?.players;
-  if (!season || !shortlist) return [];
+  if (!season) return [];
   const used = new Set<string>();
   return (season.players as Row[])
     .filter(row => row.matches > 0)
     .flatMap((row, index) => {
-      const candidate = shortlistedPlayer(row, shortlist);
-      if (!candidate) return [];
-      const key = normalize(candidate.name);
+      const candidate = shortlist ? shortlistedPlayer(row, shortlist) : undefined;
+      if (shortlist && !candidate) return [];
+      const playerName = candidate?.name ?? row.name;
+      const key = normalize(playerName);
       if (used.has(key)) return [];
       used.add(key);
       const rating = performanceIndex(row);
       return [{
         id: `ipl-season-${year}-${index}`,
-        name: candidate.name,
-        role: candidate.role,
-        nationality: candidate.nationality,
-        ...(candidate.age === null ? {} : { age: candidate.age }),
-        style: "Not listed",
-        basePrice: candidate.basePrice,
+        name: playerName,
+        role: candidate?.role ?? "Unknown",
+        nationality: candidate?.nationality ?? "Unknown",
+        ...(candidate?.age == null ? {} : { age: candidate.age }),
+        style: candidate ? "Not listed" : "Season data only",
+        basePrice: candidate?.basePrice ?? 20,
         rating,
-        set: candidate.set,
+        set: candidate?.set ?? "Batters",
         stats: { scope: `IPL ${year}`, matches: row.matches, runs: row.runs, average: row.average, strikeRate: row.strikeRate, wickets: row.wickets, economy: row.economy },
       } satisfies Player];
     });
@@ -88,5 +90,5 @@ export function auctionPool(mode: PoolMode, year: number): Player[] {
 }
 
 export function availableAuctionSeasons(): number[] {
-  return Object.keys(auctionSeasons).map(Number).sort((a, b) => a - b);
+  return AVAILABLE_SEASON_YEARS.filter(year => records.seasons.some(item => item.year === year));
 }
