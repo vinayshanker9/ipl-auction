@@ -114,3 +114,6 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 @media(max-width:380px){
   .site-nav button{font-size:9px}
 }
+.price{min-height:1em;white-space:nowrap}
+.bid-flash{animation:none;will-change:auto;transform:none}
+@media(max-width:760px){.auction-controls{position:static;inset:auto;background:transparent;padding:7px 0;z-index:auto}}

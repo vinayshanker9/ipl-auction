@@ -62,6 +62,22 @@ describe("shared auction rules", () => {
     expect(auctionPool("season", 2018).every(player => player.stats?.scope === "IPL 2018")).toBe(true);
     expect(availableAuctionSeasons()).toEqual(Array.from({ length: 19 }, (_, index) => 2008 + index));
   });
+  it("opens every recorded season pool at base price and charges the accepted bid", () => {
+    for (const year of availableAuctionSeasons()) {
+      const pool = auctionPool("season", year);
+      expect(pool.length, `IPL ${year} pool`).toBeGreaterThan(0);
+      for (const player of pool) {
+        const state = initialAuction([player], ["mumbai"]);
+        expect(state.currentPrice).toBe(player.basePrice);
+        const amount = state.currentPrice + nextIncrement(state.currentPrice);
+        const bid = placeBid(state, "mumbai", "human", 0, amount);
+        expect(bid.currentPrice).toBe(amount);
+        const closed = closePlayer(bid, 1);
+        expect(closed.teams.mumbai.purse).toBe(state.teams.mumbai.purse - amount);
+        expect(closed.teams.mumbai.squad[0]?.price).toBe(amount);
+      }
+    }
+  });
   it("calculates squad strength from IPL runs and wickets alone", () => {
     const player = { ...players[0], stats: { scope: "IPL CAREER", matches: 10, runs: 900, average: 45, strikeRate: 130, wickets: 35, economy: 8 } };
     const revisedAuctionPrice = { ...player, basePrice: player.basePrice * 10_000 };
