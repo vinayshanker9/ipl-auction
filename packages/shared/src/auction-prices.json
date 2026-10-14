@@ -1,0 +1,1979 @@
+{
+  "sources": {
+    "ipl-2025-auction-dataset": {
+      "url": "https://www.kaggle.com/datasets/souviksamanta1053/ipl-2025-mega-auction-dataset",
+      "mirror": "https://github.com/souvik1053/IPL-2025-Mega-Auction-Dataset",
+      "notes": "Published compilation scraped from CricTracker. Numeric sold values only; retained players are marked separately. Not an official live feed."
+    },
+    "ipl-winners-auction-summary": {
+      "url": "https://www.iplwinners.net/auction/",
+      "notes": "One reported highest sale per season; used only when no player-specific 2025 price is available."
+    },
+    "kkr-2026-auction-recap": {
+      "url": "https://www.kkr.in/news/kkr-go-big-at-ipl-2026-auction-blend-global-firepower-with-indian-promise",
+      "notes": "Official franchise recap for Cameron Green’s 2026 auction price."
+    }
+  },
+  "prices": [
+    {
+      "player": "Aaron Hardie",
+      "season": 2025,
+      "amountLakh": 125,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Abdul Samad",
+      "season": 2025,
+      "amountLakh": 420,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Abhinandan Singh",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Abhinav Manohar",
+      "season": 2025,
+      "amountLakh": 320,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Abhishek Sharma",
+      "season": 2025,
+      "amountLakh": 1400,
+      "team": "SRH",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Abishek Porel",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "DC",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Adam Zampa",
+      "season": 2025,
+      "amountLakh": 240,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Aiden Markram",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ajay Mandal",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ajinkya Rahane",
+      "season": 2025,
+      "amountLakh": 150,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Akash Deep",
+      "season": 2025,
+      "amountLakh": 800,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Akash Madhwal",
+      "season": 2025,
+      "amountLakh": 120,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Akash Singh",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "AM Ghazanfar",
+      "season": 2025,
+      "amountLakh": 480,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Andre Russell",
+      "season": 2025,
+      "amountLakh": 1200,
+      "team": "KKR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Angkrish Raghuvanshi",
+      "season": 2025,
+      "amountLakh": 300,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Aniket Verma",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Anrich Nortje",
+      "season": 2025,
+      "amountLakh": 650,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Anshul Kamboj",
+      "season": 2025,
+      "amountLakh": 340,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Anuj Rawat",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Anukul Roy",
+      "season": 2025,
+      "amountLakh": 40,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Arjun Tendulkar",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Arshad Khan",
+      "season": 2025,
+      "amountLakh": 130,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Arshdeep Singh",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Arshin Kulkarni",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Aryan Juyal",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ashok Sharma",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ashutosh Sharma",
+      "season": 2025,
+      "amountLakh": 380,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ashwani Kumar",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Atharva Taide",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Avesh Khan",
+      "season": 2025,
+      "amountLakh": 975,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Axar Patel",
+      "season": 2025,
+      "amountLakh": 1650,
+      "team": "DC",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ayush Badoni",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "LSG",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Azmatullah Omarzai",
+      "season": 2025,
+      "amountLakh": 240,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ben Stokes",
+      "season": 2017,
+      "amountLakh": 1450,
+      "team": "RPS",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Ben Stokes",
+      "season": 2018,
+      "amountLakh": 1250,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Bevon Jacobs",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Bhuvneshwar Kumar",
+      "season": 2025,
+      "amountLakh": 1075,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Brydon Carse",
+      "season": 2025,
+      "amountLakh": 100,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "C Andre Siddarth",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Cameron Green",
+      "season": 2026,
+      "amountLakh": 2520,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "kkr-2026-auction-recap"
+    },
+    {
+      "player": "Chris Morris",
+      "season": 2021,
+      "amountLakh": 1625,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Darshan Nalkande",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "David Miller",
+      "season": 2025,
+      "amountLakh": 750,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Deepak Chahar",
+      "season": 2025,
+      "amountLakh": 925,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Deepak Hooda",
+      "season": 2025,
+      "amountLakh": 170,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Devdutt Padikkal",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Devon Conway",
+      "season": 2025,
+      "amountLakh": 625,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Dhruv Jurel",
+      "season": 2025,
+      "amountLakh": 1400,
+      "team": "RR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Digvesh Singh",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Donovan Ferreira",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Dushmantha Chameera",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Eshan Malinga",
+      "season": 2025,
+      "amountLakh": 120,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Faf du Plessis",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Fazalhaq Farooqi",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Gautam Gambhir",
+      "season": 2011,
+      "amountLakh": 1425,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Gerald Coetzee",
+      "season": 2025,
+      "amountLakh": 240,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Glenn Maxwell",
+      "season": 2013,
+      "amountLakh": 600,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Glenn Maxwell",
+      "season": 2025,
+      "amountLakh": 420,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Glenn Phillips",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Gurjapneet Singh",
+      "season": 2025,
+      "amountLakh": 220,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Gurnoor Brar",
+      "season": 2025,
+      "amountLakh": 130,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Hardik Pandya",
+      "season": 2025,
+      "amountLakh": 1635,
+      "team": "MI",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Harnoor Singh",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Harpreet Brar",
+      "season": 2025,
+      "amountLakh": 150,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Harry Brook",
+      "season": 2025,
+      "amountLakh": 625,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Harshal Patel",
+      "season": 2025,
+      "amountLakh": 800,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Harshit Rana",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "KKR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Heinrich Klaasen",
+      "season": 2025,
+      "amountLakh": 2300,
+      "team": "SRH",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Himmat Singh",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ishan Kishan",
+      "season": 2022,
+      "amountLakh": 1525,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Ishan Kishan",
+      "season": 2025,
+      "amountLakh": 1125,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ishant Sharma",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jacob Bethell",
+      "season": 2025,
+      "amountLakh": 260,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jake Fraser-McGurk",
+      "season": 2025,
+      "amountLakh": 900,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jamie Overton",
+      "season": 2025,
+      "amountLakh": 150,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jasprit Bumrah",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "MI",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jayant Yadav",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jaydev Unadkat",
+      "season": 2019,
+      "amountLakh": 840,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Jaydev Unadkat",
+      "season": 2025,
+      "amountLakh": 100,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jitesh Sharma",
+      "season": 2025,
+      "amountLakh": 1100,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jofra Archer",
+      "season": 2025,
+      "amountLakh": 1250,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Jos Buttler",
+      "season": 2025,
+      "amountLakh": 1575,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Josh Hazlewood",
+      "season": 2025,
+      "amountLakh": 1250,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Josh Inglis",
+      "season": 2025,
+      "amountLakh": 260,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kagiso Rabada",
+      "season": 2025,
+      "amountLakh": 1075,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kamindu Mendis",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kamlesh Nagarkoti",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Karim Janat",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Karn Sharma",
+      "season": 2025,
+      "amountLakh": 50,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Karun Nair",
+      "season": 2025,
+      "amountLakh": 50,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kevin Pietersen",
+      "season": 2009,
+      "amountLakh": 980,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Khaleel Ahmed",
+      "season": 2025,
+      "amountLakh": 480,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "KL Rahul",
+      "season": 2025,
+      "amountLakh": 1400,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Krishnan Shrijith",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Krunal Pandya",
+      "season": 2025,
+      "amountLakh": 575,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kuldeep Sen",
+      "season": 2025,
+      "amountLakh": 80,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kuldeep Yadav",
+      "season": 2025,
+      "amountLakh": 1325,
+      "team": "DC",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kulwant Khejroliya",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kumar Kartikeya",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kumar Kushagra",
+      "season": 2025,
+      "amountLakh": 65,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kunal Singh Rathore",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Kwena Maphaka",
+      "season": 2025,
+      "amountLakh": 150,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Liam Livingstone",
+      "season": 2025,
+      "amountLakh": 875,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Lizaad Williams",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Lockie Ferguson",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Lungi Ngidi",
+      "season": 2025,
+      "amountLakh": 100,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Luvnith Sisodia",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "M Shahrukh Khan",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "GT",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Madhav Tiwari",
+      "season": 2025,
+      "amountLakh": 40,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Maheesh Theekshana",
+      "season": 2025,
+      "amountLakh": 440,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mahipal Lomror",
+      "season": 2025,
+      "amountLakh": 170,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Manav Suthar",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Manimaran Siddharth",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Manish Pandey",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Manoj Bhandage",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Manvanth Kumar",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Marco Jansen",
+      "season": 2025,
+      "amountLakh": 700,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Marcus Stoinis",
+      "season": 2025,
+      "amountLakh": 1100,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Matheesha Pathirana",
+      "season": 2025,
+      "amountLakh": 1300,
+      "team": "CSK",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Matthew Breetzke",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mayank Markande",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mayank Yadav",
+      "season": 2025,
+      "amountLakh": 1100,
+      "team": "LSG",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mitchell Marsh",
+      "season": 2025,
+      "amountLakh": 340,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mitchell Santner",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mitchell Starc",
+      "season": 2024,
+      "amountLakh": 2475,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Mitchell Starc",
+      "season": 2025,
+      "amountLakh": 1175,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Moeen Ali",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mohammed Shami",
+      "season": 2025,
+      "amountLakh": 1000,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mohammed Siraj",
+      "season": 2025,
+      "amountLakh": 1225,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mohit Rathee",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mohit Sharma",
+      "season": 2025,
+      "amountLakh": 220,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mohsin Khan",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "LSG",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "MS Dhoni",
+      "season": 2008,
+      "amountLakh": 950,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "MS Dhoni",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "CSK",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mukesh Choudhary",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Mukesh Kumar",
+      "season": 2025,
+      "amountLakh": 800,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Musheer Khan",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Naman Dhir",
+      "season": 2025,
+      "amountLakh": 525,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Nathan Ellis",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Nehal Wadhera",
+      "season": 2025,
+      "amountLakh": 420,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Nicholas Pooran",
+      "season": 2025,
+      "amountLakh": 2100,
+      "team": "LSG",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Nishant Sindhu",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Nitish Kumar Reddy",
+      "season": 2025,
+      "amountLakh": 600,
+      "team": "SRH",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Nitish Rana",
+      "season": 2025,
+      "amountLakh": 420,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Noor Ahmad",
+      "season": 2025,
+      "amountLakh": 1000,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Nuwan Thushara",
+      "season": 2025,
+      "amountLakh": 160,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Pat Cummins",
+      "season": 2020,
+      "amountLakh": 1550,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Pat Cummins",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "SRH",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Phil Salt",
+      "season": 2025,
+      "amountLakh": 1150,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Prabhsimran Singh",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "PBKS",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Prasidh Krishna",
+      "season": 2025,
+      "amountLakh": 950,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Praveen Dubey",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Prince Yadav",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Priyansh Arya",
+      "season": 2025,
+      "amountLakh": 380,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Pyla Avinash",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Quinton de Kock",
+      "season": 2025,
+      "amountLakh": 360,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rachin Ravindra",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rahmanullah Gurbaz",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rahul Chahar",
+      "season": 2025,
+      "amountLakh": 320,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rahul Tewatia",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "GT",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rahul Tripathi",
+      "season": 2025,
+      "amountLakh": 340,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Raj Bawa",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rajat Patidar",
+      "season": 2025,
+      "amountLakh": 1100,
+      "team": "RCB",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rajvardhan Hangargekar",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ramakrishna Ghosh",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ramandeep Singh",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "KKR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rashid Khan",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "GT",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rasikh Salam",
+      "season": 2025,
+      "amountLakh": 600,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ravi Bishnoi",
+      "season": 2025,
+      "amountLakh": 1100,
+      "team": "LSG",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ravichandran Ashwin",
+      "season": 2025,
+      "amountLakh": 975,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ravindra Jadeja",
+      "season": 2012,
+      "amountLakh": 1280,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Ravindra Jadeja",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "CSK",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Reece Topley",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rinku Singh",
+      "season": 2025,
+      "amountLakh": 1300,
+      "team": "KKR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rishabh Pant",
+      "season": 2025,
+      "amountLakh": 2700,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Riyan Parag",
+      "season": 2025,
+      "amountLakh": 1400,
+      "team": "RR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Robin Minz",
+      "season": 2025,
+      "amountLakh": 65,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rohit Sharma",
+      "season": 2025,
+      "amountLakh": 1630,
+      "team": "MI",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Romario Shepherd",
+      "season": 2025,
+      "amountLakh": 150,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Rovman Powell",
+      "season": 2025,
+      "amountLakh": 150,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ruturaj Gaikwad",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "CSK",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Ryan Rickelton",
+      "season": 2025,
+      "amountLakh": 100,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sachin Baby",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sai Kishore",
+      "season": 2025,
+      "amountLakh": 200,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sai Sudharsan",
+      "season": 2025,
+      "amountLakh": 850,
+      "team": "GT",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sam Curran",
+      "season": 2023,
+      "amountLakh": 1850,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Sam Curran",
+      "season": 2025,
+      "amountLakh": 240,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sameer Rizvi",
+      "season": 2025,
+      "amountLakh": 95,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sandeep Sharma",
+      "season": 2025,
+      "amountLakh": 400,
+      "team": "RR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sanju Samson",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "RR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Satyanarayana Raju",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shahbaz Ahmed",
+      "season": 2025,
+      "amountLakh": 240,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shaik Rasheed",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shamar Joseph",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "LSG",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shane Bond",
+      "season": 2010,
+      "amountLakh": 480,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Shane Watson",
+      "season": 2016,
+      "amountLakh": 950,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Shashank Singh",
+      "season": 2025,
+      "amountLakh": 550,
+      "team": "PBKS",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "season": 2025,
+      "amountLakh": 260,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shimron Hetmyer",
+      "season": 2025,
+      "amountLakh": 1100,
+      "team": "RR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shivam Dube",
+      "season": 2025,
+      "amountLakh": 1200,
+      "team": "CSK",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shreyas Gopal",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shreyas Iyer",
+      "season": 2025,
+      "amountLakh": 2675,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shubham Dubey",
+      "season": 2025,
+      "amountLakh": 80,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Shubman Gill",
+      "season": 2025,
+      "amountLakh": 1650,
+      "team": "GT",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Simarjeet Singh",
+      "season": 2025,
+      "amountLakh": 150,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Spencer Johnson",
+      "season": 2025,
+      "amountLakh": 280,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Sunil Narine",
+      "season": 2025,
+      "amountLakh": 1200,
+      "team": "KKR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Suryakumar Yadav",
+      "season": 2025,
+      "amountLakh": 1635,
+      "team": "MI",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Suryansh Shedge",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Suyash Sharma",
+      "season": 2025,
+      "amountLakh": 260,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Swapnil Singh",
+      "season": 2025,
+      "amountLakh": 50,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Swastik Chikara",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "T Natarajan",
+      "season": 2025,
+      "amountLakh": 1075,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Tilak Varma",
+      "season": 2025,
+      "amountLakh": 800,
+      "team": "MI",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Tim David",
+      "season": 2025,
+      "amountLakh": 300,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Travis Head",
+      "season": 2025,
+      "amountLakh": 1400,
+      "team": "SRH",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Trent Boult",
+      "season": 2025,
+      "amountLakh": 1250,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Tripurana Vijay",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Tristan Stubbs",
+      "season": 2025,
+      "amountLakh": 1000,
+      "team": "DC",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Tushar Deshpande",
+      "season": 2025,
+      "amountLakh": 650,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Umran Malik",
+      "season": 2025,
+      "amountLakh": 75,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vaibhav Arora",
+      "season": 2025,
+      "amountLakh": 180,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vaibhav Suryavanshi",
+      "season": 2025,
+      "amountLakh": 110,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vansh Bedi",
+      "season": 2025,
+      "amountLakh": 55,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Varun Chakravarthy",
+      "season": 2025,
+      "amountLakh": 1200,
+      "team": "KKR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Venkatesh Iyer",
+      "season": 2025,
+      "amountLakh": 2375,
+      "team": "KKR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vignesh Puthur",
+      "season": 2025,
+      "amountLakh": 30,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vijay Shankar",
+      "season": 2025,
+      "amountLakh": 120,
+      "team": "CSK",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vijaykumar Vyshak",
+      "season": 2025,
+      "amountLakh": 180,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vipraj Nigam",
+      "season": 2025,
+      "amountLakh": 50,
+      "team": "DC",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Virat Kohli",
+      "season": 2025,
+      "amountLakh": 2100,
+      "team": "RCB",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Vishnu Vinod",
+      "season": 2025,
+      "amountLakh": 95,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Wanindu Hasaranga",
+      "season": 2025,
+      "amountLakh": 525,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Washington Sundar",
+      "season": 2025,
+      "amountLakh": 320,
+      "team": "GT",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Will Jacks",
+      "season": 2025,
+      "amountLakh": 525,
+      "team": "MI",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Xavier Bartlett",
+      "season": 2025,
+      "amountLakh": 80,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Yash Dayal",
+      "season": 2025,
+      "amountLakh": 500,
+      "team": "RCB",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Yash Thakur",
+      "season": 2025,
+      "amountLakh": 160,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Yashasvi Jaiswal",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "RR",
+      "kind": "retention",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Yudhvir Singh",
+      "season": 2025,
+      "amountLakh": 35,
+      "team": "RR",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Yuvraj Singh",
+      "season": 2014,
+      "amountLakh": 1400,
+      "team": "RCB",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Yuvraj Singh",
+      "season": 2015,
+      "amountLakh": 1600,
+      "team": "DD",
+      "kind": "auction-sale",
+      "source": "ipl-winners-auction-summary"
+    },
+    {
+      "player": "Yuzvendra Chahal",
+      "season": 2025,
+      "amountLakh": 1800,
+      "team": "PBKS",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    },
+    {
+      "player": "Zeeshan Ansari",
+      "season": 2025,
+      "amountLakh": 40,
+      "team": "SRH",
+      "kind": "auction-sale",
+      "source": "ipl-2025-auction-dataset"
+    }
+  ]
+}

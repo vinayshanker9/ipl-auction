@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { auctionPool, availableAuctionSeasons, canBid, closePlayer, initialAuction, minimumSquadReserve, nextIncrement, orderPlayers, performanceIndex, placeBid, randomizePlayersBySet, startNextPlayer, teamPerformanceStrength } from "../src/index.js";
+import { applyPublishedPrice, auctionPool, availableAuctionSeasons, canBid, closePlayer, initialAuction, minimumSquadReserve, nextIncrement, orderPlayers, performanceIndex, placeBid, randomizePlayersBySet, startNextPlayer, teamPerformanceStrength } from "../src/index.js";
 import players from "../src/players.json";
 import auctionShortlists from "../src/auction-shortlists.json";
+import auctionPrices from "../src/auction-prices.json";
 import careerStats from "../../client/src/data/ipl-career-stats.json";
 
 describe("shared auction rules", () => {
@@ -102,6 +103,23 @@ describe("shared auction rules", () => {
     expect(auctionPool("season", 2018).length).toBeGreaterThan(100);
     expect(auctionPool("season", 2018).every(player => player.stats?.scope === "IPL 2018")).toBe(true);
     expect(availableAuctionSeasons()).toEqual(Array.from({ length: 19 }, (_, index) => 2008 + index));
+  });
+  it("uses published player sale prices instead of IPL performance to set opening prices", () => {
+    const legends = auctionPool("legends", 2026);
+    const season = auctionPool("season", 2025);
+    const virat = legends.find(player => player.name === "Virat Kohli")!;
+    const shreyas = season.find(player => player.name === "Shreyas Iyer")!;
+    const sale = auctionPrices.prices.find(price => price.player === "Shreyas Iyer" && price.season === 2025)!;
+    expect(virat.basePrice).toBe(2_100);
+    expect(virat.priceReference).toMatchObject({ season: 2025, amount: 2_100, kind: "retention" });
+    expect(shreyas.basePrice).toBe(sale.amountLakh);
+    expect(shreyas.priceReference).toMatchObject({ season: 2025, amount: 2_675, team: "PBKS", kind: "auction-sale" });
+    expect(season.find(player => player.name === "Harry Brook")?.basePrice).toBe(625);
+    const noSaleRecord = season.find(player => player.name === "Syed Khaleel Ahmed")!;
+    expect(noSaleRecord.basePrice).toBe(200);
+    expect(noSaleRecord.priceReference).toBeUndefined();
+    expect(applyPublishedPrice(players.find(player => player.name === "Virat Kohli")!).basePrice).toBe(2_100);
+    expect(applyPublishedPrice({ ...players[0], name: "Unlisted Player" }).basePrice).toBe(20);
   });
   it("opens every recorded season pool at base price and charges the accepted bid", () => {
     for (const year of availableAuctionSeasons()) {
