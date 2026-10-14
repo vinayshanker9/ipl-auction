@@ -4,7 +4,7 @@ export const AUCTION_CONFIG = {
   maxSquad: 25,
   maxOverseas: 8,
   basePrice: 20,
-  bidSlabs: [{ below: 200, increment: 5 }, { below: 500, increment: 10 }, { below: 1000, increment: 20 }, { below: Infinity, increment: 25 }],
+  bidSlabs: [{ below: Infinity, increment: 5 }],
   playerTimerMs: 10_000,
   minPlayerTimerMs: 5_000,
   maxPlayerTimerMs: 60_000,

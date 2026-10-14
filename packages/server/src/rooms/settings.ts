@@ -2,6 +2,9 @@ import { auctionPool, randomizePlayersBySet } from "@crease/shared";
 import type { Room, RoomOptions } from "./store.js";
 
 export function applyHostSettings(room: Room, next: RoomOptions, now = Date.now()) {
+  if (room.state.phase !== "lobby" && next.showPlayerStats !== room.options.showPlayerStats) {
+    throw new Error("Player performance visibility can only be changed before the auction starts");
+  }
   const poolChanged = next.poolMode !== room.options.poolMode || next.seasonYear !== room.options.seasonYear;
   const timerChanged = next.playerTimerSeconds !== room.options.playerTimerSeconds;
   room.options = { ...room.options, ...next };

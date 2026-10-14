@@ -10,12 +10,13 @@ describe("live host settings",()=>{
     const pool=orderPlayers(auctionPool("season",2026));
     return {code:"TEST01",hostId:"host",members:[],state:initialAuction(pool,["mumbai"],10_000),createdAt:0,options,poolPlayers:pool,poolCursor:0,chat:[]};
   }
-  it("lets the host change the timer and stats visibility during a live lot",()=>{
+  it("lets the host adjust the timer during a live lot but locks stats visibility",()=>{
     const room=liveRoom();const now=10_000;
-    const result=applyHostSettings(room,{...room.options,playerTimerSeconds:30,showPlayerStats:false},now);
+    const result=applyHostSettings(room,{...room.options,playerTimerSeconds:30},now);
     expect(result.clockReset).toBe(true);
     expect(room.state.deadline).toBe(now+30_000);
-    expect(room.options.showPlayerStats).toBe(false);
+    expect(room.options.showPlayerStats).toBe(true);
+    expect(()=>applyHostSettings(room,{...room.options,showPlayerStats:false},now)).toThrow("only be changed before");
   });
   it("switches the upcoming pool without interrupting or repeating the current lot",()=>{
     const room=liveRoom();

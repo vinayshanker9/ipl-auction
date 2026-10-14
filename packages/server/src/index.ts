@@ -62,8 +62,8 @@ io.on("connection",socket=>{
       const schema=(schemas as any)[event]; if(!schema) return reject(socket,"Unknown message");
       const data=schema.parse(payload??{}); const connLimit=event.startsWith("auction:")?12:event.startsWith("chat:")||event.startsWith("reaction:")?8:30;
       if(limited(socket.id,connLimit)) return reject(socket,"Slow down and try again");
-      if(event==="room:create") { const {room,member}=createRoom(data.name,socket.id); socket.join(room.code); socket.emit("room:created",{code:room.code,token:member.token,state:stateFor(room)}); return; }
-      if(event==="room:join"||event==="room:spectate") { const code=data.code.toUpperCase(); const {room,member}=joinRoom(code,event==="room:join"?data.name:"Watcher",socket.id,event==="room:join"?data.token:undefined,event==="room:spectate"); socket.join(room.code); socket.emit("room:joined",{code:room.code,token:member.token,state:stateFor(room)}); sendState(room); return; }
+      if(event==="room:create") { const {room,member}=createRoom(data.name,socket.id); socket.join(room.code); socket.emit("room:created",{code:room.code,token:member.token,memberId:member.id,franchiseId:member.franchiseId,state:stateFor(room)}); return; }
+      if(event==="room:join"||event==="room:spectate") { const code=data.code.toUpperCase(); const {room,member}=joinRoom(code,event==="room:join"?data.name:"Watcher",socket.id,event==="room:join"?data.token:undefined,event==="room:spectate"); socket.join(room.code); socket.emit("room:joined",{code:room.code,token:member.token,memberId:member.id,franchiseId:member.franchiseId,state:stateFor(room)}); sendState(room); return; }
       const room=allRooms().find(r=>r.members.some(m=>m.socketId===socket.id)); if(!room) return reject(socket,"Join a room first");
       const member=memberFor(socket,room); if(!member) return;
       if(member.spectator) return reject(socket,"Spectators cannot change the auction");

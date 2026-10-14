@@ -73,3 +73,41 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 }
 .setting-note{grid-column:1/-1;margin:0;color:#747b75;font-size:10px;line-height:1.5}
 @media(max-width:760px){.setting-note{font-size:11px}}
+@keyframes bid-land{0%{color:#d35b35;transform:translateY(2px)}100%{color:#202321;transform:translateY(0)}}
+.bid-flash{animation:bid-land .24s ease-out}
+@media(max-width:760px){
+  .topbar{font-size:12px}
+  .connection{font-size:10px}
+  .tabs>button{font-size:11px}
+  .section-kicker,.eyebrow{font-size:11px}
+  .section-kicker span{font-size:10px}
+  .player-index,.player-meta,.player-plate p,.player-stats-note{font-size:12px!important}
+  .bid-head,.bid-foot,.event-note{font-size:11px}
+  .bid-head span:last-child{font-size:10px}
+  .bid-button,.pass-button{font-size:12px}
+  .bid-button b,.pass-button b{font-size:10px}
+  .bid-button span{font-size:14px}
+  .history-row b,.presence,.team-row{font-size:12px}
+  .history-row small,.presence small,.team-head{font-size:10px}
+  .franchise-option span{font-size:12px}
+  .franchise-option small{font-size:10px}
+  .lobby-bottom{font-size:11px}
+  .host-toolbar label,.host-settings label{font-size:11px}
+  .host-toolbar select,.host-settings select{font-size:14px}
+  .host-toolbar button{font-size:11px}
+  .field-label,.join-row button,.primary,.secondary{font-size:12px}
+  .primary span{font-size:10px}
+}
+@media(max-width:380px){
+  .tabs>button{font-size:10px}
+  .bid-button,.pass-button{font-size:11px}
+  .host-toolbar label{font-size:10px}
+}
+@media(max-width:760px){
+  .site-nav button,.reaction-row button{font-size:11px}
+  .entry-foot{font-size:9px}
+  .page-foot{font-size:9px}
+}
+@media(max-width:380px){
+  .site-nav button{font-size:9px}
+}

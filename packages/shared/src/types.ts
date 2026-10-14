@@ -27,8 +27,8 @@ export type ClientMessage =
  | { type: "reaction:send"; text: string };
 
 export type ServerMessage =
- | { type: "room:created"; code: string; token: string; state: unknown }
- | { type: "room:joined"; code: string; token: string; state: unknown }
+ | { type: "room:created"; code: string; token: string; memberId: string; franchiseId: FranchiseId | null; state: unknown }
+ | { type: "room:joined"; code: string; token: string; memberId: string; franchiseId: FranchiseId | null; state: unknown }
  | { type: "room:state"; state: unknown; serverTime: number }
  | { type: "room:error"; message: string }
  | { type: "lobby:updated"; state: unknown }

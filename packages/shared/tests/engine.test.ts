@@ -3,8 +3,8 @@ import { auctionPool, availableAuctionSeasons, canBid, closePlayer, initialAucti
 import players from "../src/players.json";
 
 describe("shared auction rules", () => {
-  it("uses configured increment slabs and computes minimum squad reserve", () => {
-    expect([nextIncrement(0), nextIncrement(200), nextIncrement(500), nextIncrement(1000)]).toEqual([5, 10, 20, 25]);
+  it("uses the fixed bid increment and computes minimum squad reserve", () => {
+    expect([nextIncrement(0), nextIncrement(200), nextIncrement(500), nextIncrement(1000)]).toEqual([5, 5, 5, 5]);
     expect(minimumSquadReserve({ franchiseId: "mumbai", purse: 1200, squad: [], isBot: false })).toBe(360);
   });
   it("accepts the next exact bid and rejects a duplicate amount", () => {
