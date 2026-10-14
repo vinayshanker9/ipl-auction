@@ -3,7 +3,7 @@
     "ipl-2025-auction-dataset": {
       "url": "https://www.kaggle.com/datasets/souviksamanta1053/ipl-2025-mega-auction-dataset",
       "mirror": "https://github.com/souvik1053/IPL-2025-Mega-Auction-Dataset",
-      "notes": "Published compilation scraped from CricTracker. Numeric sold values only; retained players are marked separately. Not an official live feed."
+      "notes": "Published compilation scraped from CricTracker. Includes observed sold/retention prices and official auction base prices for numeric-base auction sales. Not an official live feed."
     },
     "ipl-winners-auction-summary": {
       "url": "https://www.iplwinners.net/auction/",
@@ -21,7 +21,8 @@
       "amountLakh": 125,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 125
     },
     {
       "player": "Abdul Samad",
@@ -29,7 +30,8 @@
       "amountLakh": 420,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Abhinandan Singh",
@@ -37,7 +39,8 @@
       "amountLakh": 30,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Abhinav Manohar",
@@ -45,7 +48,8 @@
       "amountLakh": 320,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Abhishek Sharma",
@@ -69,7 +73,8 @@
       "amountLakh": 240,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Aiden Markram",
@@ -77,7 +82,8 @@
       "amountLakh": 200,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Ajay Mandal",
@@ -85,7 +91,8 @@
       "amountLakh": 30,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ajinkya Rahane",
@@ -93,7 +100,8 @@
       "amountLakh": 150,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Akash Deep",
@@ -101,7 +109,8 @@
       "amountLakh": 800,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Akash Madhwal",
@@ -109,7 +118,8 @@
       "amountLakh": 120,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Akash Singh",
@@ -117,7 +127,8 @@
       "amountLakh": 30,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "AM Ghazanfar",
@@ -125,7 +136,8 @@
       "amountLakh": 480,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Andre Russell",
@@ -141,7 +153,8 @@
       "amountLakh": 300,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Aniket Verma",
@@ -149,7 +162,8 @@
       "amountLakh": 30,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Anrich Nortje",
@@ -157,7 +171,8 @@
       "amountLakh": 650,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Anshul Kamboj",
@@ -165,7 +180,8 @@
       "amountLakh": 340,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Anuj Rawat",
@@ -173,7 +189,8 @@
       "amountLakh": 30,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Anukul Roy",
@@ -181,7 +198,8 @@
       "amountLakh": 40,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Arjun Tendulkar",
@@ -189,7 +207,8 @@
       "amountLakh": 30,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Arshad Khan",
@@ -197,7 +216,8 @@
       "amountLakh": 130,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Arshdeep Singh",
@@ -205,7 +225,8 @@
       "amountLakh": 1800,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Arshin Kulkarni",
@@ -213,7 +234,8 @@
       "amountLakh": 30,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Aryan Juyal",
@@ -221,7 +243,8 @@
       "amountLakh": 30,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ashok Sharma",
@@ -229,7 +252,8 @@
       "amountLakh": 30,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ashutosh Sharma",
@@ -237,7 +261,8 @@
       "amountLakh": 380,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ashwani Kumar",
@@ -245,7 +270,8 @@
       "amountLakh": 30,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Atharva Taide",
@@ -253,7 +279,8 @@
       "amountLakh": 30,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Avesh Khan",
@@ -261,7 +288,8 @@
       "amountLakh": 975,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Axar Patel",
@@ -285,7 +313,8 @@
       "amountLakh": 240,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Ben Stokes",
@@ -309,7 +338,8 @@
       "amountLakh": 30,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Bhuvneshwar Kumar",
@@ -317,7 +347,8 @@
       "amountLakh": 1075,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Brydon Carse",
@@ -325,7 +356,8 @@
       "amountLakh": 100,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "C Andre Siddarth",
@@ -333,7 +365,8 @@
       "amountLakh": 30,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Cameron Green",
@@ -357,7 +390,8 @@
       "amountLakh": 30,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "David Miller",
@@ -365,7 +399,8 @@
       "amountLakh": 750,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Deepak Chahar",
@@ -373,7 +408,8 @@
       "amountLakh": 925,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Deepak Hooda",
@@ -381,7 +417,8 @@
       "amountLakh": 170,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Devdutt Padikkal",
@@ -389,7 +426,8 @@
       "amountLakh": 200,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Devon Conway",
@@ -397,7 +435,8 @@
       "amountLakh": 625,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Dhruv Jurel",
@@ -413,7 +452,8 @@
       "amountLakh": 30,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Donovan Ferreira",
@@ -421,7 +461,8 @@
       "amountLakh": 75,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Dushmantha Chameera",
@@ -429,7 +470,8 @@
       "amountLakh": 75,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Eshan Malinga",
@@ -437,7 +479,8 @@
       "amountLakh": 120,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Faf du Plessis",
@@ -445,7 +488,8 @@
       "amountLakh": 200,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Fazalhaq Farooqi",
@@ -453,7 +497,8 @@
       "amountLakh": 200,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Gautam Gambhir",
@@ -469,7 +514,8 @@
       "amountLakh": 240,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 125
     },
     {
       "player": "Glenn Maxwell",
@@ -485,7 +531,8 @@
       "amountLakh": 420,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Glenn Phillips",
@@ -493,7 +540,8 @@
       "amountLakh": 200,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Gurjapneet Singh",
@@ -501,7 +549,8 @@
       "amountLakh": 220,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Gurnoor Brar",
@@ -509,7 +558,8 @@
       "amountLakh": 130,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Hardik Pandya",
@@ -525,7 +575,8 @@
       "amountLakh": 30,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Harpreet Brar",
@@ -533,7 +584,8 @@
       "amountLakh": 150,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Harry Brook",
@@ -541,7 +593,8 @@
       "amountLakh": 625,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Harshal Patel",
@@ -549,7 +602,8 @@
       "amountLakh": 800,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Harshit Rana",
@@ -573,7 +627,8 @@
       "amountLakh": 30,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ishan Kishan",
@@ -589,7 +644,8 @@
       "amountLakh": 1125,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Ishant Sharma",
@@ -597,7 +653,8 @@
       "amountLakh": 75,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Jacob Bethell",
@@ -605,7 +662,8 @@
       "amountLakh": 260,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 125
     },
     {
       "player": "Jake Fraser-McGurk",
@@ -613,7 +671,8 @@
       "amountLakh": 900,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Jamie Overton",
@@ -621,7 +680,8 @@
       "amountLakh": 150,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Jasprit Bumrah",
@@ -637,7 +697,8 @@
       "amountLakh": 75,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Jaydev Unadkat",
@@ -653,7 +714,8 @@
       "amountLakh": 100,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Jitesh Sharma",
@@ -661,7 +723,8 @@
       "amountLakh": 1100,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Jofra Archer",
@@ -669,7 +732,8 @@
       "amountLakh": 1250,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Jos Buttler",
@@ -677,7 +741,8 @@
       "amountLakh": 1575,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Josh Hazlewood",
@@ -685,7 +750,8 @@
       "amountLakh": 1250,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Josh Inglis",
@@ -693,7 +759,8 @@
       "amountLakh": 260,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Kagiso Rabada",
@@ -701,7 +768,8 @@
       "amountLakh": 1075,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Kamindu Mendis",
@@ -709,7 +777,8 @@
       "amountLakh": 75,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Kamlesh Nagarkoti",
@@ -717,7 +786,8 @@
       "amountLakh": 30,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Karim Janat",
@@ -725,7 +795,8 @@
       "amountLakh": 75,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Karn Sharma",
@@ -733,7 +804,8 @@
       "amountLakh": 50,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 50
     },
     {
       "player": "Karun Nair",
@@ -741,7 +813,8 @@
       "amountLakh": 50,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Kevin Pietersen",
@@ -757,7 +830,8 @@
       "amountLakh": 480,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "KL Rahul",
@@ -765,7 +839,8 @@
       "amountLakh": 1400,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Krishnan Shrijith",
@@ -773,7 +848,8 @@
       "amountLakh": 30,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Krunal Pandya",
@@ -781,7 +857,8 @@
       "amountLakh": 575,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Kuldeep Sen",
@@ -789,7 +866,8 @@
       "amountLakh": 80,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Kuldeep Yadav",
@@ -805,7 +883,8 @@
       "amountLakh": 30,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Kumar Kartikeya",
@@ -813,7 +892,8 @@
       "amountLakh": 30,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Kumar Kushagra",
@@ -821,7 +901,8 @@
       "amountLakh": 65,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Kunal Singh Rathore",
@@ -829,7 +910,8 @@
       "amountLakh": 30,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Kwena Maphaka",
@@ -837,7 +919,8 @@
       "amountLakh": 150,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Liam Livingstone",
@@ -845,7 +928,8 @@
       "amountLakh": 875,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Lizaad Williams",
@@ -853,7 +937,8 @@
       "amountLakh": 75,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Lockie Ferguson",
@@ -861,7 +946,8 @@
       "amountLakh": 200,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Lungi Ngidi",
@@ -869,7 +955,8 @@
       "amountLakh": 100,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Luvnith Sisodia",
@@ -877,7 +964,8 @@
       "amountLakh": 30,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "M Shahrukh Khan",
@@ -893,7 +981,8 @@
       "amountLakh": 40,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Maheesh Theekshana",
@@ -901,7 +990,8 @@
       "amountLakh": 440,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Mahipal Lomror",
@@ -909,7 +999,8 @@
       "amountLakh": 170,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 50
     },
     {
       "player": "Manav Suthar",
@@ -917,7 +1008,8 @@
       "amountLakh": 30,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Manimaran Siddharth",
@@ -925,7 +1017,8 @@
       "amountLakh": 75,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Manish Pandey",
@@ -933,7 +1026,8 @@
       "amountLakh": 75,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Manoj Bhandage",
@@ -941,7 +1035,8 @@
       "amountLakh": 30,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Manvanth Kumar",
@@ -949,7 +1044,8 @@
       "amountLakh": 30,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Marco Jansen",
@@ -957,7 +1053,8 @@
       "amountLakh": 700,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 125
     },
     {
       "player": "Marcus Stoinis",
@@ -965,7 +1062,8 @@
       "amountLakh": 1100,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Matheesha Pathirana",
@@ -981,7 +1079,8 @@
       "amountLakh": 75,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Mayank Markande",
@@ -989,7 +1088,8 @@
       "amountLakh": 30,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Mayank Yadav",
@@ -1005,7 +1105,8 @@
       "amountLakh": 340,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Mitchell Santner",
@@ -1013,7 +1114,8 @@
       "amountLakh": 200,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Mitchell Starc",
@@ -1029,7 +1131,8 @@
       "amountLakh": 1175,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Moeen Ali",
@@ -1037,7 +1140,8 @@
       "amountLakh": 200,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Mohammed Shami",
@@ -1045,7 +1149,8 @@
       "amountLakh": 1000,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Mohammed Siraj",
@@ -1053,7 +1158,8 @@
       "amountLakh": 1225,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Mohit Rathee",
@@ -1061,7 +1167,8 @@
       "amountLakh": 30,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Mohit Sharma",
@@ -1069,7 +1176,8 @@
       "amountLakh": 220,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 50
     },
     {
       "player": "Mohsin Khan",
@@ -1101,7 +1209,8 @@
       "amountLakh": 30,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Mukesh Kumar",
@@ -1109,7 +1218,8 @@
       "amountLakh": 800,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Musheer Khan",
@@ -1117,7 +1227,8 @@
       "amountLakh": 30,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Naman Dhir",
@@ -1125,7 +1236,8 @@
       "amountLakh": 525,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Nathan Ellis",
@@ -1133,7 +1245,8 @@
       "amountLakh": 200,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 125
     },
     {
       "player": "Nehal Wadhera",
@@ -1141,7 +1254,8 @@
       "amountLakh": 420,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Nicholas Pooran",
@@ -1157,7 +1271,8 @@
       "amountLakh": 30,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Nitish Kumar Reddy",
@@ -1173,7 +1288,8 @@
       "amountLakh": 420,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Noor Ahmad",
@@ -1181,7 +1297,8 @@
       "amountLakh": 1000,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Nuwan Thushara",
@@ -1189,7 +1306,8 @@
       "amountLakh": 160,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Pat Cummins",
@@ -1213,7 +1331,8 @@
       "amountLakh": 1150,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Prabhsimran Singh",
@@ -1229,7 +1348,8 @@
       "amountLakh": 950,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Praveen Dubey",
@@ -1237,7 +1357,8 @@
       "amountLakh": 30,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Prince Yadav",
@@ -1245,7 +1366,8 @@
       "amountLakh": 30,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Priyansh Arya",
@@ -1253,7 +1375,8 @@
       "amountLakh": 380,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Pyla Avinash",
@@ -1261,7 +1384,8 @@
       "amountLakh": 30,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Quinton de Kock",
@@ -1269,7 +1393,8 @@
       "amountLakh": 360,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Rachin Ravindra",
@@ -1277,7 +1402,8 @@
       "amountLakh": 400,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Rahmanullah Gurbaz",
@@ -1285,7 +1411,8 @@
       "amountLakh": 200,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Rahul Chahar",
@@ -1293,7 +1420,8 @@
       "amountLakh": 320,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Rahul Tewatia",
@@ -1309,7 +1437,8 @@
       "amountLakh": 340,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Raj Bawa",
@@ -1317,7 +1446,8 @@
       "amountLakh": 30,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Rajat Patidar",
@@ -1333,7 +1463,8 @@
       "amountLakh": 30,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ramakrishna Ghosh",
@@ -1341,7 +1472,8 @@
       "amountLakh": 30,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ramandeep Singh",
@@ -1365,7 +1497,8 @@
       "amountLakh": 600,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Ravi Bishnoi",
@@ -1381,7 +1514,8 @@
       "amountLakh": 975,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Ravindra Jadeja",
@@ -1405,7 +1539,8 @@
       "amountLakh": 75,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Rinku Singh",
@@ -1421,7 +1556,8 @@
       "amountLakh": 2700,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Riyan Parag",
@@ -1437,7 +1573,8 @@
       "amountLakh": 65,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Rohit Sharma",
@@ -1453,7 +1590,8 @@
       "amountLakh": 150,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Rovman Powell",
@@ -1461,7 +1599,8 @@
       "amountLakh": 150,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Ruturaj Gaikwad",
@@ -1477,7 +1616,8 @@
       "amountLakh": 100,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Sachin Baby",
@@ -1485,7 +1625,8 @@
       "amountLakh": 30,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Sai Kishore",
@@ -1493,7 +1634,8 @@
       "amountLakh": 200,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Sai Sudharsan",
@@ -1517,7 +1659,8 @@
       "amountLakh": 240,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Sameer Rizvi",
@@ -1525,7 +1668,8 @@
       "amountLakh": 95,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Sandeep Sharma",
@@ -1549,7 +1693,8 @@
       "amountLakh": 30,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Shahbaz Ahmed",
@@ -1557,7 +1702,8 @@
       "amountLakh": 240,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Shaik Rasheed",
@@ -1565,7 +1711,8 @@
       "amountLakh": 30,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Shamar Joseph",
@@ -1573,7 +1720,8 @@
       "amountLakh": 75,
       "team": "LSG",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Shane Bond",
@@ -1605,7 +1753,8 @@
       "amountLakh": 260,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 150
     },
     {
       "player": "Shimron Hetmyer",
@@ -1629,7 +1778,8 @@
       "amountLakh": 30,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Shreyas Iyer",
@@ -1637,7 +1787,8 @@
       "amountLakh": 2675,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Shubham Dubey",
@@ -1645,7 +1796,8 @@
       "amountLakh": 80,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Shubman Gill",
@@ -1661,7 +1813,8 @@
       "amountLakh": 150,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Spencer Johnson",
@@ -1669,7 +1822,8 @@
       "amountLakh": 280,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Sunil Narine",
@@ -1693,7 +1847,8 @@
       "amountLakh": 30,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Suyash Sharma",
@@ -1701,7 +1856,8 @@
       "amountLakh": 260,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Swapnil Singh",
@@ -1709,7 +1865,8 @@
       "amountLakh": 50,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Swastik Chikara",
@@ -1717,7 +1874,8 @@
       "amountLakh": 30,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "T Natarajan",
@@ -1725,7 +1883,8 @@
       "amountLakh": 1075,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Tilak Varma",
@@ -1741,7 +1900,8 @@
       "amountLakh": 300,
       "team": "RCB",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Travis Head",
@@ -1757,7 +1917,8 @@
       "amountLakh": 1250,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Tripurana Vijay",
@@ -1765,7 +1926,8 @@
       "amountLakh": 30,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Tristan Stubbs",
@@ -1781,7 +1943,8 @@
       "amountLakh": 650,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 100
     },
     {
       "player": "Umran Malik",
@@ -1789,7 +1952,8 @@
       "amountLakh": 75,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Vaibhav Arora",
@@ -1797,7 +1961,8 @@
       "amountLakh": 180,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Vaibhav Suryavanshi",
@@ -1805,7 +1970,8 @@
       "amountLakh": 110,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Vansh Bedi",
@@ -1813,7 +1979,8 @@
       "amountLakh": 55,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Varun Chakravarthy",
@@ -1829,7 +1996,8 @@
       "amountLakh": 2375,
       "team": "KKR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Vignesh Puthur",
@@ -1837,7 +2005,8 @@
       "amountLakh": 30,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Vijay Shankar",
@@ -1845,7 +2014,8 @@
       "amountLakh": 120,
       "team": "CSK",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Vijaykumar Vyshak",
@@ -1853,7 +2023,8 @@
       "amountLakh": 180,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Vipraj Nigam",
@@ -1861,7 +2032,8 @@
       "amountLakh": 50,
       "team": "DC",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Virat Kohli",
@@ -1877,7 +2049,8 @@
       "amountLakh": 95,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Wanindu Hasaranga",
@@ -1885,7 +2058,8 @@
       "amountLakh": 525,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Washington Sundar",
@@ -1893,7 +2067,8 @@
       "amountLakh": 320,
       "team": "GT",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Will Jacks",
@@ -1901,7 +2076,8 @@
       "amountLakh": 525,
       "team": "MI",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Xavier Bartlett",
@@ -1909,7 +2085,8 @@
       "amountLakh": 80,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 75
     },
     {
       "player": "Yash Dayal",
@@ -1925,7 +2102,8 @@
       "amountLakh": 160,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 40
     },
     {
       "player": "Yashasvi Jaiswal",
@@ -1941,7 +2119,8 @@
       "amountLakh": 35,
       "team": "RR",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     },
     {
       "player": "Yuvraj Singh",
@@ -1965,7 +2144,8 @@
       "amountLakh": 1800,
       "team": "PBKS",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 200
     },
     {
       "player": "Zeeshan Ansari",
@@ -1973,7 +2153,8 @@
       "amountLakh": 40,
       "team": "SRH",
       "kind": "auction-sale",
-      "source": "ipl-2025-auction-dataset"
+      "source": "ipl-2025-auction-dataset",
+      "baseAmountLakh": 30
     }
   ]
 }

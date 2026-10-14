@@ -1,0 +1,4635 @@
+{
+  "sources": {
+    "2025": {
+      "official": "https://documents.iplt20.com/bcci/documents/1731674068078_TATA%20IPL%202025-%20Auction%20List%20-15.11.24.pdf",
+      "announcement": "https://www.iplt20.com/news/article/tata-ipl-2025-player-auction-list-announced",
+      "transcription": "https://www.cricwindow.com/ipl-2025/auction-registered-players-list.html"
+    },
+    "2026": {
+      "official": "https://documents.iplt20.com/bcci/documents/1765197869375_TATA-IPL-2026-Auction-List-8.12.25.pdf",
+      "transcription": "https://www.cricwindow.com/ipl-2026/auction-registered-players-list.html"
+    }
+  },
+  "reserves": [
+    {
+      "player": "Aaqib Khan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aaqib Khan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aaron Hardie",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Aaron Varghese",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aarya Desai",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aarya Desai",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abdul Bazith",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abdul Bazith",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abdul Samad",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhay Choudhary",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhijeet Tomar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhilash Shetty",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhilash Shetty",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhimanyu Easwaran",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhimanyusingh Rajput",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhinandan Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhinav Manohar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhinav Manohar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhinav Tejrana",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhishek Nair",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhishek Pathak",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abhishek Saini",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abid Mushtaq",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Abid Mushtaq",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ackeem Auguste",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Adam Milne",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Adam Milne",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Adam Zampa",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Adarsh Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Adil Rashid",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Agni Chopra",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ahammed Imran",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aiden Markram",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Ajay Ahlawat",
+      "season": 2025,
+      "amountLakh": 40
+    },
+    {
+      "player": "Ajay Mandal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ajinkya Rahane",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Ajitesh Guruswamy",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ajitesh Guruswamy",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akash Deep",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Akash Deep",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Akash Madhwal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akash Madhwal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akash Parkar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akash Pugazhanthi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akash Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akash Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akash Vashisht",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akeal Hosein",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Akeal Hosein",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Akhil Chaudhary",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akhil Rawat",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akhil Scaria",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akshat Raghuwanshi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akshat Raghuwanshi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Akshu Bajwa",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Alex Carey",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Ali Khan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Alick Athanaze",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Allah Ghazanfar",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Alzarri Joseph",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Alzarri Joseph",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Aman Khan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aman Khan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aman Rao Perala",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aman Shekhawat",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Amandeep Khare",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Amit Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Andre Fletcher",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Andre Siddarth",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Andrew Tye",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Angkrish Raghuvanshi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aniket Verma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anirudh Chowdhary",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anirudh Kanwar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ankit Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ankit Singh Rajpoot",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anmol Malhotra",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anmolpreet Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anmolpreet Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anrich Nortje",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Anrich Nortje",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Anshul Kamboj",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anshuman Hooda",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anuj Rawat",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anuj Thakral",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Anukul Roy",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Apoorv Wankhade",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arab Gul",
+      "season": 2026,
+      "amountLakh": 40
+    },
+    {
+      "player": "Aradhya Shukla",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arfaz Mohammad",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arjun Azad",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arjun Tendulkar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arpit Guleria",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arpit Guleria",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arpit Rana",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arsh Kabir Ranga",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Arshdeep Singh",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Arshin Kulkarni",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aryaman Singh Dhaliwal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aryaman Singh Dhaliwal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Aryan Juyal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ashish Dahariya",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ashok Sharma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ashok Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ashton Agar",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Ashton Turner",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Ashutosh Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ashwani Kumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ashwin Hebbar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atal Rai",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atharva Ankolekar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atharva Ankolekar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atharva Kale",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atharva Taide",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atharva Taide",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atif Mushtaq",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atif Mushtaq",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atit Sheth",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Atit Sheth",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Auqib Dar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Auqib Nabi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Avanish Aravelly",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Avesh Khan",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Avinash Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Avneesh Sudha",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ayaz Khan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ayaz Khan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ayush Doseja",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ayush Mhatre",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ayush Pandey",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ayush Vartak",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ayush Vartak",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Azmatullah Omarzai",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "B.R Sharath",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Baba Aparajith",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Baba Indrajith",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bailapudi Yeswanth",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bailapudi Yeswanth",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bal Krishna",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Baltej Dhanda",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Basil Thampi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bayanda Majola",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Beau Webster",
+      "season": 2026,
+      "amountLakh": 125
+    },
+    {
+      "player": "Ben Duckett",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Ben Duckett",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Ben Dwarshuis",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Ben Dwarshuis",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Ben Howell",
+      "season": 2025,
+      "amountLakh": 50
+    },
+    {
+      "player": "Ben McDermott",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Ben McDermott",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Benjamin Sears",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Bevan John Jacobs",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bevon Jacobs",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Bhagmender Lather",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bhanu Pania",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bhanuka Rajapaksa",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Bharat Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bhuvneshwar Kumar",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Billy Stanlake",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Binura Fernando",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Bipin Saurabh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Bipin Saurabh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Blessing Muzarabani",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Brandon King",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Brandon McMullen",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Brijesh Sharma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Brydon Carse",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "C Rakshann Readdi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Cameron Green",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Charith Asalanka",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Charith Asalanka",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Chetan Sakariya",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Chetan Sakariya",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Chetan Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Chintal Gandhi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Chintal Gandhi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Chris Green",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Chris Jordan",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Connor Esterhuizen",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Cooper Connolly",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Cooper Connolly",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Corbin Bosch",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Daksh Kamra",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dan Lawrence",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Daniel Lategan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Daniel Lawrence",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Daniel Mousley",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Daniel Sams",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Daniel Sams",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Daniel Worrall",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Danish Malewar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Darshan Nalkande",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Darshan Nalkande",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Daryl Mitchell",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Daryl Mitchell",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Daryn Dupavillon",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dasun Shanaka",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dasun Shanaka",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "David Miller",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "David Miller",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "David Payne",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "David Warner",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Deepak Chahar",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Deepak Devadiga",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Deepak Hooda",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Deepak Hooda",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Deependra Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Delano Potgieter",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Devdutt Padikkal",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Devon Conway",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Devon Conway",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Dewald Brevis",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dharmendrasinh Jadeja",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dhruv Kaushik",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dhurmil Matkar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dian Forrester",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Digvesh Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Digvijay Deshmukh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dilshan Madushanka",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dinesh Bana",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dipesh Parwani",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Divesh Sharma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Divesh Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dominic Drakes",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Donovan Ferreira",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Duan Jansen",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dumindu Sewmina",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Dunith Wellalage",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dunith Wellalage",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dushan Hemantha",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dushmantha Chameera",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Dwaine Pretorius",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Dwaine Pretorius",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Eden Apple Tom",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Emanjot Chahal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Emanjot Chahal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Esakkimuthu Ayyakutti",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Eshan Malinga",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Evin Lewis",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Faf Du Plessis",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Faridoon Dawoodzai",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Fazalhaq Farooqi",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Fazalhaq Farooqi",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Finn Allen",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Finn Allen",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Gaurav Gambhir",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "George Garton",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "George Linde",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Gerald Coetzee",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Gerald Coetzee",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Girinath Reddy",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Glenn Maxwell",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Glenn Phillips",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Gudakesh Motie",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Gulbadin Naib",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Gulbadin Naib",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Gurjapneet Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Gurnoor Singh Brar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Gus Atkinson",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Gus Atkinson",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Hardik Raj",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Hardik Raj",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Hardik Tamore",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Harnoor Pannu",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Harpreet Brar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Harry Brook",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Harry Tector",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Harsh Dubey",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Harsh Tyagi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Harsh Tyagi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Harshal Patel",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Harvik Desai",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Hasan Mahmud",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Hemang Patel",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Hemanth Kumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Hilton Cartwright",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Himanshu Bisht",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Himanshu Chauhan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Himanshu Sharma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Himanshu Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Himanshu Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Himanshu Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Himmat Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Hritik Shokeen",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Hritik Shokeen",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ibrahim Zadran",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Irfan Umair",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ishan Kishan",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Ishan Mulchandani",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ishan Porel",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ishan Porel",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ishant Sharma",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Izaz Sawariya",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jack Edwards",
+      "season": 2026,
+      "amountLakh": 50
+    },
+    {
+      "player": "Jacob Bethell",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Jacob Duffy",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jafar Jamal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jagadeesha Suchith",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jagadeesha Suchith",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jake Fraser-Mcgurk",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jake Fraser-McGurk",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jalaj Saxena",
+      "season": 2026,
+      "amountLakh": 40
+    },
+    {
+      "player": "Jalaj Saxena",
+      "season": 2025,
+      "amountLakh": 40
+    },
+    {
+      "player": "James Anderson",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "James Vince",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jamie Overton",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Jamie Smith",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jasmer Dhankhar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jason Behrendorff",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Jason Behrendorff",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Jason Holder",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jason Holder",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jass Inder Baidwan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jayant Yadav",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Jaydev Unadkat",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Jeffery Vandersay",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Jhathavedh Subramanyan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jhathavedh Subramanyan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jhye Richardson",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Jhye Richardson",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Jikku Bright",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jimmy Neesham",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Jitesh Sharma",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Joe Clarke",
+      "season": 2026,
+      "amountLakh": 50
+    },
+    {
+      "player": "John Turner",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Johnson Charles",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Jonny Bairstow",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Jonny Bairstow",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Jonty Sidhu",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Jordan Cox",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Jordan Cox",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Jos Buttler",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Josh Hazlewood",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Josh Inglis",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Josh Inglis",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Josh Little",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Josh Philippe",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Joshua Brown",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Joshua Little",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Joshua Tongue",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Junior Dala",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "K Ajay Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "K.C Cariappa",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "K.M Asif",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "K.S Bharat",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kagiso Rabada",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Kamal Tripathi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kamindu Mendis",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kamlesh Nagarkoti",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kamlesh Nagarkoti",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kane Williamson",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Kanishk Chouhan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Karan Lal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Karim Janat",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Karn Sharma",
+      "season": 2026,
+      "amountLakh": 50
+    },
+    {
+      "player": "Karn Sharma",
+      "season": 2025,
+      "amountLakh": 50
+    },
+    {
+      "player": "Karteek Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kartik Chadha",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kartik Chadha",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kartik Sharma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kartik Tyagi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kartik Tyagi",
+      "season": 2025,
+      "amountLakh": 40
+    },
+    {
+      "player": "Karun Nair",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kaushik Maity",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "KC Cariappa",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Keemo Paul",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Keshav Maharaj",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Khilan Patel",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Khrievitso Kense",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kiran Chormale",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "KL Rahul",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "KM Asif",
+      "season": 2026,
+      "amountLakh": 40
+    },
+    {
+      "player": "Krains Fuletra",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Krish Bhagat",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Krish Bhagat",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Krishnappa Gowtham",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Kritagya Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Krunal Pandya",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "KS Bharat",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kuldeep Sen",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kuldeep Sen",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kuldip Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kuldip Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kulwant Khejroliya",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kulwant Khejroliya",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kumar Kartikeya",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kumar Kartikeya Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kumar Kushagra",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kunal Chandela",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kunal Rathore",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kunal Rathore",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kunal Singh Chibb",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Kusal Mendis",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kusal Mendis",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kusal Perera",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Kusal Perera",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kwena Maphaka",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Kyle Jamieson",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Kyle Jamieson",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Kyle Mayers",
+      "season": 2026,
+      "amountLakh": 125
+    },
+    {
+      "player": "Kyle Mayers",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Kyle Verreynne",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "L.R Chethan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Lahiru Kumara",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Lakshay Jain",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Lalit Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Lalit Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Lance Morris",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Leus Du Plooy",
+      "season": 2025,
+      "amountLakh": 50
+    },
+    {
+      "player": "Liam Dawson",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Liam Livingstone",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Liam Livingstone",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Litton Das",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Lizaad Williams",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Lockie Ferguson",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Luckyrajsinh Vaghela",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Luke Wood",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Luke Wood",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Lungi Ngidi",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Lungisani Ngidi",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Luvnith Sisodia",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "M Dheeraj Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "M. Ajnas",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "M. Siddharth",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Macneil Noronha",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Madhav Bajaj",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Madhav Kaushik",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Madhav Tiwari",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mahedi Hasan",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Maheesh Theekshana",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Maheesh Theekshana",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mahesh Pithiya",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mahipal Lomror",
+      "season": 2026,
+      "amountLakh": 50
+    },
+    {
+      "player": "Mahipal Lomror",
+      "season": 2025,
+      "amountLakh": 50
+    },
+    {
+      "player": "Manan Bhardwaj",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manan Vohra",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manan Vohra",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manav Suthar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mangesh Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manish Pandey",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Manish Reddy",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manish Reddy",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manoj Bhandage",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manoj Bhandage",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manvanth Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Manvanth Kumar L",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Maramreddy Reddy",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Maramreddy Reddy",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Marco Jansen",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Marcus Stoinis",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mark Chapman",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Matheesha Pathirana",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Matt Henry",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Matt Henry",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Matthew Breetzke",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Matthew Forde",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Matthew Potts",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Matthew Potts",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Matthew Short",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Matthew Short",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Mayank Agarawal",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Mayank Agarawal",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Mayank Dagar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mayank Dagar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mayank Gusain",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mayank Gusain",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mayank Markande",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mayank Rawat",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mayank Rawat",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mehidy Hasan Miraz",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Michael Bracewell",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Michael Bracewell",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Michael Neser",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Michael Pepper",
+      "season": 2025,
+      "amountLakh": 50
+    },
+    {
+      "player": "Mikyle Louis",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Miles Hammond",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mitchell Marsh",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mitchell Santner",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mitchell Starc",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Moeen Ali",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mohamed Ali",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohamed Ali",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohammad Izhar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohammad Nabi",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Mohammad Shami",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mohammad Siraj",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mohammed Azharuddeen",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohd. Arshad Khan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohit Avasthi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohit Rathee",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohit Rathee",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mohit Sharma",
+      "season": 2025,
+      "amountLakh": 50
+    },
+    {
+      "player": "Money Grewal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Money Grewal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mridul Surroch",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Muhammad Abbas",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Muhammed Khan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Muhammed Sharafuddeen",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mujeeb Rahman",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mujeeb Ur Rahman",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mujtaba Yousuf",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mukesh Choudhary",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mukesh Kumar",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mukhtar Hussain",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mukul Choudhary",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Murugan Ashwin",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Murugan Ashwin",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Musaif Ajaz",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Musheer Khan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Nahid Rana",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Nahid Rana",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Najibullah Zadran",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Naman Dhir",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Naman Pushpak",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Naman Tiwari",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Naman Tiwari",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nandre Burger",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Nangeyalia Kharote",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Narayan Jagadeesan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nasir Lone",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nasir Lone",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nathan Ellis",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Nathan Smith",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Nathan Smith",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Navdeep Saini",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Navdeep Saini",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Naveen Ul Haq",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Naveen Ul Haq",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Nehal Wadhera",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nikhil Chaudhary",
+      "season": 2026,
+      "amountLakh": 40
+    },
+    {
+      "player": "Ninad Rathva",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ninad Rathva",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nishant Sindhu",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nishanth Saranu",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nishanth Saranu",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nishunk Birla",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nitin Sai Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Nitish Rana",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Noor Ahmad",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Nqabayomzi Peter",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Nuwan Thushara",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Obed McCoy",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Obed McCoy",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Odean Smith",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Oliver Davies",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ollie Pope",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Olly Stone",
+      "season": 2026,
+      "amountLakh": 125
+    },
+    {
+      "player": "Olly Stone",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Onkar Tarmale",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ottneil Baartman",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "P. Vignesh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pankaj Jaswal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pankaj Jaswal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Parikshit Dhanak",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Parikshit Valsangkar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Parth Rekhade",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Parth Vats",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pathum Nissanka",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Pathum Nissanka",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Patrick Kruger",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Phil Salt",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Piyush Chawla",
+      "season": 2025,
+      "amountLakh": 50
+    },
+    {
+      "player": "Pradosh Paul",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pradyuman Kumar Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Praful Hinge",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Praful Hinge",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prashant Chauhan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prashant Sai Painkra",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prashant Solanki",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prashant Solanki",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prashant Veer",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prasidh Krishna",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Prateek Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pratham Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pravin Dubey",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pravin Dubey",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prayas Ray Barman",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prerak Mankad",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prerit Dutta",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prerit Dutta",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prince Balwant Rai",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prince Choudhary",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prince Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prithvi Shaw",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Prithvi Shaw",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Prithviraj Yarra",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Prithviraj Yarra",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Priyam Garg",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Priyansh Arya",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pukhraj Mann",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pukhraj Mann",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pulkit Narang",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Purav Agarwal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "PV Satyanarayana Raju",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Pyla Avinash",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Qais Ahmad",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Qais Ahmad",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Qamran Iqbal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Quinton De Kock",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Quinton De Kock",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "R Rajkumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "R Sonu Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "R. Sai Kishore",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Rachin Ravindra",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Rachin Ravindra",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Raghav Goyal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Raghav Goyal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rahmanullah Gurbaz",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Rahmanullah Gurbaz",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Rahul Buddhi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rahul Chahar",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Rahul Chahar",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Rahul Tripathi",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Rahul Tripathi",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Raj Angad Bawa",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Raj Limbani",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Raj Limbani",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rajan Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rajan Kumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rajat Verma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rajneesh Gurbani",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rajvardhan Hangargekar",
+      "season": 2026,
+      "amountLakh": 40
+    },
+    {
+      "player": "Rajvardhan Hangargekar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rakibul Hasan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ramakrishna Ghosh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ramesh Prasad",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rasikh Dar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rassie Van Der Dussen",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Ravi Bishnoi",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Ravi Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ravi Kumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ravi Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ravi Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ravichandaran Ashwin",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Reece Topley",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Reeza Hendricks",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Rehan Ahmed",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Richard Gleeson",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Richard Gleeson",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Richard Ngarava",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Ricky Bhui",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ricky Bhui",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rilee Rossouw",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Riley Meredith",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Riley Meredith",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Ripal Patel",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ripal Patel",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rishabh Chauhan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rishabh Pant",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Rishad Hossain",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Rishad Hossain",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Rishi Dhawan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ritik Tada",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rituraj Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Robin Minz",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rohan Kunnummal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rohan Kunnummal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rohan Rana",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rohit Rayudu",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Rohit Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Romario Shepherd",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Roshan Waghsare",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Roshan Wagshare",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Roston Chase",
+      "season": 2026,
+      "amountLakh": 125
+    },
+    {
+      "player": "Roston Chase",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Rovman Powell",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "RS Ambrish",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ruchit Ahir",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Ryan Rickelton",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "S. Midhun",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "S. Rithik Eswaran",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sabhay Chadha",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sabir Khan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sachin Baby",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sachin Dhas",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sachin Dhas",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sadek Hussain",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Safvan Patel",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sagar Solanki",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sahil Parakh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sairaj Patil",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sairaj Patil",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sakib Hussain",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sakib Hussain",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Salil Arora",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Salil Arora",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Salman Nizar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Salman Nizar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sam Billings",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Sam Curran",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Samarth Nagraj",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Samarth Vyas",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sameer Rizvi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sammar Gajjar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sandeep Warrier",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Sandeep Warrier",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Sanjay Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sanjay Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sanskar Rawat",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sanvir Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sanvir Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Saqib Mahmood",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Saransh Jain",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sarfaraz Khan",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Sarfaraz Khan",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Sarthak Ranjan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sarthak Ranjan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Satvik Deswal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Saumy Pandey",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Saumy Pandey",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Saurabh Dubey",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Saurav Chauhan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Saurav Chuahan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sayan Ghosh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sayed Irfan Aftab",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sayed Irfan Aftab",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sean Abbott",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Sean Abbott",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Sediqullah Atal",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Sediqullah Atal",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Shahbaz Ahamad",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Shai Hope",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Shai Hope",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Shaik Rasheed",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shakib Al Hasan",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Shamar Joseph",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Shamar Joseph",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Shams Mulani",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shams Mulani",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shardul Thakur",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Shashwat Rawat",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Shiva Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shiva Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shivalik Sharma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shivalik Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shivam Mavi",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Shivam Mavi",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Shivam Shukla",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shivam Shukla",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shivam Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shivang Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shoriful Islam",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Shoriful Islam",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Shoun Roger",
+      "season": 2025,
+      "amountLakh": 40
+    },
+    {
+      "player": "Shreevatsha Acharya",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shreyan Chakraborty",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shreyas Chavan",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shreyas Chavan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shreyas Gopal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shreyas Iyer",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Shrijith Krishnan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubham Agrawal",
+      "season": 2026,
+      "amountLakh": 40
+    },
+    {
+      "player": "Shubham Agrawal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubham Dubey",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubham Garhwal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubham Kapse",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubham Kapse",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubham Khajuria",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubham Rana",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubhang Hegde",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Shubhang Hegde",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Siddhant Rana",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Siddharth Joon",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Siddharth Kaul",
+      "season": 2025,
+      "amountLakh": 40
+    },
+    {
+      "player": "Siddharth Yadav",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Siddharth Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sikandar Raza",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Simarjeet Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Simarjeet Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Smaran Ravichandran",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sohraab Dhaliwal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sonu Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Spencer Johnson",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Spencer Johnson",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Srihari Nair",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Steve Smith",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Steve Smith",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Sudip Gharami",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sumeet Verma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sumit Ghadigaonkar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sumit Kumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sumit Kumar Beniwal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sunil Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sunny Sandhu",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Suryansh Shedge",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sushant Mishra",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Sushant Mishra",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Suyash Prabhudessai",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Suyash Prabhudessai",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Suyash Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Swapnil Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Swastik Chhikara",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Syed Khaleel Ahmed",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "T. Natarajan",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tabraiz Shamsi",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tanay Thyagarajann",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tanay Thyagarajann",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tanmay Agarwal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tanush Kotian",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tanush Kotian",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tanveer Sangha",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Tanzim Hasan Sakib",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Tanzim Hasan Sakib",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Taskin Ahmed",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Taskin Ahmed",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Tejas Baroka",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tejasvi Dahiya",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tejasvi Jaiswal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tejasvi Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tejasvi Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tejpreet Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tiaan Van Vuuren",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tim David",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tim Robinson",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Tim Seifert",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Tim Seifert",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "Tim Southee",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Tom Banton",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tom Banton",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tom Curran",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tom Curran",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tom Kohler-Cadmore",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tom Latham",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "Tom Moores",
+      "season": 2026,
+      "amountLakh": 40
+    },
+    {
+      "player": "Towhid Hridoy",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Traveen Mathew",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Trent Boult",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Tripurana Vijay",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tripuresh Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tristan Luus",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tushar Deshpande",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Tushar Raheja",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tushar Raheja",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Tymal Mills",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Uday Saharan",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Umang Kumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Umesh Yadav",
+      "season": 2026,
+      "amountLakh": 150
+    },
+    {
+      "player": "Umesh Yadav",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Umran Malik",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Unmukt Chand",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Upendra Singh Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Urvil Patel",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Utkarsh Singh",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Utkarsh Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vaibhav Arora",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vaibhav Suryavanshi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vaisakh Chandran",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vansh Bedi",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vansh Bedi",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Varun Raj Singh Bisht",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vasu Vats",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Venkata Satyanarayana Penmesta",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Venkatesh Iyer",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Venkatesh Iyer",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Vicky Ostwal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vicky Ostwal",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vidwath Kaverappa",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vidwath Kaverappa",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vidyadhar Patil",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vidyadhar Patil",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vignesh Puthur",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vignesh Puthur",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vihaan Malhotra",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vijay Kumar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vijay Kumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vijay Shankar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vijay Shankar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vijay Yadav",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vijayakanth Viyaskanth",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Vineet Panwar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vipraj Nigam",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Virat Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishal Godara",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishal Mandwal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishal Nishad",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishnu Solanki",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishnu Solanki",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishnu Vinod",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishvarajsinh Jadeja",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vishwanath Pratap Singh",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vivrant Sharma",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Vivrant Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Viyaskanth Vijayakanth",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Vyshak Vijaykumar",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Wahidullah Zadran",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Wanindu Hasaranga",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "Wanindu Hasaranga",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Waqar Salamkheil",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Waqar Salamkheil",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Waseem Khanday",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Washington Sundar",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Wayne Parnell",
+      "season": 2025,
+      "amountLakh": 100
+    },
+    {
+      "player": "Wesley Agar",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Wiaan Mulder",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "Wiaan Mulder",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Will Jacks",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Will Young",
+      "season": 2025,
+      "amountLakh": 125
+    },
+    {
+      "player": "William O'Rourke",
+      "season": 2026,
+      "amountLakh": 200
+    },
+    {
+      "player": "William O'Rourke",
+      "season": 2025,
+      "amountLakh": 150
+    },
+    {
+      "player": "William Sutherland",
+      "season": 2026,
+      "amountLakh": 100
+    },
+    {
+      "player": "William Sutherland",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Writtick Chatterjee",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Xavier Bartlett",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Yajas Sharma",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yash Dabas",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yash Dhull",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yash Dhull",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yash Dicholkar",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yash Raj Punja",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yash Thakur",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yashvardhan Dalal",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yeddala Reddy",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yudhvir Charak",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yuvraj Chaudhary",
+      "season": 2026,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yuvraj Chaudhary",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yuvraj Chudasama",
+      "season": 2025,
+      "amountLakh": 30
+    },
+    {
+      "player": "Yuzvendra Chahal",
+      "season": 2025,
+      "amountLakh": 200
+    },
+    {
+      "player": "Zahir Khan Pakten",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Zak Foulkes",
+      "season": 2026,
+      "amountLakh": 75
+    },
+    {
+      "player": "Zak Foulkes",
+      "season": 2025,
+      "amountLakh": 75
+    },
+    {
+      "player": "Zeeshan Ansari",
+      "season": 2025,
+      "amountLakh": 30
+    }
+  ]
+}

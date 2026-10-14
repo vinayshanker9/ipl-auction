@@ -5,6 +5,7 @@ import { FRANCHISES, auctionPool, initialAuction, orderPlayers, randomizePlayers
 import { allRooms, createRoom, deleteRoom, joinRoom, save, type Member } from "./rooms/store.js";
 import { applyHostSettings } from "./rooms/settings.js";
 import { advancePoolCursor } from "./rooms/auction-flow.js";
+import { cancelTrade, proposeTrade, respondToTrade } from "./rooms/trades.js";
 
 const app=Fastify({logger:true});
 const io=new Server(app.server,{cors:{origin:true}});
@@ -22,7 +23,7 @@ function stateFor(room:any) {
     teams:Object.fromEntries(Object.entries(state.teams).map(([id,team]:any)=>[id,{...team,performanceStrength:teamPerformanceStrength(team.squad.map((entry:any)=>entry.player)),squad:team.squad.map((entry:any)=>({...entry,player:{...entry.player,stats:undefined,rating:0}}))}]))
   };
   const visibleUpcoming=room.options.showPlayerStats?upcomingPlayers:upcomingPlayers.map((player:any)=>({...player,stats:undefined,rating:0}));
-  return {code:room.code,hostId:room.hostId,members:room.members.map(({token,socketId,...m}:Member)=>({...m,isHost:m.id===room.hostId})),state:viewState,options:room.options,upcomingPlayers:visibleUpcoming,upcomingPlayerCount:visibleUpcoming.length,acceleratedRound:room.acceleratedRound&&state.history.length===0,chat:room.chat};
+  return {code:room.code,hostId:room.hostId,members:room.members.map(({token,socketId,...m}:Member)=>({...m,isHost:m.id===room.hostId})),state:viewState,options:room.options,upcomingPlayers:visibleUpcoming,upcomingPlayerCount:visibleUpcoming.length,acceleratedRound:room.acceleratedRound&&state.history.length===0,tradeOffers:room.tradeOffers??[],chat:room.chat};
 }
 function sendState(room:any,event="room:state") { io.to(room.code).emit(event,{state:stateFor(room),serverTime:Date.now()}); save(room); }
 function roomPlayers(room:any) { return room.poolPlayers ?? orderPlayers(auctionPool(room.options.poolMode,room.options.seasonYear)); }
@@ -43,7 +44,7 @@ function scheduleClock(room:any) {
 const schemas={
  "room:create":z.object({name:z.string().trim().min(1).max(24)}), "room:join":z.object({code:z.string().length(6),name:z.string().trim().min(1).max(24),token:z.string().optional()}), "room:spectate":z.object({code:z.string().length(6)}),
  "lobby:select-franchise":z.object({franchiseId:z.string()}),"lobby:ready":z.object({ready:z.boolean()}),
- "lobby:start":z.object({}),"lobby:kick":z.object({playerId:z.string().min(1)}),"auction:bid":z.object({amount:z.number().int().positive()}),"auction:pass":z.object({}),"host:settings":z.object({playerTimerSeconds:z.number().int().min(5).max(60),showPlayerStats:z.boolean(),poolMode:z.enum(["legends","season"]),seasonYear:z.number().int().refine(year=>availableAuctionSeasons().includes(year),"No IPL season performance data is available for that year")}),"host:pause":z.object({}),"host:resume":z.object({}),"host:skip-player":z.object({}),"host:end":z.object({}),"host:team-to-bot":z.object({franchiseId:z.string()}),"chat:send":z.object({text:z.string().trim().min(1).max(240)}),"reaction:send":z.object({text:z.string().max(32)})
+ "lobby:start":z.object({}),"lobby:kick":z.object({playerId:z.string().min(1)}),"auction:bid":z.object({amount:z.number().int().positive()}),"auction:pass":z.object({}),"trade:propose":z.object({toTeamId:z.enum(FRANCHISES.map(franchise=>franchise.id) as [string,...string[]]),offeredPlayerId:z.string().min(1),requestedPlayerId:z.string().min(1)}),"trade:respond":z.object({offerId:z.string().uuid(),accept:z.boolean()}),"trade:cancel":z.object({offerId:z.string().uuid()}),"host:settings":z.object({playerTimerSeconds:z.number().int().min(5).max(60),showPlayerStats:z.boolean(),poolMode:z.enum(["legends","season"]),seasonYear:z.number().int().refine(year=>availableAuctionSeasons().includes(year),"No IPL season performance data is available for that year")}),"host:pause":z.object({}),"host:resume":z.object({}),"host:skip-player":z.object({}),"host:end":z.object({}),"host:team-to-bot":z.object({franchiseId:z.string()}),"chat:send":z.object({text:z.string().trim().min(1).max(240)}),"reaction:send":z.object({text:z.string().max(32)})
 };
 function memberFor(socket:any,room:any) { return room.members.find((m:Member)=>m.socketId===socket.id); }
 function reject(socket:any,message:string) { socket.emit("room:error",{message}); }
@@ -63,7 +64,7 @@ io.on("connection",socket=>{
     socket.onAny((event:string,payload:unknown)=>{
     try {
       const schema=(schemas as any)[event]; if(!schema) return reject(socket,"Unknown message");
-      const data=schema.parse(payload??{}); const connLimit=event.startsWith("auction:")?12:event.startsWith("chat:")||event.startsWith("reaction:")?8:30;
+      const data=schema.parse(payload??{}); const connLimit=event.startsWith("auction:")?12:event.startsWith("chat:")||event.startsWith("reaction:")||event.startsWith("trade:")?8:30;
       if(limited(socket.id,connLimit)) return reject(socket,"Slow down and try again");
       if(event==="room:create") { const {room,member}=createRoom(data.name,socket.id); socket.join(room.code); socket.emit("room:created",{code:room.code,token:member.token,memberId:member.id,franchiseId:member.franchiseId,state:stateFor(room)}); return; }
       if(event==="room:join"||event==="room:spectate") { const code=data.code.toUpperCase(); const {room,member}=joinRoom(code,event==="room:join"?data.name:"Watcher",socket.id,event==="room:join"?data.token:undefined,event==="room:spectate"); socket.join(room.code); socket.emit("room:joined",{code:room.code,token:member.token,memberId:member.id,franchiseId:member.franchiseId,state:stateFor(room)}); sendState(room); return; }
@@ -76,6 +77,9 @@ io.on("connection",socket=>{
       else if(event==="lobby:start") { if(member.id!==room.hostId) throw Error("Only the host can start"); const humansMembers=room.members.filter(m=>!m.spectator); if(humansMembers.length<2) throw Error("At least two players are needed to start"); if(humansMembers.some(m=>!m.ready||!m.franchiseId)) throw Error("Everyone must choose a team and ready up"); const humanFranchises=FRANCHISES.map(franchise=>franchise.id); const poolKey=`${room.options.poolMode}:${room.options.seasonYear}`; room.poolPlayers=randomizePlayersBySet(auctionPool(room.options.poolMode,room.options.seasonYear),previousFirstPlayers.get(poolKey)); if(room.poolPlayers[0])previousFirstPlayers.set(poolKey,room.poolPlayers[0].id); room.poolCursor=0; room.acceleratedRound=false; room.state=initialAuction(room.poolPlayers,humanFranchises,roomTimer(room)); room.state.phase="live"; sendState(room,"lobby:started"); scheduleClock(room); scheduleBots(room); return; }
       else if(event==="auction:bid") { if(!member.franchiseId) throw Error("Choose a franchise first"); room.state=placeBid(room.state,member.franchiseId,"human",Date.now(),data.amount,room.options.playerTimerSeconds*1000); sendState(room,"auction:bid-accepted"); scheduleClock(room); scheduleBots(room); return; }
       else if(event==="auction:pass") { if(!member.franchiseId) throw Error("Choose a franchise first"); room.state=passPlayer(room.state,member.franchiseId); sendState(room,"auction:state"); return; }
+      else if(event==="trade:propose") { proposeTrade(room,member,data.toTeamId as FranchiseId,data.offeredPlayerId,data.requestedPlayerId); sendState(room); return; }
+      else if(event==="trade:respond") { respondToTrade(room,member,data.offerId,data.accept); sendState(room); return; }
+      else if(event==="trade:cancel") { cancelTrade(room,member,data.offerId); sendState(room); return; }
       else if(event.startsWith("host:")) { if(member.id!==room.hostId) throw Error("Only the host can do that");
         if(event==="host:pause") { const timer=auctionTimers.get(room.code);if(timer)clearTimeout(timer);const bot=botTimers.get(room.code);if(bot)clearTimeout(bot);room.state={...room.state,phase:"paused"}; }
         if(event==="host:resume") room.state={...room.state,phase:"live",deadline:Date.now()+roomTimer(room)};

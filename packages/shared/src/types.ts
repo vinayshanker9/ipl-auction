@@ -4,8 +4,9 @@ export type PlayerRole = "Batter" | "Bowler" | "All-rounder" | "Wicketkeeper" | 
 export type PlayerSet = "Marquee" | "Batters" | "Bowlers" | "All-rounders" | "Wicketkeepers" | "Uncapped";
 export type AuctionStatus = "capped" | "uncapped" | "season-performer";
 export interface PlayerStats { scope: string; matches: number; runs: number; average: number | null; strikeRate: number | null; wickets: number; economy: number | null }
-export interface PlayerPriceReference { season: number; amount: number; team: string; kind: "auction-sale" | "retention" }
+export interface PlayerPriceReference { season: number; amount: number; basePrice?: number; team: string; kind: "auction-sale" | "retention" }
 export interface Player { id: string; name: string; role: PlayerRole; nationality: string; age?: number; style: string; basePrice: number; rating: number; set: PlayerSet; auctionStatus?: AuctionStatus; stats?: PlayerStats; priceReference?: PlayerPriceReference }
+export interface TradeOffer { id: string; fromMemberId: string; fromTeamId: FranchiseId; toTeamId: FranchiseId; offeredPlayerId: string; requestedPlayerId: string; status: "pending" | "accepted" | "declined" | "cancelled"; createdAt: number; resolvedAt?: number }
 export interface SquadPlayer { player: Player; price: number }
 export interface TeamState { franchiseId: FranchiseId; purse: number; squad: SquadPlayer[]; isBot: boolean }
 export interface BidRecord { teamId: FranchiseId; amount: number; at: number; source: "human" | "bot" }
@@ -20,6 +21,9 @@ export type ClientMessage =
  | { type: "lobby:start" }
  | { type: "auction:bid"; amount: number }
  | { type: "auction:pass" }
+ | { type: "trade:propose"; toTeamId: FranchiseId; offeredPlayerId: string; requestedPlayerId: string }
+ | { type: "trade:respond"; offerId: string; accept: boolean }
+ | { type: "trade:cancel"; offerId: string }
  | { type: "host:pause" }
  | { type: "host:resume" }
  | { type: "host:skip-player" }

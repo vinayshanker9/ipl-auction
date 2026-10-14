@@ -2,7 +2,7 @@ import records from "./ipl-stats.json" with { type: "json" };
 import shortlistData from "./auction-shortlists.json" with { type: "json" };
 import templates from "./players.json" with { type: "json" };
 import { AUCTION_CONFIG, AVAILABLE_SEASON_YEARS } from "./config.js";
-import { findPriceReference } from "./pricing.js";
+import { findPriceReference, officialReserve } from "./pricing.js";
 import type { Player, PlayerSet } from "./types.js";
 
 type Row = { name: string; matches: number; runs: number; inningsBalls?: number; outs?: number; average: number | null; strikeRate: number | null; wickets: number; conceded?: number; overs?: number; economy: number | null; fours?: number; sixes?: number };
@@ -10,13 +10,6 @@ type ShortlistEntry = { name: string; nationality: string; age: number | null; r
 type PoolMode = "legends" | "season";
 
 const auctionSeasons = shortlistData.seasons as Record<string, { players: ShortlistEntry[] }>;
-
-function officialReserve(name: string): number | undefined {
-  const entries = Object.entries(auctionSeasons)
-    .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
-    .flatMap(([, season]) => season.players);
-  return entries.find(entry => normalize(entry.name) === normalize(name))?.basePrice;
-}
 
 function performanceIndex(row: Row) {
   return Math.round(Math.min(100, 50 + 40 * Math.min(row.runs / 900, 1) + 10 * Math.min(row.wickets / 35, 1)));
@@ -95,7 +88,7 @@ function seasonPool(year: number): Player[] {
         nationality: candidate?.nationality ?? "Unknown",
         ...(candidate?.age == null ? {} : { age: candidate.age }),
         style: candidate ? "Not listed" : "Season data only",
-        basePrice: priceReference?.amount ?? candidate?.basePrice ?? AUCTION_CONFIG.basePrice,
+        basePrice: candidate?.basePrice ?? officialReserve(playerName, year) ?? priceReference?.basePrice ?? AUCTION_CONFIG.basePrice,
         rating,
         set: candidate?.set ?? "Batters",
         auctionStatus: candidate ? (candidate.auctionSet.startsWith("U") ? "uncapped" : "capped") : "season-performer",
@@ -113,7 +106,7 @@ function seasonPool(year: number): Player[] {
       nationality: entry.nationality,
       ...(entry.age == null ? {} : { age: entry.age }),
       style: "Auction shortlist · no season appearance",
-      basePrice: priceReference?.amount ?? entry.basePrice,
+      basePrice: entry.basePrice,
       rating: 0,
       set: entry.set,
       auctionStatus: entry.auctionSet.startsWith("U") ? "uncapped" : "capped",
@@ -136,7 +129,7 @@ function build(mode: PoolMode, year: number): Player[] {
       ...template,
       id: `ipl-legends-career-${i}`,
       name: row.name,
-      basePrice: priceReference?.amount ?? officialReserve(row.name) ?? AUCTION_CONFIG.basePrice,
+      basePrice: officialReserve(row.name) ?? priceReference?.basePrice ?? AUCTION_CONFIG.basePrice,
       rating,
       set: i < 20 ? "Marquee" : "Batters",
       stats: { scope: "IPL CAREER", matches: row.matches, runs: row.runs, average: row.average, strikeRate: row.strikeRate, wickets: row.wickets, economy: row.economy },

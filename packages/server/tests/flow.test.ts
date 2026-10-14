@@ -3,13 +3,14 @@ import { auctionPool, FRANCHISES, initialAuction, orderPlayers } from "@crease/s
 import { createRoom,joinRoom,type Room } from "../src/rooms/store.js";
 import { applyHostSettings } from "../src/rooms/settings.js";
 import { advancePoolCursor } from "../src/rooms/auction-flow.js";
+import { cancelTrade, proposeTrade, respondToTrade } from "../src/rooms/trades.js";
 describe("room seats",()=>{it("creates room codes and reattaches a seat by token",()=>{const {room,member}=createRoom("Host","socket-a"); const joined=joinRoom(room.code,"Host","socket-b",member.token); expect(joined.member.id).toBe(member.id); expect(joined.member.connected).toBe(true); expect(room.options.playerTimerSeconds).toBe(10);});});
 describe("multiplayer team setup",()=>{it("leaves unclaimed franchises bot-free",()=>{const state=initialAuction(auctionPool("season",2026),FRANCHISES.map(franchise=>franchise.id));expect(Object.values(state.teams).every(team=>!team.isBot)).toBe(true);});});
 describe("live host settings",()=>{
   function liveRoom():Room {
     const options={rtmEnabled:false,playerTimerSeconds:10,showPlayerStats:true,poolMode:"season" as const,seasonYear:2026};
     const pool=orderPlayers(auctionPool("season",2026));
-    return {code:"TEST01",hostId:"host",members:[],state:initialAuction(pool,["mumbai"],10_000),createdAt:0,options,poolPlayers:pool,poolCursor:0,acceleratedRound:false,chat:[]};
+    return {code:"TEST01",hostId:"host",members:[],state:initialAuction(pool,["mumbai"],10_000),createdAt:0,options,poolPlayers:pool,poolCursor:0,acceleratedRound:false,tradeOffers:[],chat:[]};
   }
   it("lets the host adjust the timer during a live lot but locks stats visibility",()=>{
     const room=liveRoom();const now=10_000;
@@ -18,6 +19,51 @@ describe("live host settings",()=>{
     expect(room.state.deadline).toBe(now+30_000);
     expect(room.options.showPlayerStats).toBe(true);
     expect(()=>applyHostSettings(room,{...room.options,showPlayerStats:false},now)).toThrow("only be changed before");
+  });
+  describe("live player trades",()=>{
+    function tradingRoom():Room {
+      const options={rtmEnabled:false,playerTimerSeconds:10,showPlayerStats:true,poolMode:"season" as const,seasonYear:2026};
+      const pool=orderPlayers(auctionPool("season",2026));
+      const room:Room={code:"TRADE1",hostId:"host",members:[],state:initialAuction(pool,["mumbai","chennai"],10_000),createdAt:0,options,poolPlayers:pool,poolCursor:0,acceleratedRound:false,tradeOffers:[],chat:[]};
+      const first=pool[0],second=pool[1];
+      room.state={...room.state,teams:{
+        ...room.state.teams,
+        mumbai:{...room.state.teams.mumbai,isBot:false,squad:[{player:first,price:125}]},
+        chennai:{...room.state.teams.chennai,isBot:false,squad:[{player:second,price:80}]},
+      }};
+      room.members=[
+        {id:"manager-a",name:"Manager A",token:"a",franchiseId:"mumbai",ready:true,connected:true},
+        {id:"manager-b",name:"Manager B",token:"b",franchiseId:"chennai",ready:true,connected:true},
+      ];
+      return room;
+    }
+    it("exchanges exactly the selected players after the receiving manager accepts without changing purses",()=>{
+      const room=tradingRoom(),[first,second]=room.poolPlayers;
+      const purseBefore=[room.state.teams.mumbai.purse,room.state.teams.chennai.purse];
+      const offer=proposeTrade(room,room.members[0],"chennai",first.id,second.id,1);
+      respondToTrade(room,room.members[1],offer.id,true,2);
+      expect(room.state.teams.mumbai.squad).toEqual([{player:second,price:80}]);
+      expect(room.state.teams.chennai.squad).toEqual([{player:first,price:125}]);
+      expect([room.state.teams.mumbai.purse,room.state.teams.chennai.purse]).toEqual(purseBefore);
+      expect(offer).toMatchObject({status:"accepted",resolvedAt:2});
+    });
+    it("restricts replies and cancellation to the relevant managers",()=>{
+      const room=tradingRoom(),[first,second]=room.poolPlayers;
+      const offer=proposeTrade(room,room.members[0],"chennai",first.id,second.id,1);
+      expect(()=>respondToTrade(room,room.members[0],offer.id,true,2)).toThrow("receiving team manager");
+      expect(()=>cancelTrade(room,room.members[1],offer.id,2)).toThrow("proposing manager");
+      cancelTrade(room,room.members[0],offer.id,3);
+      expect(offer).toMatchObject({status:"cancelled",resolvedAt:3});
+      expect(()=>respondToTrade(room,room.members[1],offer.id,true,4)).toThrow("no longer pending");
+    });
+    it("rejects trades outside the live auction and invalid team/player selections",()=>{
+      const room=tradingRoom(),[first,second]=room.poolPlayers;
+      room.state={...room.state,phase:"paused"};
+      expect(()=>proposeTrade(room,room.members[0],"chennai",first.id,second.id)).toThrow("live auction");
+      room.state={...room.state,phase:"live"};
+      expect(()=>proposeTrade(room,room.members[0],"chennai",second.id,first.id)).toThrow("belong to the selected teams");
+      expect(()=>proposeTrade(room,room.members[0],"mumbai",first.id,first.id)).toThrow("another managed team");
+    });
   });
   it("switches the upcoming pool without interrupting or repeating the current lot",()=>{
     const room=liveRoom();
