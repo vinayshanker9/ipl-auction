@@ -14,13 +14,15 @@ function limited(id:string,limit:number) { const now=Date.now(), b=buckets.get(i
 function emitState(room:any,event="room:state") { io.to(room.code).emit(event,{state:room,serverTime:Date.now()}); }
 function stateFor(room:any) {
   const state=room.state;
+  const upcomingPlayers=(room.poolPlayers??[]).slice((room.poolCursor??-1)+1);
   const viewState=room.options.showPlayerStats?state:{
     ...state,
     currentPlayer:state.currentPlayer?{...state.currentPlayer,stats:undefined,rating:0}:null,
     unsold:state.unsold.map((player:any)=>({...player,stats:undefined,rating:0})),
     teams:Object.fromEntries(Object.entries(state.teams).map(([id,team]:any)=>[id,{...team,performanceStrength:teamPerformanceStrength(team.squad.map((entry:any)=>entry.player)),squad:team.squad.map((entry:any)=>({...entry,player:{...entry.player,stats:undefined,rating:0}}))}]))
   };
-  return {code:room.code,hostId:room.hostId,members:room.members.map(({token,socketId,...m}:Member)=>({...m,isHost:m.id===room.hostId})),state:viewState,options:room.options,acceleratedRound:room.acceleratedRound,chat:room.chat};
+  const visibleUpcoming=room.options.showPlayerStats?upcomingPlayers:upcomingPlayers.map((player:any)=>({...player,stats:undefined,rating:0}));
+  return {code:room.code,hostId:room.hostId,members:room.members.map(({token,socketId,...m}:Member)=>({...m,isHost:m.id===room.hostId})),state:viewState,options:room.options,upcomingPlayers:visibleUpcoming,upcomingPlayerCount:visibleUpcoming.length,acceleratedRound:room.acceleratedRound&&state.history.length===0,chat:room.chat};
 }
 function sendState(room:any,event="room:state") { io.to(room.code).emit(event,{state:stateFor(room),serverTime:Date.now()}); save(room); }
 function roomPlayers(room:any) { return room.poolPlayers ?? orderPlayers(auctionPool(room.options.poolMode,room.options.seasonYear)); }
@@ -54,7 +56,7 @@ function scheduleBots(room:any) {
   if(!candidates.length)return;
   const team=candidates[Math.floor(Math.random()*candidates.length)];
   const delay=450+Math.random()*1800;
-  const timer=setTimeout(()=>{ if(room.state.phase!=="live"||!room.state.currentPlayer||Date.now()>bidDeadline||room.state.highestBidder===team.franchiseId)return; try { room.state=placeBid(room.state,team.franchiseId,"bot"); sendState(room,"auction:bid-accepted");scheduleClock(room);scheduleBots(room); } catch {} },delay);
+  const timer=setTimeout(()=>{ if(room.state.phase!=="live"||!room.state.currentPlayer||Date.now()>bidDeadline||room.state.highestBidder===team.franchiseId)return; try { room.state=placeBid(room.state,team.franchiseId,"bot",Date.now(),undefined,room.options.playerTimerSeconds*1000); sendState(room,"auction:bid-accepted");scheduleClock(room);scheduleBots(room); } catch {} },delay);
   botTimers.set(room.code,timer);
 }
 io.on("connection",socket=>{
@@ -72,7 +74,7 @@ io.on("connection",socket=>{
       else if(event==="lobby:ready") member.ready=data.ready;
       else if(event==="lobby:kick") { if(member.id!==room.hostId)throw Error("Only the host can remove players");if(room.state.phase!=="lobby")throw Error("Players can only be removed in the lobby");const target=room.members.find(m=>m.id===data.playerId);if(!target||target.id===room.hostId)throw Error("Player not found");if(target.socketId)io.sockets.sockets.get(target.socketId)?.disconnect(true);room.members=room.members.filter(m=>m.id!==target.id); }
       else if(event==="lobby:start") { if(member.id!==room.hostId) throw Error("Only the host can start"); const humansMembers=room.members.filter(m=>!m.spectator); if(humansMembers.length<2) throw Error("At least two players are needed to start"); if(humansMembers.some(m=>!m.ready||!m.franchiseId)) throw Error("Everyone must choose a team and ready up"); const humanFranchises=FRANCHISES.map(franchise=>franchise.id); const poolKey=`${room.options.poolMode}:${room.options.seasonYear}`; room.poolPlayers=randomizePlayersBySet(auctionPool(room.options.poolMode,room.options.seasonYear),previousFirstPlayers.get(poolKey)); if(room.poolPlayers[0])previousFirstPlayers.set(poolKey,room.poolPlayers[0].id); room.poolCursor=0; room.acceleratedRound=false; room.state=initialAuction(room.poolPlayers,humanFranchises,roomTimer(room)); room.state.phase="live"; sendState(room,"lobby:started"); scheduleClock(room); scheduleBots(room); return; }
-      else if(event==="auction:bid") { if(!member.franchiseId) throw Error("Choose a franchise first"); room.state=placeBid(room.state,member.franchiseId,"human",Date.now(),data.amount); sendState(room,"auction:bid-accepted"); scheduleClock(room); scheduleBots(room); return; }
+      else if(event==="auction:bid") { if(!member.franchiseId) throw Error("Choose a franchise first"); room.state=placeBid(room.state,member.franchiseId,"human",Date.now(),data.amount,room.options.playerTimerSeconds*1000); sendState(room,"auction:bid-accepted"); scheduleClock(room); scheduleBots(room); return; }
       else if(event==="auction:pass") { if(!member.franchiseId) throw Error("Choose a franchise first"); room.state=passPlayer(room.state,member.franchiseId); sendState(room,"auction:state"); return; }
       else if(event.startsWith("host:")) { if(member.id!==room.hostId) throw Error("Only the host can do that");
         if(event==="host:pause") { const timer=auctionTimers.get(room.code);if(timer)clearTimeout(timer);const bot=botTimers.get(room.code);if(bot)clearTimeout(bot);room.state={...room.state,phase:"paused"}; }

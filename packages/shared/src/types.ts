@@ -2,8 +2,9 @@ import type { FranchiseId } from "./config.js";
 
 export type PlayerRole = "Batter" | "Bowler" | "All-rounder" | "Wicketkeeper" | "Unknown";
 export type PlayerSet = "Marquee" | "Batters" | "Bowlers" | "All-rounders" | "Wicketkeepers" | "Uncapped";
+export type AuctionStatus = "capped" | "uncapped" | "season-performer";
 export interface PlayerStats { scope: string; matches: number; runs: number; average: number | null; strikeRate: number | null; wickets: number; economy: number | null }
-export interface Player { id: string; name: string; role: PlayerRole; nationality: string; age?: number; style: string; basePrice: number; rating: number; set: PlayerSet; stats?: PlayerStats }
+export interface Player { id: string; name: string; role: PlayerRole; nationality: string; age?: number; style: string; basePrice: number; rating: number; set: PlayerSet; auctionStatus?: AuctionStatus; stats?: PlayerStats }
 export interface SquadPlayer { player: Player; price: number }
 export interface TeamState { franchiseId: FranchiseId; purse: number; squad: SquadPlayer[]; isBot: boolean }
 export interface BidRecord { teamId: FranchiseId; amount: number; at: number; source: "human" | "bot" }

@@ -24,8 +24,10 @@ export function initialAuction(players: Player[], controlled: FranchiseId[] = []
   return { phase: "live", teams, playerIndex: 0, currentPlayer: sorted[0] ?? null, currentPrice: sorted[0]?.basePrice ?? 0, highestBidder: null, history: [], passed: [], unsold: [], deadline: Date.now() + timerMs, message: "Bidding open" };
 }
 
-const sets = ["Marquee", "Batters", "Bowlers", "All-rounders", "Wicketkeepers", "Uncapped"];
-function setOrder(set: string) { return sets.indexOf(set); }
+const roles = ["Batter", "Wicketkeeper", "All-rounder", "Bowler", "Unknown"];
+const auctionStatuses = ["capped", "uncapped", "season-performer"];
+function roleOrder(role: Player["role"]) { return roles.indexOf(role); }
+function statusOrder(status: Player["auctionStatus"]) { return auctionStatuses.indexOf(status ?? "season-performer"); }
 
 export function placeBid(state: AuctionState, teamId: FranchiseId, source: "human" | "bot", at = Date.now(), requestedAmount?: number, timerMs: number = AUCTION_CONFIG.playerTimerMs): AuctionState {
   const player = state.currentPlayer;
@@ -65,24 +67,39 @@ export function startNextPlayer(state: AuctionState, players: Player[], now = Da
 }
 
 export function orderPlayers(players: Player[]): Player[] {
-  return [...players].sort((a,b) => setOrder(a.set) - setOrder(b.set));
+  return [...players].sort((a, b) =>
+    roleOrder(a.role) - roleOrder(b.role) ||
+    statusOrder(a.auctionStatus) - statusOrder(b.auctionStatus) ||
+    b.rating - a.rating ||
+    b.basePrice - a.basePrice ||
+    (b.stats?.matches ?? 0) - (a.stats?.matches ?? 0)
+  );
+}
+
+function sameAuctionRank(a: Player, b: Player) {
+  return roleOrder(a.role) === roleOrder(b.role) &&
+    statusOrder(a.auctionStatus) === statusOrder(b.auctionStatus) &&
+    a.rating === b.rating &&
+    a.basePrice === b.basePrice &&
+    (a.stats?.matches ?? 0) === (b.stats?.matches ?? 0);
 }
 
 export function randomizePlayersBySet(players: Player[], previousFirstPlayerId?: string, random: () => number = Math.random): Player[] {
-  const bySet = new Map<string, Player[]>();
-  for (const player of players) bySet.set(player.set, [...(bySet.get(player.set) ?? []), player]);
+  const ordered = orderPlayers(players);
   const shuffled: Player[] = [];
-  for (const set of sets) {
-    const group = bySet.get(set) ?? [];
+  for (let start = 0; start < ordered.length;) {
+    let end = start + 1;
+    while (end < ordered.length && sameAuctionRank(ordered[start], ordered[end])) end += 1;
+    const group = ordered.slice(start, end);
     for (let i = group.length - 1; i > 0; i--) {
       const j = Math.floor(random() * (i + 1));
       [group[i], group[j]] = [group[j], group[i]];
     }
     shuffled.push(...group);
+    start = end;
   }
-  if (shuffled[0]?.id === previousFirstPlayerId) {
-    const alternate = shuffled.findIndex((player, index) => index > 0 && player.set === shuffled[0].set);
-    if (alternate > 0) [shuffled[0], shuffled[alternate]] = [shuffled[alternate], shuffled[0]];
+  if (shuffled[0]?.id === previousFirstPlayerId && shuffled.length > 1 && sameAuctionRank(shuffled[0], shuffled[1])) {
+    [shuffled[0], shuffled[1]] = [shuffled[1], shuffled[0]];
   }
   return shuffled;
 }
