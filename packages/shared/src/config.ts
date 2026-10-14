@@ -4,7 +4,14 @@ export const AUCTION_CONFIG = {
   maxSquad: 25,
   maxOverseas: 8,
   basePrice: 20,
-  bidSlabs: [{ below: Infinity, increment: 5 }],
+  // Prices and increments are stored in lakh. Recent IPL auction bid steps
+  // increase as the price crosses each slab.
+  bidSlabs: [
+    { below: 100, increment: 5 },
+    { below: 200, increment: 10 },
+    { below: 500, increment: 20 },
+    { below: Infinity, increment: 25 },
+  ],
   playerTimerMs: 10_000,
   minPlayerTimerMs: 5_000,
   maxPlayerTimerMs: 60_000,
