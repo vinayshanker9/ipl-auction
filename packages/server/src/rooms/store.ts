@@ -6,7 +6,7 @@ const db = new Database(process.env.DATABASE_PATH ?? "auction.db");
 db.exec("CREATE TABLE IF NOT EXISTS rooms (code TEXT PRIMARY KEY, state TEXT NOT NULL, updated_at INTEGER NOT NULL)");
 export interface Member { id: string; name: string; token: string; franchiseId: FranchiseId | null; ready: boolean; connected: boolean; socketId?: string; spectator?: boolean; disconnectedAt?: number }
 export interface RoomOptions { rtmEnabled: boolean; playerTimerSeconds: number; showPlayerStats: boolean; poolMode: "legends" | "season"; seasonYear: number }
-export interface Room { code: string; hostId: string; members: Member[]; state: AuctionState; createdAt: number; options: RoomOptions; poolPlayers: Player[]; poolCursor: number; chat: { id: string; name: string; text: string; at: number }[] }
+export interface Room { code: string; hostId: string; members: Member[]; state: AuctionState; createdAt: number; options: RoomOptions; poolPlayers: Player[]; poolCursor: number; acceleratedRound: boolean; chat: { id: string; name: string; text: string; at: number }[] }
 const rooms = new Map<string, Room>();
 for (const row of db.prepare("SELECT state FROM rooms").all() as { state: string }[]) {
   try {
@@ -15,6 +15,7 @@ for (const row of db.prepare("SELECT state FROM rooms").all() as { state: string
     if (room.options.playerTimerSeconds === 18) room.options.playerTimerSeconds = 10;
     room.poolPlayers ??= randomizePlayersBySet(auctionPool(room.options.poolMode, room.options.seasonYear));
     room.poolCursor ??= room.state.phase === "lobby" ? -1 : room.state.playerIndex;
+    room.acceleratedRound ??= false;
     rooms.set(room.code, room);
   } catch { /* ignore invalid persisted snapshots */ }
 }
@@ -24,7 +25,7 @@ export function createRoom(name: string, socketId: string) {
   let id=code(); while(rooms.has(id)) id=code();
   const member: Member={id:randomUUID(),name:name.slice(0,24),token:randomBytes(24).toString("hex"),franchiseId:null,ready:false,connected:true,socketId};
   const options:RoomOptions={rtmEnabled:false,playerTimerSeconds:10,showPlayerStats:true,poolMode:"season",seasonYear:2026};
-  const room: Room={code:id,hostId:member.id,members:[member],state:initialAuction(players as any,[]),createdAt:Date.now(),options,poolPlayers:[],poolCursor:-1,chat:[]};
+  const room: Room={code:id,hostId:member.id,members:[member],state:initialAuction(players as any,[]),createdAt:Date.now(),options,poolPlayers:[],poolCursor:-1,acceleratedRound:false,chat:[]};
   room.state.phase="lobby"; rooms.set(id,room); persist(room); return {room,member};
 }
 export function joinRoom(id: string, name: string, socketId: string, token?: string, spectator=false) {
