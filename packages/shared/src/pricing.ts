@@ -3,6 +3,8 @@ import auctionReserveData from "./auction-reserves.json" with { type: "json" };
 import { AUCTION_CONFIG } from "./config.js";
 import type { Player, PlayerPriceReference } from "./types.js";
 
+export const LATEST_PUBLISHED_AUCTION_YEAR = 2026;
+
 type PriceRecord = { player: string; season: number; amountLakh: number; baseAmountLakh?: number; team: string; kind: PlayerPriceReference["kind"]; source: string };
 type ReserveRecord = { player: string; season: number; amountLakh: number };
 
@@ -13,7 +15,7 @@ function normalize(name: string) {
   return name.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 }
 
-export function findPriceReference(name: string, throughYear: number): PlayerPriceReference | undefined {
+export function findPriceReference(name: string, throughYear = LATEST_PUBLISHED_AUCTION_YEAR): PlayerPriceReference | undefined {
   const available = publishedPrices.filter(record => record.season <= throughYear);
   const normalizedName = normalize(name);
   let matches = available.filter(record => normalize(record.player) === normalizedName);
@@ -40,7 +42,7 @@ export function findPriceReference(name: string, throughYear: number): PlayerPri
   };
 }
 
-export function officialReserve(name: string, throughYear = 2026): number | undefined {
+export function officialReserve(name: string, throughYear = LATEST_PUBLISHED_AUCTION_YEAR): number | undefined {
   const available = officialReserves.filter(record => record.season <= throughYear);
   const exact = available.filter(record => normalize(record.player) === normalize(name));
   if (exact.length) return exact.sort((a, b) => b.season - a.season)[0].amountLakh;
@@ -55,11 +57,14 @@ export function officialReserve(name: string, throughYear = 2026): number | unde
   return matches.sort((a, b) => b.season - a.season)[0]?.amountLakh;
 }
 
-export function applyPublishedPrice(player: Player, throughYear = 2026): Player {
+export function applyPublishedPrice(player: Player, throughYear = LATEST_PUBLISHED_AUCTION_YEAR): Player {
   const priceReference = findPriceReference(player.name, throughYear);
+  const reserve = officialReserve(player.name, throughYear);
+  const auctionBasePrice = priceReference?.basePrice;
   return {
     ...player,
-    basePrice: officialReserve(player.name, throughYear) ?? priceReference?.basePrice ?? AUCTION_CONFIG.basePrice,
+    basePrice: reserve ?? auctionBasePrice ?? AUCTION_CONFIG.basePrice,
+    basePriceSource: reserve !== undefined ? "official-reserve" : auctionBasePrice !== undefined ? "published-auction-base" : "auction-floor",
     ...(priceReference ? { priceReference } : {}),
   };
 }

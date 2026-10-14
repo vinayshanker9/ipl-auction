@@ -111,6 +111,7 @@ describe("shared auction rules", () => {
     const shreyas = season.find(player => player.name === "Shreyas Iyer")!;
     const sale = auctionPrices.prices.find(price => price.player === "Shreyas Iyer" && price.season === 2025)!;
     expect(virat.basePrice).toBe(officialReserve("Virat Kohli", 2026) ?? 20);
+    expect(virat.basePriceSource).toBe(officialReserve("Virat Kohli", 2026) === undefined ? "auction-floor" : "official-reserve");
     expect(virat.priceReference).toMatchObject({ season: 2025, amount: 2_100, kind: "retention" });
     expect(sale.baseAmountLakh).toBe(200);
     expect(shreyas.basePrice).toBe(officialReserve("Shreyas Iyer", 2025));
@@ -121,8 +122,21 @@ describe("shared auction rules", () => {
     expect(noSaleRecord.basePrice).toBe(200);
     expect(noSaleRecord.priceReference).toBeUndefined();
     expect(applyPublishedPrice(players.find(player => player.name === "Virat Kohli")!).basePrice).toBe(officialReserve("Virat Kohli", 2026) ?? 20);
+    expect(applyPublishedPrice(players.find(player => player.name === "Virat Kohli")!).basePriceSource).toBe(officialReserve("Virat Kohli", 2026) === undefined ? "auction-floor" : "official-reserve");
     expect(applyPublishedPrice({ ...players[0], name: "Shreyas Iyer" }).basePrice).toBe(200);
     expect(applyPublishedPrice({ ...players[0], name: "Unlisted Player" }).basePrice).toBe(20);
+    expect(applyPublishedPrice({ ...players[0], name: "Unlisted Player" }).basePriceSource).toBe("auction-floor");
+  });
+  it("uses the latest published auction prices in historical season pools and labels retained players as floor-priced", () => {
+    const season = auctionPool("season", 2024);
+    const shreyas = season.find(player => player.name === "Shreyas Iyer")!;
+    const narine = season.find(player => player.name === "Sunil Narine")!;
+    expect(shreyas.basePrice).toBe(200);
+    expect(shreyas.basePriceSource).toBe("official-reserve");
+    expect(shreyas.priceReference).toMatchObject({ season: 2025, amount: 2_675, kind: "auction-sale" });
+    expect(narine.basePrice).toBe(20);
+    expect(narine.basePriceSource).toBe("auction-floor");
+    expect(narine.priceReference).toMatchObject({ season: 2025, amount: 1_200, kind: "retention" });
   });
   it("opens every recorded season pool at base price and charges the accepted bid", () => {
     for (const year of availableAuctionSeasons()) {

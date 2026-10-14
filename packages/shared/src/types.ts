@@ -5,7 +5,8 @@ export type PlayerSet = "Marquee" | "Batters" | "Bowlers" | "All-rounders" | "Wi
 export type AuctionStatus = "capped" | "uncapped" | "season-performer";
 export interface PlayerStats { scope: string; matches: number; runs: number; average: number | null; strikeRate: number | null; wickets: number; economy: number | null }
 export interface PlayerPriceReference { season: number; amount: number; basePrice?: number; team: string; kind: "auction-sale" | "retention" }
-export interface Player { id: string; name: string; role: PlayerRole; nationality: string; age?: number; style: string; basePrice: number; rating: number; set: PlayerSet; auctionStatus?: AuctionStatus; stats?: PlayerStats; priceReference?: PlayerPriceReference }
+export type BasePriceSource = "official-reserve" | "published-auction-base" | "auction-floor";
+export interface Player { id: string; name: string; role: PlayerRole; nationality: string; age?: number; style: string; basePrice: number; basePriceSource?: BasePriceSource; rating: number; set: PlayerSet; auctionStatus?: AuctionStatus; stats?: PlayerStats; priceReference?: PlayerPriceReference }
 export interface TradeOffer { id: string; fromMemberId: string; fromTeamId: FranchiseId; toTeamId: FranchiseId; offeredPlayerId: string; requestedPlayerId: string; status: "pending" | "accepted" | "declined" | "cancelled"; createdAt: number; resolvedAt?: number }
 export interface SquadPlayer { player: Player; price: number }
 export interface TeamState { franchiseId: FranchiseId; purse: number; squad: SquadPlayer[]; isBot: boolean }

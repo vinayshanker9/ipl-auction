@@ -6,6 +6,10 @@ import { useStore } from "./store";
 import TradePanel from "./TradePanel";
 
 type Message = { id: string; name: string; text: string; at: number };
+const formatBasePrice = (player: Player) => {
+  const amount = player.basePrice < 100 ? `₹${player.basePrice} L` : `₹${(player.basePrice / 100).toFixed(2)} Cr`;
+  return `${amount} ${player.basePriceSource === "auction-floor" ? "FLOOR" : "BASE"}`;
+};
 
 export default function ChatPanel({ socket }: { socket: Socket | null }) {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -33,7 +37,7 @@ export default function ChatPanel({ socket }: { socket: Socket | null }) {
         ? <ol className="upcoming-list">{upcoming.map((player: Player, index: number) => <li key={`${player.id}-${index}`}>
           <span>{String(index + 1).padStart(3, "0")}</span>
           <div><b>{player.name}</b><small>{player.role} · {player.auctionStatus?.replace("-", " ") ?? (player.stats?.scope === "IPL CAREER" ? "career pool" : "IPL player")}</small></div>
-          <strong>₹{player.basePrice < 100 ? `${player.basePrice} L` : `${(player.basePrice / 100).toFixed(2)} Cr`}</strong>
+          <strong>{formatBasePrice(player)}</strong>
         </li>)}</ol>
         : <p className="empty-upcoming">No players remain in the queue.</p>}
     </section>
